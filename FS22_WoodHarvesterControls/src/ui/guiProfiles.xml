@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GUIProfiles>
+    <Profile name="whcMenuGameSettingsTextInput" extends="ingameMenuGameSettingsTextInput" with="anchorMiddleLeft">
+        <Value name="imageDisabledColor" value="0.0036 0.0056 0.0065 0.5" />
+    </Profile>
+
+    <Profile name="whcSectionMenuDescription" extends="textDefault" with="anchorTopCenter">
+        <Value name="textSize" value="18px" />
+        <Value name="textBold" value="false" />
+        <Value name="textAlignment" value="center" />
+        <Value name="size" value="1200px 50px" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textOffset" value="100px 0" />
+        <Value name="textMaxNumLines" value="4" />
+        <Value name="textWrapWidth" value="800px" />
+    </Profile>
+</GUIProfiles>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+    <translationContributors>Bargon Mods</translationContributors>
+
+    <texts>
+        <!-- input bindings -->
+        <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Encender / apagar cabezal" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Sierra (Cortar)" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Cerrar cabezal (Agarrar árbol)" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Abrir cabezal (Soltar árbol)" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Abrir / Cerrar cabezal (Agarrar / Soltar árbol)" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Alimentación manual" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Alimentación manual hacia atrás" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Alimentación manual lenta" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Alimentación manual hacia atrás lenta" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Alimentar / Cortar (programa automático)" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="Detener la alimentación" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Levantar el cabezal" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Bajar el cabezal" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Levantar / Bajar el cabezal" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Alimentación a la longitud preestablecida 1 / 2" />
+        <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Alimentación a la longitud preestablecida 3 / 4" />
+
+        <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Abrir el menú WoodHarvesterControls" />
+
+        <!-- warning messages -->
+        <text name="warning_turnOnHead" text="Encienda el cabezal de la procesadora" />
+
+        <!-- actions -->
+        <text name="action_saw" text="Sierra (Cortar)" />
+        <text name="action_feedCutAutomaticProgram" text="Alimentar / Cortar (programa automático)" />
+        <text name="action_openWoodHarvesterControlsMenu" text="Abrir el menú WoodHarvesterControls" />
+        <text name="action_feedToPreset" text="Alimentar a %.1f m / %.1f m" />
+
+        <!-- menu -->
+        <text name="ui_WoodHarvesterControls_guiTitle" text="Ajustes de Wood Harvester Controls" />
+
+        <text name="ui_WoodHarvesterControls_on" text="Sí" />
+        <text name="ui_WoodHarvesterControls_off" text="No" />
+
+        <text name="ui_WoodHarvesterControls_press" text="Pulsar una vez" />
+        <text name="ui_WoodHarvesterControls_hold" text="Mantener" />
+
+        <text name="ui_WoodHarvesterControls_automatic" text="Automático" />
+        <text name="ui_WoodHarvesterControls_semiautomatic" text="Semiautomático" />
+        <text name="ui_WoodHarvesterControls_manual" text="Manual" />
+
+        <text name="ui_WoodHarvesterControls_free" text="Libre" />
+        <text name="ui_WoodHarvesterControls_fixed" text="Fijo" />
+        <text name="ui_WoodHarvesterControls_physical" text="Físico" />
+
+        <text name="ui_WoodHarvesterControls_helpMsg" text="Consulta el menú de ayuda del juego para saber más sobre este mod y aprender técnicas avanzadas que se utilizan en la vida real" />
+
+        <!-- Easy Controls -->
+        <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Funciones de ayuda" />
+
+        <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Programa automático con botón de corte" />
+        <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="Sí: el botón de corte funciona como el botón de Programa Automático. Alimenta y corta dependiendo de las opciones (ver sección Programa Automático).
+No: como en la vida real, el botón de corte se utiliza sólo para hacer funcionar la sierra" />
+
+        <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Levantar cabezal automáticamente" />
+        <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="Sí: levantará el cabezal después de soltar el árbol (sólo si estaba levantado antes de cortar el árbol).
+No: como en la vida real, tiene que levantar el cabezal usando el botón de levantar o manteniendo pulsado el botón de abrir." />
+
+        <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Apertura automática" />
+        <text name="ui_WoodHarvesterControls_automaticOpenTT" text="Sí: se abrirá el cabezal al encenderlo y después de soltar el árbol.
+No: como en la vida real, tienes que abrir el cabezal usando el botón correspondiente" />
+
+        <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Agarrar árbol después de cortar" />
+        <text name="ui_WoodHarvesterControls_grabOnCutTT" text="Sí: agarra automáticamente el árbol después de cortarlo.
+No: como en la vida real, tiene que agarrar el árbol (manteniendo pulsado el botón de cierre) y luego cortarlo." />
+
+        <!-- Bucking system -->
+        <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Longitudes de corte (programa automático)" />
+
+        <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Número de longitudes" />
+        <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Define el número de longitudes diferentes que se pueden cortar en función del diámetro mínimo del tronco" />
+
+        <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Longitud de corte 1 (cm)" />
+        <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Define la longitud de corte si el diámetro del árbol es superior al 'Diámetro mínimo 1'" />
+        <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Diámetro mínimo 1 (cm)" />
+        <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Define el diámetro mínimo para cortar a la 'Longitud de corte 1'" />
+
+        <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Longitud de corte 2 (cm)" />
+        <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Define la longitud de corte si el diámetro del árbol es superior al 'Diámetro mínimo 2'" />
+        <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Diámetro mínimo 2 (cm) (debe ser inferior al Diámetro mínimo 1)" />
+        <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Define el diámetro mínimo para cortar a la 'Longitud de corte 2'" />
+
+        <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Longitud de corte 3 (cm)" />
+        <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Define la longitud de corte si el diámetro del árbol es superior al 'Diámetro mínimo 3'" />
+        <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Diámetro mínimo 3 (cm) (debe ser inferior al Diámetro mínimo 2)" />
+        <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Define el diámetro mínimo para cortar a la 'Longitud de corte 3'" />
+
+        <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Longitud de corte 4 (cm)" />
+        <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Define la longitud de corte si el diámetro del árbol es inferior al 'Diámetro mínimo 3'" />
+
+        <!-- automatic program -->
+        <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Programa automático" />
+
+        <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Alimentación" />
+        <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Pulsar una vez: una sola pulsación alimenta el árbol a la longitud del ordenador. Si se mantiene pulsado el botón, se detiene. Continúa cuando se suelta el botón. Mantener: el árbol se alimenta sólo mientras se mantiene pulsado el botón. Se detiene cuando se suelta el botón o cuando se alcanza la longitud de corte definida." />
+
+        <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Corte de tala" />
+        <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="No: el programa automático no hace nada cuando el cabezal está levantado y listo para talar un árbol. Pulsar una vez: una sola pulsación tala el árbol. Mantener: la sierra funciona sólo mientras se mantiene pulsado el botón. Si se suelta el botón antes de que la sierra corte completamente, el árbol no se talará." />
+
+        <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Corte de tronzado" />
+        <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="No: el programa automático no hace nada cuando el cabezal alcanza la longitud deseada y está listo para cortar el tronco. Pulsar una vez: una sola pulsación corta el tronco. Mantener: la sierra funciona sólo mientras se mantiene pulsado el botón. Si se suelta el botón antes de que la sierra corte todo el tronco, éste no se cortará." />
+
+        <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Programa automático con botón de cerrar" />
+        <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="En procesadoras reales equipadas con mini-levers, el programa automático suele activarse pulsando el botón de cierre (cuando el cabezal está completamente cerrado)." />
+
+        <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Alimentación automática después del corte" />
+        <text name="ui_WoodHarvesterControls_automaticFeedTT" text="Sí: después del corte empezará a alimentar automáticamente (en cuanto la sierra suba del todo).
+Esta opción no está disponible si la opción Alimentación del Programa Automático está en Mantener" />
+
+        <!-- Rotator -->
+        <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotor" />
+
+        <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Modo del rotor" />
+        <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Libre (funcionalidad del juego base): se siente bien pero no puedes girar el cabezal mientras procesas. Fijo: se puede girar el cabezal y ayuda a hacer buenas pilas, pero es necesario mantener la correcta rotación del cabezal. Físico: es una funcionalidad experimental para simular físicamente la fuerza del rotor de forma realista" />
+
+        <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="¡ATENCIÓN! El modo físico permite un comportamiento más realista, pero depende de la estructura de nodos del vehículo, por lo que puede no funcionar en algunas procesadoras modificadas. 
+Pruébelo y si se comporta de forma extraña, desactívelo y, si es necesario, restablezca la máquina" />
+
+        <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Fuerza del rotor" />
+        <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Define la fuerza del rotor. Si el rotor no tiene fuerza suficiente para girar, no girará. Además, el rotor cederá según su fuerza y el peso del árbol, actualizando su rotación según el umbral del rotor." />
+
+        <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Umbral del rotor" />
+        <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Define el umbral de actualización de la rotación en grados. Si notas que el rotor se atasca, debes aumentar el umbral. (Cuanto más bajo sea el umbral, más precisa será la actualización de la rotación.) (Cuanta más sensibilidad haya en los controles, más umbral será necesario para que vaya suave)" />
+
+
+        <!-- length presets -->
+        <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Longitudes preestablecidas" />
+
+        <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Longitud preestablecida 1 (cm)" />
+        <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Define la longitud a la que se alimenta el árbol cuando se pulsa una vez el botón 'Longitud preestablecida 1 / 2'" />
+
+        <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Longitud preestablecida 2 (cm)" />
+        <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Define la longitud a la que se alimenta el árbol cuando se pulsa dos veces el botón 'Longitud preestablecida 1 / 2'" />
+
+        <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Longitud preestablecida 3 (cm)" />
+        <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Define la longitud a la que se alimenta el árbol cuando se pulsa una vez el botón 'Longitud preestablecida 3 / 4'" />
+
+        <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Longitud preestablecida 4 (cm)" />
+        <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Define la longitud a la que se alimenta el árbol cuando se pulsa dos veces el botón 'Longitud preestablecida 3 / 4'" />
+
+        <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Repetir longitud preestablecida" />
+        <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="Esta opción define qué longitud se utiliza cuando la opción 'Alimentación automática después del corte' está activada:
+Sí: Repetirá la longitud preestablecida (si se ha utilizado una).
+No: Avanzará a la longitud del programa automático" />
+
+        <!-- Saw -->
+        <text name="ui_WoodHarvesterControls_sectionSaw" text="Sierra" />
+
+        <text name="ui_WoodHarvesterControls_sawModeTitle" text="Modo de sierra" />
+        <text name="ui_WoodHarvesterControls_sawModeTT" text="Automático: al pulsar el botón de corte, la sierra realiza un corte completo. Semiautomático: necesita mantener pulsado el botón de corte para hacer funcionar la sierra con el cabezal levantado. Manual: es necesario mantener pulsado el botón para hacer funcionar la sierra en todos los casos" />
+
+
+        <!-- Feeding -->
+        <text name="ui_WoodHarvesterControls_sectionFeeding" text="Alimentación" />
+
+        <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Distancia de frenado (cm)" />
+        <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Define la distancia a la longitud objetivo a la que el cabezal empezará a frenar para hacer una parada más suave" />
+
+        <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Alimentación lenta con cabezal levantado" />
+        <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="Cuando el cabezal está levantado, la alimentación manual es lenta para que pueda posicionar con precisión el cabezal al realizar un corte de tala" />
+
+        <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Velocidad de alimentación (m/s)" />
+        <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Define la velocidad general de alimentación del cabezal. También la velocidad de alimentación manual" />
+
+        <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Velocidad de alimentación lenta (m/s)" />
+        <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Define la velocidad de la alimentación manual lenta" />
+
+        <!-- Tilt -->
+        <text name="ui_WoodHarvesterControls_sectionTilt" text="Inclinación" />
+
+        <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Bajar el cabezal trás el corte de tala" />
+        <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="Si está activado, bajará el cabezal automáticamente al talar un árbol en pie" />
+
+        <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Levantar cabezal con el botón de abrir" />
+        <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="Si está activado, al mantener pulsado el botón de abrir se levantará el cabezal" />
+
+        <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Retardo de subida (ms)" />
+        <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Define el tiempo que se debe mantener pulsado el botón de abrir para levantar el cabezal" />
+
+        <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Ángulo de inclinación máximo" />
+        <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Ángulo máximo de inclinación hacia abajo en grados. 95º funciona bien en todos los casos. 135º es un ángulo de inclinación realista pero requiere un buen centro de masa del cabezal para mantenerlo paralelo al suelo" />
+
+        <!-- User Preferences -->
+        <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="Preferencias del usuario" />
+
+        <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Sonido de longitud encontrada" />
+        <text name="ui_WoodHarvesterControls_registerSoundTT" text="Si está activado, emitirá un sonido al alcanzar la longitud deseada. También emitirá otro sonido al cambiar de longitud." />
+
+        <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Eliminar troncos menores de (cm)" />
+        <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Los troncos cortados más pequeños que la longitud definida serán eliminados. Esto puede mejorar el rendimiento evitando trozos pequeños por ejemplo cuando se corta un trozo pequeño para limpiar la parte inferior del árbol" />
+
+        <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Soportar todos los árboles" />
+        <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="Con esta opción puede cortar todo tipo de árboles con esta procesadora. Es útil, por ejemplo, para talar el árbol o para procesar el tronco principal (después de desramarlo con la motosierra). Tenga en cuenta que las colisiones de estos árboles no están pensadas para utilizarse con la procesadora. ¡Utilízalo con cuidado!" />
+
+        <!-- Help - Input bindings -->
+
+        <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Controles" />
+        <text name="help_WoodHarvesterControls_inputBindings" text="Hay controles por defecto para ratón/teclado y también para mando, pero puedes cambiarlos a tu gusto.
+
+Si utilizas joysticks, tendrás que configurar los controles.
+
+A continuación encontrará una breve explicación de cada control:" />
+
+        <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Encender / apagar cabezal" />
+        <text name="help_WoodHarvesterControls_onOffBinding" text="Para encender y apagar el cabezal de la cosechadora puedes usar la opción 'Activar / desactivar herramientas' del juego o esta otra si quieres usar un botón diferente. 
+
+(Esta opción no desactiva la opción 'Activar / desactivar herramientas'. Ambos harán la misma función)." />
+
+        <text name="help_WoodHarvesterControls_cutBindingTitle" text="Sierra (Cortar)" />
+        <text name="help_WoodHarvesterControls_cutBinding" text="Para utilizar la sierra (cortar) puedes usar la entrada del juego 'Función de apero 2' o esta otra si quieres usar un botón diferente. 
+
+(Establecer esta entrada no desactiva la 'Función de apero 2'. Ambos harán la misma función)" />
+
+        <text name="help_WoodHarvesterControls_closeBindingTitle" text="Cerrar cabezal (Agarrar árbol)" />
+        <text name="help_WoodHarvesterControls_closeBinding" text="Pulsando brevemente este botón cerrará un poco el cabezal (sólo cerrará las cuchillas como en la vida real si la cosechadora lo soporta).
+
+Si el botón se mantiene pulsado cerrará el cabezal completamente y si hay un árbol en el rango lo agarrará.
+
+Cuando el cabezal está cerrado este botón se puede utilizar para ejecutar el programa automático dependiendo de las opciones establecidas en el menú." />
+
+        <text name="help_WoodHarvesterControls_openBindingTitle" text="Abrir cabezal (Soltar árbol)" />
+        <text name="help_WoodHarvesterControls_openBinding" text="Pulsando brevemente este botón se abrirá el cabezal por completo y si hay un árbol en el cabezal, lo soltará.
+
+Si se mantiene pulsado, abrirá el cabezal y lo levantará (esta opción puede activarse o desactivarse en el menú)." />
+
+        <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Abrir / Cerrar cabezal (Agarrar / Soltar árbol)" />
+        <text name="help_WoodHarvesterControls_openCloseBinding" text="Si el cabezal está cerrado, una sola pulsación lo abrirá completamente y si hay un árbol en el cabezal, lo soltará.
+
+Si el cabezal está abierto, una sola pulsación lo cerrará completamente y si hay un árbol en el rango lo agarrará.
+
+Si el cabezal está cerrado y se mantiene pulsado el botón, se abrirá y se levantará (esta opción se puede activar o desactivar en el menú)." />
+
+        <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Alimentación manual del árbol" />
+        <text name="help_WoodHarvesterControls_feedForwardBinding" text="El cabezal alimentará el árbol hacia delante (hacia la sierra) mientras se mantenga pulsado el botón.
+
+También se puede utilizar para detener la función 'Alimentación automática después del corte' si se pulsa durante el corte." />
+
+        <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Alimentación manual hacia atrás" />
+        <text name="help_WoodHarvesterControls_feedBackwardBinding" text="El cabezal alimentará el árbol hacia atrás (alejándolo de la sierra) mientras se mantenga pulsado el botón.
+
+También se puede utilizar para detener la función 'Alimentación automática después del corte' si se pulsa durante el corte." />
+
+        <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Alimentación manual lenta" />
+        <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="El cabezal alimentará lentamente el árbol hacia delante (hacia la sierra) mientras se mantenga pulsado el botón." />
+
+        <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Alimentación manual hacia atrás lenta" />
+        <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="El cabezal alimentará lentamente el árbol hacia atrás (alejándolo de la sierra) mientras se mantenga pulsado el botón." />
+
+        <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Alimentar / Cortar (programa automático)" />
+        <text name="help_WoodHarvesterControls_automaticProgramBinding" text="Este botón ejecutará el programa automático que puede afectar a la alimentación, el corte de tala y el corte de tronzado dependiendo de las opciones establecidas en el menú." />
+
+        <text name="help_WoodHarvesterControls_stopBindingTitle" text="Detener la alimentación" />
+        <text name="help_WoodHarvesterControls_stopBinding" text="Este botón se utiliza para detener la alimentación. También detiene la función de'Alimentación automática después del corte'." />
+
+        <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Levantar el cabezal" />
+        <text name="help_WoodHarvesterControls_tiltUpBinding" text="Al pulsar este botón, el cabezal se levantará.
+
+Si se mantiene pulsado el botón durante un corte de tala, el cabezal no bajará hasta que se suelte el botón (consulte la sección 'Controles de inclinación avanzados')." />
+
+        <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Bajar el cabezal" />
+        <text name="help_WoodHarvesterControls_tiltDownBinding" text="Al pulsar este botón, el cabezal bajará.
+
+También se puede utilizar para forzar la inclinación hacia abajo. (véase la sección 'Controles de inclinación avanzados')." />
+
+        <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Levantar / Bajar el cabezal" />
+        <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="Este botón se utiliza para alternar entre levantar y bajar el cabezal." />
+
+        <text name="help_WoodHarvesterControls_presetBindingTitle" text="Alimentación a la longitud preestablecida" />
+        <text name="help_WoodHarvesterControls_presetBinding" text="Al pulsar este botón, el árbol se alimentará a la longitud establecida en el menú. Cada botón tiene dos longitudes preestablecidas. 
+
+Para seleccionar la primera longitud preestablecida, pulse una vez el botón y para seleccionar la segunda longitud preestablecida, púlselo dos veces." />
+
+        <text name="help_WoodHarvesterControls_menuBindingTitle" text="Abrir el menú WoodHarvesterControls" />
+        <text name="help_WoodHarvesterControls_menuBinding" text="Para abrir el menú puedes usar la entrada del juego 'Función de apero 3' o esta otra si quieres usar un botón diferente.
+
+(Esta opción no desactiva la entrada 'Función de apero 3'. Ambos harán la misma función)" />
+
+        <!-- Advanced tilt controls -->
+
+        <text name="help_WoodHarvesterControls_advancedTiltControls" text="Controles de inclinación avanzados" />
+
+        <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Inclinación forzada hacia abajo" />
+        <text name="help_WoodHarvesterControls_forcedTiltDown" text="Cuando el cabezal está en modo flotante (hacia abajo) puedes mantener pulsado el botón de bajar para forzar la inclinación hacia abajo. Esto es muy útil, por ejemplo, en estas situaciones:
+
+- Cuando está talando un árbol puede pulsar dos veces y mantener pulsado el botón de bajar el cabezal para aplicar algo de presión con el cilindro de inclinación y ayudar a que el árbol caiga en la dirección deseada. La primera pulsación es para poner el cabezal en modo flotante (hacia abajo) y luego se mantiene pulsado para forzar la inclinación hacia abajo.
+
+- Al agarrar un tronco o árbol del suelo puedes mantener pulsado el botón de inclinación hacia abajo para dar al cabezal cierta inclinación y firmeza para agarrar el tronco con las cuchillas superiores y no colisionar con los rodillos en otros troncos o árboles. Esto requiere colisiones adecuadas en las cuchillas del cabezal." />
+
+        <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Evitar que el cabezal baje después del corte" />
+        <text name="help_WoodHarvesterControls_forcedTiltUp" text="Cuando trabaje con árboles pequeños y ligeros (por ejemplo, en trabajos de aclareo) puede mantener pulsado el botón de subir el cabezal mientras se realiza el corte de tala y el cabezal permanecerá levantado hasta que suelte el botón. 
+
+- Esto es muy útil para sacar un árbol levantado de lugares estrechos y luego soltar el botón para dejarlo caer justo donde quiere que caiga." />
+
+
+        <!-- Processing standing trees -->
+        <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Procesamiento de árboles en pie" />
+        <text name="help_WoodHarvesterControls_processingStandingTrees" text="Un estilo de trabajo consiste en cortar y procesar los árboles directamente en el bosque y luego recoger los troncos con un tractor o autocargador para llevarlos a una zona accesible para camiones. Este método se denomina cut-to-length." />
+
+        <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Alinear el cabezal" />
+        <text name="help_WoodHarvesterControls_alignTheHead" text="Elige la dirección de caída y coloca el cabezal en la posición adecuada." />
+
+        <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Agarra el árbol" />
+        <text name="help_WoodHarvesterControls_grabTheTree" text="Pulsa el botón de cierre para cerrar sólo un poco y colocar el cabezal, luego mantén pulsado el botón de cierre para cerrar del todo y agarrar el árbol.
+
+Si utilizas el botón abrir / cerrar sólo tienes que pulsarlo una vez.
+
+(Puede omitir este paso si tiene activada la opción 'Agarrar árbol después de cortar')" />
+
+        <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Alimentar manualmente hacia atrás" />
+        <text name="help_WoodHarvesterControls_manuallyFeedBack" text="Puede alimentar manualmente hacia atrás un poco para cortar más bajo (no olvide bajar también la grúa).
+
+(Esto requiere el paso anterior para que el árbol esté agarrado en el cabezal)." />
+
+        <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Aplica algo de presión" />
+        <text name="help_WoodHarvesterControls_applySomePreasure" text="Puedes mover la grúa un poco en la dirección en la que quieres que caiga el árbol para que empiece a aplicar presión en esa dirección.
+
+También puedes utilizar la inclinación forzada hacia abajo (consulta la sección de ayuda 'Controles avanzados de inclinación')." />
+
+        <text name="help_WoodHarvesterControls_fellingCutTitle" text="Corte de tala" />
+        <text name="help_WoodHarvesterControls_fellingCut" text="Utiliza la sierra con el botón de corte o con el botón de programa automático (si tiene activada la opción de corte de tala del programa automático). 
+
+Dependiendo del modo de la sierra y de la opción de corte de tala del programa automático, es posible que tenga que mantener pulsado el botón hasta que el tronco esté completamente cortado." />
+
+        <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Movimiento de tala" />
+        <text name="help_WoodHarvesterControls_fellingMovement" text="Si has aplicado algo de presión antes de cortar, el árbol debería empezar a caer en esa dirección.
+
+Para ayudar a que el árbol caiga en la dirección deseada, puedes levantar un poco el cabezal (para dejar un poco de espacio entre el árbol y el tocón) y mover la grúa en la dirección opuesta.
+
+Si quieres, puedes incluso alimentarlo un poco mientras cae. Puedes hacerlo con el botón de alimentación manual o con el botón de programa automático (ver la opción 'Alimentación' en la sección 'Programa automático' del menú)" />
+
+        <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Procesado" />
+        <text name="help_WoodHarvesterControls_treeProcessing" text="Puede procesar el árbol de diferentes maneras:
+
+- Programa automático: El ordenador elegirá la longitud de corte en función del diámetro del árbol. Cuando cambia la longitud, emite un sonido diferente para que pueda colocar esos troncos en una pila diferente. (consulte la sección 'Programa automático' del menú)
+
+- Longitudes preestablecidas: Puede utilizar estos botones como sistema de medición principal o como complemento del programa automático, pudiendo forzar una longitud concreta, por ejemplo en caso de un árbol dañado o muerto. (ver sección 'Longitudes preestablecidas' del menú)
+
+- Manualmente: También puede utilizar los botones de alimentación manual para desramar todo el árbol o cortar la longitud que desee.
+
+(Consulte la sección 'Rotor' del menú para ver las diferentes opciones y elegir la que mejor se adapte a sus necesidades. Puede ayudar mucho a crear buenas pilas de troncos)" />
+
+        <text name="help_WoodHarvesterControls_treeTopTitle" text="Gestión de la copa del árbol" />
+        <text name="help_WoodHarvesterControls_treeTop" text="Cuando llegues a la copa del árbol, puedes simplemente dejarlo caer hacia un lado (usando el botón de abrir, el de abrir/cerrar o incluso alimentándolo hacia atrás). 
+
+También puedes alimentarlo manualmente hasta la longitud que consideres útil y luego utilizarlo para hacer astillas o llevarlo a la fábrica de papel. 
+
+Otra opción es cortar trozos pequeños que sean más fáciles de triturar después si está pensando en utilizar una trituradora (o utilizar la opción del menú para eliminar troncos pequeños)." />
+
+        <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Preparación para el próximo árbol" />
+        <text name="help_WoodHarvesterControls_preparingForNextTree" text="Si no utiliza las funciones de ayuda, tendrá que abrir el cabezal y levantarlo.
+
+Puede utilizar el botón de abrir o el botón de abrir / cerrar para abrir el cabezal.
+
+Puede mantener pulsado el botón de abrir si tiene activada la opción 'Levantar cabezal con el botón de abrir' y el cabezal se abrirá y se levantará. De lo contrario, tendrás que utilizar el botón de levantar o el botón de levantar / bajar." />
+
+
+        <!-- Processing felled trees -->
+        <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Procesamiento de árboles talados" />
+        <text name="help_WoodHarvesterControls_processingFelledTrees" text="Otro estilo de trabajo consiste en procesar árboles ya talados.
+        
+En este ejemplo, los árboles han sido talados y luego arrastrados y apilados en una zona plana con buen acceso para facilitar su procesamiento y posterior carga en camiones.
+
+El cabezal de la cosechadora también puede utilizarse como taladora para talar el árbol y colocarlo en una pila para su posterior procesamiento o arrastre." />
+
+        <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Posicionar la máquina" />
+        <text name="help_WoodHarvesterControls_positionTheMachine" text="Coloque la máquina perpendicular a la pila y hacia delante. De esta forma se puede trabajar hacia atrás dejando las pilas de madera procesada delante de la máquina.
+                
+Normalmente es más cómodo trabajar procesando hacia la izquierda ya que el brazo de la máquina suele estar hacia la derecha y reduce la visibilidad. Además de esta forma la sierra queda visible, lo que ayuda a ajustar el extremo del tronco como veremos en los siguientes pasos." />
+
+        <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Agarra el árbol" />
+        <text name="help_WoodHarvesterControls_grabFelledTree" text="Encuentra el árbol que está en la parte superior de la pila y alinea el cabezal con él. Comprueba que no haya ninguno atravesado por encima, si lo hay, coge ese primero.
+                
+Pulsa brevemente el botón de cierre para cerrar ligeramente las cuchillas y coger el tronco. A continuación, mantén pulsado el botón de cierre para cerrar completamente el cabezal.
+
+También puedes utilizar la inclinación forzada hacia abajo para ayudarte en este proceso. (Consulte la sección 'Controles de inclinación avanzados')" />
+
+        <text name="help_WoodHarvesterControls_findBottomTitle" text="Alinea la parte inferior del árbol" />
+        <text name="help_WoodHarvesterControls_findBottom" text="Alimente el árbol hacia atrás para igualar el extremo del árbol con la sierra. Los botones de avance lento pueden ayudarle a ajustar más fácilmente.
+                
+Si lo desea, en lugar de ajustar exactamente hasta el final del árbol, puede dejar una parte, por ejemplo, para deshacerse de un corte de tala diagonal." />
+
+        <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Reiniciar la medición" />
+        <text name="help_WoodHarvesterControls_resetMeasurement" text="Como verás en el ordenador de la procesadora, después de alimentar el árbol la medida no está a cero, así que lo primero que hay que hacer es resetear la medida y puedes hacerlo de dos maneras:
+
+- Si quieres limpiar un trozo del árbol o que el primer tronco tenga la medida exacta, tendrás que hacer un corte. (Hay una opción en el menú para eliminar los pequeños troncos cortados. Esto mejorará el rendimiento al evitar esos pequeños trozos de madera en el suelo).
+ 
+- Si, por el contrario, la base del árbol está bien y no es necesario tener medidas exactas, puede utilizar la sierra en modo manual y pulsar sólo brevemente el botón. Esto restablece la medida sin necesidad de realizar el corte completo." />
+
+    </texts>
+</l10n>

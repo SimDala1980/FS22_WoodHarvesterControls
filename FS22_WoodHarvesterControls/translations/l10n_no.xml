@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+        <translationContributors>[NMC]T-Bone</translationContributors>
+
+        <texts>
+                <!-- input bindings -->
+                <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Slå på / av aggregatet" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Bruk sag (Kutt)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Lukk aggregat (Grip treet)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Åpene aggregat (slipp treet)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Åpne / lukk hode (grip/slipp treet)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Manuell mating tre fremover" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Manuell mating tre bakover" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Mat treet manuelt fremover sakte" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Mat treet manuelt bakover sakte" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Mate / kutte (automatisk program)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="Stopp matingen" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Vipp aggregat opp" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Vipp aggregat ned" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Vipp aggregat opp / ned" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Mat til forhåndsinnstilt lengde 1/2" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Mat til forhåndsinnstilt lengde 3 / 4" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Åpne Wood Harvester Controls Menyen" />
+
+                <!-- warning messages -->
+                <text name="warning_turnOnHead" text="Slå på hogstaggregatet først" />
+
+                <!-- actions -->
+                <text name="action_saw" text="Bruk sag (Kutt)"></text>
+                <text name="action_feedCutAutomaticProgram" text="Mat / kutt (automatisk program)"></text>
+                <text name="action_openWoodHarvesterControlsMenu" text="Åpne Wood Harvester Controls Menyen" />
+                <text name="action_feedToPreset" text="Feed to %.1f m / %.1f m" />
+
+                <!-- menu -->
+                <text name="ui_WoodHarvesterControls_guiTitle" text="Hogstmaskin Kontroll Instillinger" />
+
+                <text name="ui_WoodHarvesterControls_on" text="På" />
+                <text name="ui_WoodHarvesterControls_off" text="Av" />
+
+                <text name="ui_WoodHarvesterControls_press" text="Enkelt trykk" />
+                <text name="ui_WoodHarvesterControls_hold" text="Hold" />
+
+                <text name="ui_WoodHarvesterControls_automatic" text="Automatisk" />
+                <text name="ui_WoodHarvesterControls_semiautomatic" text="Halvautomatisk" />
+                <text name="ui_WoodHarvesterControls_manual" text="Manuell" />
+
+                <text name="ui_WoodHarvesterControls_free" text="Fri" />
+                <text name="ui_WoodHarvesterControls_fixed" text="Fast" />
+                <text name="ui_WoodHarvesterControls_physical" text="Fysisk" />
+
+                <text name="ui_WoodHarvesterControls_helpMsg" text="Sjekk ut hjelpemenyen i spillet for å få mer kunnskap om denne modden og lær avanserte teknikker som brukes i det virkelige liv" />
+
+                <!-- Easy Controls -->
+                <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Enkle Kontroller" />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Automatisk program med kutteknapp" />
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="På: Kutteknappen fungnere som Automatisk Program Knappen. Mater og kutter avhengig avv alternativene som er valg  (se Automatisk Program seksjonen).
+Av: Som i det virkelige liv, brukes kutteknappen bare til å kjøre sagen." />
+
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Automatisk Tilt Opp" />
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="På: den vil vippe opp aggregatet etter å ha sluppet treet (men bare hvis aggregatet var vippet opp før treet ble kuttet).
+Av: Som i det virkelige liv, må du vippe opp aggregatet ved å bruke tilt-knappen eller holde åpene-knappen." />
+
+                <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Åpne" />
+                <text name="ui_WoodHarvesterControls_automaticOpenTT" text="På: det vil åpne aggregatet når du slår det på og etter at treet slippes.
+Av: Som i det virkelige liv, må du åpne aggregatet." />
+
+                <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Grip treet etter kutting" />
+                <text name="ui_WoodHarvesterControls_grabOnCutTT" text="På: den vil ta tak i treet etter kutting.
+Av: Som i det virkelige liv, må du ta tak i treet (holde lukkeknappen) og deretter kutte det." />
+
+                <!-- Bucking system -->
+                <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Kutt-lengder (automatisk program)" />
+
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Antall lengder" />
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Definerer antall forskjellige lengder som kan kuttes avhengig av stokkens minste diameter" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Kuttlengde 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Definerer kuttlengden hvis diameteren på treet er større enn 'Minimumsdiameter 1'" />
+                <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Minste Diameter 1 (cm) " />
+                <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Definerer minimumsdiameteren som skal kuttes til 'Kuttlengde 1'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Kuttlengde 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Definerer kuttlengden hvis diameteren på treet er større enn 'Minimumsdiameter 2'" />
+                <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Minste Diameter 2 (cm) (bør være mindre enn Minimumsdiameter 1)" />
+                <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Definerer minimumsdiameteren som skal kuttes til 'Kuttlengde  2'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Kuttlengde 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Definerer kuttlengden hvis diameteren på treet er større enn 'Minimumsdiameter 3'" />
+                <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Minste Diameter 3 (cm) (bør være mindre enn Minimumsdiameter 2)" />
+                <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Definerer minimumsdiameteren som skal kuttes til 'Kuttlengde  3'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Kuttlengde 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Definerer kuttlengden hvis diameteren på treet er mindre enn 'Minimumsdiameter 3'" />
+
+                <!-- automatic program -->
+                <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Automatisk program" />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Mating" />
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Enkelttrykk: et enkelt trykk mater treet til datamaskinens lengde. Hvis knappen holdes nede mens aggregatet mates, stopper den. Den fortsetter når knappen slippes. Hold: treet mates bare mens knappen holdes nede. Når knappen slippes eller når den definerte kuttlengden er nådd, stopper aggregatet matingen." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Fellende Kapp" />
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="Av: den automatiske knappen gjør ingenting når aggregatet er vippet opp og klart til å felle et tre. Enkelttrykk: et enkelt trykk kutter hele veien og feller treet. Hold: sagen går bare mens knappen holdes inne. Hvis knappen slippes før sagen skjærer igjennom treet, vil ikke treet bli felt." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Kapp Stokk" />
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="Av: den automatiske knappen gjør ingenting når hodet har nådd ønsket lengde og er klar til å kutte stokken. Enkelttrykk: Et enkelt trykk kutter stokken hele veien. Hold: sagen går bare mens knappen holdes inne. Hvis knappen slippes før sagen skjærer igjennom, vil ikke stokken kuttes." />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Automatisk program med lukkeknapp" />
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="På ekte hogstmaskiner utstyrt med minispaker aktiveres det automatiske programmet vanligvis ved å trykke på lukkeknappen (når hodet er helt lukket)." />
+
+                <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Automatisk mating etter kutt" />
+                <text name="ui_WoodHarvesterControls_automaticFeedTT" text="Hvis den er på, vil den etter kutting begynne å mate så snart sagen går helt opp.
+                Dette alternativet er ikke tilgjengelig hvis matingsalternativet i det automatiske programmet er satt til Hold" />
+
+                <!-- Rotator -->
+                <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotator" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Rotator Modus" />
+                <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Fri (standard oppførsel i spillet): det føles ok, men du kan ikke snu hodet mens du har tre i aggregatet. Fast: du kan snu hodet og det blir enklere å lage pene hauger, men du må ta vare på aggregat rotasjonen. Fysisk: det er en eksperimentell funksjon for en fysisk nøyaktig rotatorkraft" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="ADVARSEL! Den fysiske rotatormodusen tillater den mest realistiske oppførselen, men avhenger av nodestrukturen til kjøretøyet, så det kan hende den ikke fungerer på enkelte moddede hogstmaskiner.
+Test det og hvis kjøretøyet oppfører seg merkelig, deaktiver det og om nødvendig tilbakestill." />
+
+                <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Rotatorkraft" />
+                <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Definerer kraften til rotatoren. Hvis rotatoren ikke har nok kraft til å snurre, vil den ikke snurre. I tillegg vil rotatoren gi etter i henhold til dens styrke og vekten til treet, og oppdatere rotasjonen i henhold til rotatorterskelen." />
+
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Rotatorterskel" />
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Definerer terskelen for rotasjonsoppdatering i grader. Hvis du kjenner at rotatoren setter seg fast, bør du øke terskelen. (Jo lavere terskelen er, desto mer presis blir oppdateringen av rotasjonen.) (Jo mer følsomhet i kontrollene, desto mer terskel er nødvendig for at det skal gå jevnt)" />
+
+
+                <!-- length presets -->
+                <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Forhåndsinnstillinger For Lengder" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Forhåndsinnstilling Av Lengde 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Definerer lengden som treet mates til når 'Forhåndsinnstilt Lengde 1 / 2' knappen trykkes" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Forhåndsinnstilling Av Lengde 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Definerer lengden som treet mates til når 'Forhåndsinnstilt Lengde 1 / 2' knappen trykkes dobbelt" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Forhåndsinnstilling Av Lengde 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Definerer lengden som treet mates til når 'Forhåndsinnstilt Lengde 3 / 4' knappen trykkes" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Forhåndsinnstilling Av Lengde 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Definerer lengden som treet mates til når 'Forhåndsinnstilt Lengde 3 / 4' knappen trykkes dobbelt" />
+
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Gjenta forhåndsinnstilt lengde" />
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="Dette alternativet definerer hvilken lengde som brukes når alternativet 'Automatisk mating etter kutt' er aktivert:
+På: Gjentar den forhåndsinnstilte lengden (hvis en har blitt brukt).
+Av: Mates til den automatiske programlengden" />
+
+                <!-- Saw -->
+                <text name="ui_WoodHarvesterControls_sectionSaw" text="Sag" />
+
+                <text name="ui_WoodHarvesterControls_sawModeTitle" text="Sag modus" />
+                <text name="ui_WoodHarvesterControls_sawModeTT" text="Automatisk: Når du trykker på kutteknappen, kjører den sagen helt igjennom. Halvautomatisk: du må holde inne kutteknappen for å kjøre sagen i et stående tre. Manuell: du må holde inne knappen for å bruke sagen." />
+
+
+                <!-- Feeding -->
+                <text name="ui_WoodHarvesterControls_sectionFeeding" text="Mating" />
+
+                <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Bremselengde (cm)" />
+                <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Definerer avstanden til mållengden der aggregatet vil begynne å bremse for å gjøre en jevnere stopp" />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Sakte mating når aggregatet vippes opp" />
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="Når aggregatet vippes opp, er den manuelle matingen sakte, slik at du kan plassere aggregatet nøyaktig for å gjøre fellesnittet" />
+
+                <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Matehastighet (m/s)" />
+                <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Definerer den generelle matehastigheten til aggregatet. Også hastigheten på manuell mating" />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Sakte matehastighet (m/s)" />
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Definerer hastigheten på sakte manuell mating" />
+
+                <!-- Tilt -->
+                <text name="ui_WoodHarvesterControls_sectionTilt" text="Tilt" />
+
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Vipp ned når den har felt" />
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="Hvis den er på, vil den vippe aggregatet nedover når den hogger ned et stående tre" />
+
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Vipp opp med åpen knapp" />
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="Hvis den er på, vil du vippe aggregatet opp ved å holde nede åpne-knappen" />
+
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Tilt opp forsinkelse (ms)" />
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Definerer hvor lenge åpne-knappen må holdes inne for å vippe aggregatet opp" />
+
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Maks tiltvinkel" />
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Maksimal tilt ned vinkel i grader. 95º fungerer bra i alle tilfeller. 135º er en realistisk tiltvinkel, men krever at aggregatet har bra med masse i senter for å holde det parallelt med bakken" />
+
+                <!-- User Preferences -->
+                <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="Brukerinnstillinger" />
+
+                <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Registrer funnet lyder" />
+                <text name="ui_WoodHarvesterControls_registerSoundTT" text="Hvis den er på, vil den lage en lyd når den når ønsket lengde. Den vil også lage en annen lyd når du bytter sortiment." />
+
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Fjern tømmerstokker som er mindre enn (cm)" />
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Avkuttede stokker som er mindre enn den definerte lengden vil bli fjernet. Dette kan forbedre ytelsen ved å unngå små biter, for eksempel når du kutter en liten bit for å rydde opp i den nederste delen av treet" />
+
+                <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Støtt alle tretyper" />
+                <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="Med dette alternativet kan du kutte alle typer trær med denne hogstmaskinen. Det er nyttig for eksempel å felle treet eller å mate hovedstammen (etter å ha kvist den med motorsagen).
+Vær oppmerksom på at disse trekollisjonene ikke er ment å brukes med hogstmaskinen. Bruk den forsiktig!" />
+
+                <!-- Help - Input bindings -->
+
+                <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Inndatabindinger" />
+                <text name="help_WoodHarvesterControls_inputBindings" text="Det er standard inngangsbindinger for mus/tastatur og også gamepad, men endre det gjerne etter eget ønske.
+
+Hvis du bruker joystick, må du konfigurere inngangsbindingene dine.
+
+Nedenfor finner du en kort forklaring av hver inngangsbinding:" />
+
+                <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Slå på / av aggregat" />
+                <text name="help_WoodHarvesterControls_onOffBinding" text="For å slå aggregatet av og på kan du bruke 'Slå verktøy på / av'-inngangsbindingen i spillet eller denne hvis du vil bruke en annen knapp. 
+
+(Å angi denne inngangsbindingen deaktiverer ikke 'Slå verktøy på/av'. Begge vil gjøre samme funksjon)." />
+
+                <text name="help_WoodHarvesterControls_cutBindingTitle" text="Bruk sag (Kutt)" />
+                <text name="help_WoodHarvesterControls_cutBinding" text="For å bruke sagen (kutt) kan du bruke 'Verktøyfunksjon 2'-inngangsbindingen i spillet eller denne hvis du vil bruke en annen knapp. 
+
+(Å angi denne inngangsbindingen deaktiverer ikke 'Verktøyfunksjon 2'. Begge vil gjøre samme funksjon)" />
+
+                <text name="help_WoodHarvesterControls_closeBindingTitle" text="Lukk aggregat (Grip tre)" />
+                <text name="help_WoodHarvesterControls_closeBinding" text="Et kort trykk på denne knappen vil lukke aggregatet litt (det vil bare lukke knivene som i det virkelige liv hvis hogstmaskinen støtter det).
+
+Hvis knappen holdes nede, vil den lukke aggregatet helt, og hvis det er et tre innen rekkevidde, vil det gripe det.
+
+Når aggregatet er lukket kan denne knappen brukes til å kjøre det automatiske programmet avhengig av alternativene som er angitt i menyen." />
+
+                <text name="help_WoodHarvesterControls_openBindingTitle" text="Åpene aggregat (Slipptre)" />
+                <text name="help_WoodHarvesterControls_openBinding" text="Et kort trykk på denne knappen vil åpne aggregatet helt, og hvis det er et tre i aggregatet, vil det slippe det.
+
+Hvis den holdes nede vil den åpne aggregatet og vippe det opp (dette alternativet kan slås på eller av i menyen)." />
+
+                <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Åpne / lukk aggregat (grip / slipp tre)" />
+                <text name="help_WoodHarvesterControls_openCloseBinding" text="Hvis aggregatet er lukket vil et enkelt trykk åpne det helt og hvis det er et tre i hodet vil det slippe det.
+
+Hvis aggregatet åpnes, vil et enkelt trykk lukke det helt, og hvis det er et tre innen rekkevidde, vil det gripe tak i det.
+
+Hvis aggregatet er lukket og knappen trykkes og holdes, vil den åpne og vippe den opp (dette alternativet kan slås på eller av i menyen)." />
+
+                <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Manuell mating fremover" />
+                <text name="help_WoodHarvesterControls_feedForwardBinding" text="Aggregatet vil føre treet fremover (mot sagen) så lenge knappen holdes nede.
+
+Den kan også brukes til å stoppe funksjonen 'Automatisk mating etter skjæring' hvis den trykkes under kutting." />
+
+                <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Manuell mating bakover" />
+                <text name="help_WoodHarvesterControls_feedBackwardBinding" text="The head will feed the tree backwards (away from the saw) as long as the button is held down.
+
+Den kan også brukes til å stoppe funksjonen 'Automatisk mating etter skjæring' hvis den trykkes under kutting." />
+
+                <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Manuell sakte mating fremover" />
+                <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="Aggregatet vil sakte føre treet fremover (mot sagen) så lenge knappen holdes nede." />
+
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Manuell sakte mating bakover" />
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="Aggregatet vil sakte mate treet bakover (bort fra sagen) så lenge knappen holdes nede." />
+
+                <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Mat / Kutt (automatisk program)" />
+                <text name="help_WoodHarvesterControls_automaticProgramBinding" text="Denne knappen vil kjøre det automatiske programmet som kan påvirke mating, felling og bukkesnitt avhengig av alternativene som er angitt i menyen." />
+
+                <text name="help_WoodHarvesterControls_stopBindingTitle" text="Stopp mating" />
+                <text name="help_WoodHarvesterControls_stopBinding" text="Denne knappen brukes til å stoppe mating. Den stopper også funksjonen 'automatisk mating etter kutt'." />
+
+                <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Vipp Aggregat Opp" />
+                <text name="help_WoodHarvesterControls_tiltUpBinding" text="Ved å trykke på denne knappen vipper aggregatet opp.
+
+Hvis knappen holdes nede under en felling, vil ikke aggregatet vippe ned før knappen slippes (se avsnittet 'Avanserte tiltkontroller')." />
+
+                <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Vipp Aggregat Ned" />
+                <text name="help_WoodHarvesterControls_tiltDownBinding" text="Ved å trykke på denne knappen vil aggregatet vippes ned.
+
+Den kan også brukes for tvungen tilt ned. (se avsnittet 'Avanserte tiltkontroller')." />
+
+                <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Vipp aggregat Opp / Ned" />
+                <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="Denne knappen brukes til å veksle mellom tilt opp og tilt ned." />
+
+                <text name="help_WoodHarvesterControls_presetBindingTitle" text="Mat til forhåndsinnstilte lengder" />
+                <text name="help_WoodHarvesterControls_presetBinding" text="Ved å trykke på denne knappen mates treet med lengden som er angitt i menyen. Hver binding har to forhåndsinnstillinger for lengde. 
+
+For å mate til den første forhåndsinnstillingen for lengde må du enkelt trykke på knappen og for å mate til den andre forhåndsinnstillingen for lengde må du dobbelttrykke på den." />
+
+                <text name="help_WoodHarvesterControls_menuBindingTitle" text="Åpne Wood Harvester Controls Menyen" />
+                <text name="help_WoodHarvesterControls_menuBinding" text="For å åpne menyen kan du bruke 'Verktøyfunksjon 3'-inngangsbindingen i spillet eller denne hvis du vil bruke en annen knapp.
+
+(Å angi denne inngangsbindingen deaktiverer ikke 'Verktøyfunksjon 3'. Begge vil gjøre samme funksjon)" />
+
+                <!-- Advanced tilt controls -->
+
+                <text name="help_WoodHarvesterControls_advancedTiltControls" text="Avanserte tiltkontroller" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Tvunget tilt ned" />
+                <text name="help_WoodHarvesterControls_forcedTiltDown" text="Når hodet er i flytende modus (tiltet ned) kan du holde ned vippeknappen for å tvinge tilt ned. Dette er veldig nyttig for eksempel i disse situasjonene:
+
+- Når du feller et tre, kan du dobbelttrykke og holde ned vippeknappen for å bruke litt presisjon med vippesylinderen og hjelpe treet å falle i den retningen du ønsker. Det første trykket er å sette hodet i flytemodus (tilt ned) og deretter trykker du og holder for å tvinge tilt ned.
+
+- Når du griper en tømmerstokk eller et tre fra bakken, kan du holde ned vippeknappen for å gi hodet litt tilt og fasthet for å gripe stokken med de øvre knivene og ikke kollidere med rullene i de andre tømmerstokkene eller trærne. Dette krever skikkelige kollisjoner på knivene i aggregatet." />
+
+                <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Forhindre tilt ned på kutt" />
+                <text name="help_WoodHarvesterControls_forcedTiltUp" text="Når du jobber med små og lette trær (for eksempel i tynningsjobber) kan du holde inne vippe opp-knappen mens skjæringen foretas og hodet forblir vippet opp til du slipper vippe opp-knappen. 
+
+- Dette er veldig nyttig for å få et stående tre ut av trange steder og deretter slippe knappen for å slippe det akkurat der du vil at det skal falle." />
+
+
+                <!-- Processing standing trees -->
+                <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Bearbeiding av stående trær" />
+                <text name="help_WoodHarvesterControls_processingStandingTrees" text="En arbeidsstil er å kutte og behandle trær direkte i skogen og deretter samle tømmerstokkene med en traktor eller lastbærer for å ta dem til et område som er tilgjengelig for lastebiler. Denne metoden kalles kutt-til-lengde." />
+
+
+                <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Rett aggregatet" />
+                <text name="help_WoodHarvesterControls_alignTheHead" text="Velg fallretningen og plasser hodet deretter." />
+
+                <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Grip treet" />
+                <text name="help_WoodHarvesterControls_grabTheTree" text="Trykk på lukkeknappen for å lukke litt og plasser hodet, og hold deretter nede lukkeknappen for å lukke og ta tak i treet.
+
+Hvis du bruker åpne/lukk-knappen trenger du bare å trykke én gang.
+
+(Du kan hoppe over dette trinnet hvis du har 'grip etter kuttt'-alternativet aktivert)" />
+
+                <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Manuell mat tilbake" />
+                <text name="help_WoodHarvesterControls_manuallyFeedBack" text="Du kan manuelt mate tilbake litt for å kutte lavere (ikke glem å senke kranen også).
+
+(Dette krever det forrige trinnet slik at treet er festet til hodet)" />
+
+                <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Påfør litt press" />
+                <text name="help_WoodHarvesterControls_applySomePreasure" text="Du kan flytte kranen litt i den retningen du vil at treet skal falle slik at det begynner å trykke i den retningen.
+
+Du kan også bruke tvungen tilt ned (se hjelpeseksjonen 'Avanserte tiltkontroller')." />
+
+                <text name="help_WoodHarvesterControls_fellingCutTitle" text="Fellende kapp" />
+                <text name="help_WoodHarvesterControls_fellingCut" text="Bruk sagen med kutteknappen eller med automatisk funksjonsknapp (hvis du har aktivert fellekappealternativet til det automatiske programmet).
+
+Avhengig av sagmodus og automatisk program for felling, kan det hende du må holde knappen inne til stokken er helt kuttet." />
+
+                <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Fellingsbevegelse" />
+                <text name="help_WoodHarvesterControls_fellingMovement" text="Hvis du har lagt litt press før du skjærer, bør treet begynne å falle i den retningen.
+
+For å hjelpe treet til å falle i ønsket retning kan du løfte hodet litt opp (for å la det være litt mellomrom mellom treet og stubben og la det folde seg) og flytte kranen i motsatt retning.
+
+Hvis du vil, kan du til og med mate den litt etter hvert som den faller. Du kan gjøre det med den manuelle fremmatingsknappen eller med den automatiske programknappen (se alternativet 'Mating' i 'Automatisk program'-delen av menyen)" />
+
+                <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Prosessering" />
+                <text name="help_WoodHarvesterControls_treeProcessing" text="Du kan bearbeide treet på ulike måter:
+
+- Automatisk program: Datamaskinen vil velge klippelengde avhengig av treets diameter. Når den endrer lengden, lager den en annen lyd, slik at du kan legge stokkene i en annen haug. (se delen 'Automatisk program' i menyen)
+
+- Lengdeforhåndsinnstillinger: Du kan bruke disse knappene som hovedmålesystem eller som et supplement til det automatiske programmet, for å kunne tvinge en bestemt lengde, for eksempel i tilfelle et skadet eller dødt tre. (se delen 'Forhåndsinnstillinger for lengde' på menyen)
+
+- Manuelt: Du kan også bruke knappene for manuell mating til å kvise hele treet eller kutte hvilken lengde du vil.
+
+(Sjekk ut 'Rotator'-delen av menyen for å se de forskjellige alternativene og velg den som passer best for dine behov. Det kan være en game changer når det kommer til å lage pene hauger)" />
+
+                <text name="help_WoodHarvesterControls_treeTopTitle" text="Tretopp behandling" />
+                <text name="help_WoodHarvesterControls_treeTop" text="Når du kommer til toppen av treet, kan du ganske enkelt slippe det til siden (ved å bruke åpne-knappen, åpne/lukke-knappen eller til og med mate bakover). 
+
+Du kan også mate den manuelt til den lengden du anser som nyttig og deretter bruke den til å lage flis eller ta den med til papirfabrikken.
+
+Et annet alternativ er å kutte små biter som er lettere å knuse senere hvis du vurderer å bruke en mulcher (eller bruke alternativet i menyen for å fjerne små stokker)." />
+
+                <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Forbereder for neste tre" />
+                <text name="help_WoodHarvesterControls_preparingForNextTree" text="Hvis du ikke bruker 'Enkle kontroller'-alternativer, må du åpne hodet og vippe det opp.
+
+Du kan bruke åpne-knappen eller åpne/lukk-knappen for å åpne hodet.
+
+Du kan holde åpen-knappen hvis du har 'Vippe opp med åpen knapp'-alternativet aktivert og hodet vil åpne og vippe opp. Ellers må du bruke tilt opp-knappen eller tilt opp/ned-knappen." />
+
+
+                <!-- Processing felled trees -->
+                <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Bearbeiding av felte trær" />
+                <text name="help_WoodHarvesterControls_processingFelledTrees" text="En annen arbeidsstil er å behandle allerede felte trær.
+        
+I dette eksemplet er trærne felt og deretter dratt og stablet i et flatt område med god tilgang for å lette bearbeiding og deretter lasting på lastebiler.
+
+Aggregatet kan også brukes som en feller for å felle treet og legge det i en haug for videre bearbeiding eller for å dra ut med stammelunner." />
+
+                <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Plasser maskinen" />
+                <text name="help_WoodHarvesterControls_positionTheMachine" text="Plasser maskinen vinkelrett på tømmerlunnen og fremover. På denne måten kan du jobbe bakover og la haugene med bearbeidet tre ligge foran maskinen.
+                
+Vanligvis er det mer behagelig å bearbeide til venstre siden armen på maskinen vanligvis er til høyre og reduserer sikten. Også på denne måten er sagen synlig, noe som hjelper til med å justere enden av stokken som vi vil se i de følgende trinnene." />
+
+                <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Grip treet" />
+                <text name="help_WoodHarvesterControls_grabFelledTree" text="Finn treet som er på toppen av haugen og juster hodet med det. Sjekk at det ikke er noen som ligger i kryss over, hvis det er, ta den først.
+                
+Trykk kort på lukkeknappen for å lukke knivene litt og ta tak i stokken. Hold deretter lukkeknappen for å lukke hodet helt.
+
+Du kan også bruke tvungen tilt ned for å hjelpe deg i denne prosessen. (Se avsnittet 'avanserte tiltkontroller')" />
+
+                <text name="help_WoodHarvesterControls_findBottomTitle" text="Finn bunnen av treet" />
+                <text name="help_WoodHarvesterControls_findBottom" text="Mat treet tilbake for å matche enden av treet med sagen. Sakte matingsknapper kan hjelpe deg med å justere lettere.
+                
+Hvis du vil, i stedet for å justere nøyaktig til enden av treet, kan du la en del bli igjen for eksempel for å bli kvitt et diagonalt kutt." />
+
+                <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Tilbakestill målingen" />
+                <text name="help_WoodHarvesterControls_resetMeasurement" text="Som du vil se i hogstmaskinen, etter mating av treet er ikke målingen på null, så det første du må gjøre er å tilbakestille målingen, og du kan gjøre det på to måter:
+
+- Hvis du vil rense et stykke av treet eller at den første stokken har nøyaktig mål, må du kutte. (Det er et alternativ i menyen for å fjerne små kuttede stokker. Dette vil forbedre ytelsen ved å unngå de små trestykkene på bakken.)
+ 
+- Hvis bunnen av treet derimot er fin og det ikke er nødvendig å ha nøyaktige mål, kan du bruke sagen i manuell modus og kun trykke kort på knappen. Dette tilbakestiller målingen uten å måtte foreta hele kuttet." />
+
+        </texts>
+</l10n>

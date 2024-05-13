@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="72">
+    <author>SimDala, Bargon Mods</author>
+    <version>1.2.0.1</version>
+    <title>
+        <en>Wood Harvester Controls</en>
+        <de>Holzvollernter-Steuerungen</de>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[Ready to feel how wood harvesters are controlled in real life?
+
+This script mod overrides the wood harvesters specialization. 
+It is based on real life harvester control systems and implements most of the functionalities.
+Adds new controls and a menu to customize how the machine works and even set whether you want to use help features or not.
+
+Some of the features:
+- Open and close the head. Grab and release the tree
+- Manual feed forward and backward. Also in slow mode
+- Tilt up and down the head
+- Automatic program that allows feeding and cutting in different ways depending on the options set in the menu
+- Length preset buttons
+- Help functions
+- Bucking system that chooses the length according to the diameter of the log
+- Rotator modes to be able to rotate the head while you are processing
+- Saw modes
+
+Menu - Easy controls:
+- Automatic program with cut button [ On / Off ]
+- Automatic tilt up [ On / Off ]
+- Automatic open [ On / Off ]
+- Grab tree after cut [ On / Off ]
+
+Menu - Cutting lengths (automatic program):
+- Number of lengths [ 1 - 4 ]
+- Cutting Length 1 (cm) [ Custom length ]
+- Minimum Diameter 1 (cm) [ Custom diameter ]
+- Cutting Length 2 (cm) [ Custom length ]
+- Minimum Diameter 2 (cm) [ Custom diameter ]
+- Cutting Length 3 (cm) [ Custom length ]
+- Minimum Diameter 3 (cm) [ Custom diameter ]
+- Cutting Length 4 (cm) [ Custom length ]
+
+Menu - Automatic program:
+- Feeding [ Single press / Hold]
+- Felling Cut [ Off / Single press / Hold ]
+- Bucking Cut [ Off / Single press / Hold ]
+- Automatic program with close button [ On / Off ]
+- Automatic feed after cut  [ On / Off ]
+
+Menu - Rotator:
+- Rotator Mode [ Free / Fixed / Physical ]
+- Rotator Force [ Custom number ]
+- Rotator Threshold [ Custom angle ]
+
+Menu - Length Presets:
+- Length Preset 1 (cm) [ Custom length ]
+- Length Preset 2 (cm) [ Custom length ]
+- Length Preset 3 (cm) [ Custom length ]
+- Length Preset 4 (cm) [ Custom length ]
+- Repeat length preset [ On / Off ]
+
+Menu - Saw:
+- Saw mode [ Automatic / Semiautomatic / Manual ]
+
+Menu - Feeding:
+- Braking distance (cm) [ Custom length ]
+- Slow feed when tilted up [ On / Off ]
+- Feeding speed (m/s) [ Custom speed ]
+- Slow feeding speed (m/s) [ Custom speed]
+
+Menu - Tilt:
+- Tilt down on felling cut [ On / Off ]
+- Tilt up with open button [ On / Off ]
+- Tilt up delay (ms) [ Custom time ]
+- Max tilt angle [ Custom angle ]
+
+Menu - User Preferences:
+- Register found sounds [ On / Off ]
+- Remove logs smaller than (cm) [ Custom length ]
+- Support all trees [ On / Off ]
+
+Changelog
+V1.2.0.1:
+- Updated with SimDala default settings
+
+v1.2.0.0:
+- Official release on ModHub
+- Multiplayer support]]>
+        </en>
+        <de>
+            <![CDATA[Bereit zu erleben wie sich eine Holzerntemaschine im echten Leben anfühlt?
+
+Dieser Script Mod überschreibt die Holzvollernter Spezialization
+Er basiert auf echten Bedienelementen für Holzvollernter und implementiert die meisten ihrer Funktionen.
+Neue Steuerungen und mein Menü zur Anpassung des Arbeitsgeräts sowie optionale Hilfsfunktionen wurden hinzugefügt.
+
+Einige der Funktionen:
+- Öffnen und Schließen des Fällkopfes. Greifen und Lösen von Bäumen
+- Manuelle Zufuhr vorwärts und rückwärts. Sowie eine langsame Zufuhr
+- Hoch- und abkippen des Fällkopfes
+- Automatikprogramm das es erlaubt Zufuhr und Schnitt auf verschiedene Arten durchzuführen, konfigurierbar über das Optionsmenü
+- Tastenbelegung für Längen-Sortimente
+- Hilfsfunktionen
+- Sortierung auf Längen entsprechend dem Durchmesser des Stammes
+- Die Rotation des Fällkopfes kann durch mehrere Modi während des Erntens gesteuert werden
+- Sägen Modi
+
+Menü - Vereinfachte Steuerung:
+- Automatikprogramm mit Schnitt-Taste [ An / Aus ]
+- Automtisches Hochkippen [ An / Aus ]
+- Automatisches Öffnen [ An / Aus ]
+- Baum nach Schnitt greifen [ An / Aus ]
+
+Menü - Schnittlängen (Automatikprogramm):
+- Anzahl der Längen [ 1 - 4 ]
+- Schnittlänge 1 (cm) [ einstellbare Länge ]
+- Mindest Durchmesser 1 (cm) [ einstellbarer Durchmesser ]
+- Schnittlänge 2 (cm) [ einstellbare Länge ]
+- Mindest Durchmesser 2 (cm) [ einstellbarer Durchmesser ]
+- Schnittlänge 3 (cm) [ einstellbare Länge ]
+- Mindest Durchmesser 3 (cm) [ einstellbarer Durchmesser ]
+- Schnittlänge 4 (cm) [ einstellbare Länge ]
+
+Menü - Automatikprogramm:
+- Zufuhr [ Drücken / Halten ]
+- Fällschnitt [ Aus / Drücken / Halten ]
+- Sortierschnitt [ Aus / Drücken / Halten ]
+- Automatikprogramm mit Schließen-Taste [ An / Aus ]
+- Automatische Zufuhr nach dem Schnitt [ An / Aus ]
+
+Menü - Rotation:
+- Rotationsmodus [ Frei / Fixiert / Physikalisch]
+- Rotationskraft [ frei einstellbar ]
+- Rotationsgrenze [ einstellbarer Winkel ]
+
+Menü - Längen-Sortimente:
+- Längen-Sortimnet 1 (cm) [ einstellbare Länge ]
+- Längen-Sortimnet 2 (cm) [ einstellbare Länge ]
+- Längen-Sortimnet 3 (cm) [ einstellbare Länge ]
+- Längen-Sortimnet 4 (cm) [ einstellbare Länge ]
+- Längen-Sortimnet wiederholen [ An / Aus ]
+
+Menü - Säge:
+- Sägen-Modus [ Automatik / Halbautomatik / Manuell ]
+
+Menü - Zufuhr:
+- Bremsabstand (cm) [ einstellbare Länge ]
+- Langsame Zufuhr bei hochgekipptem Fällkopf [ An / Aus ]
+- Zufuhrgeschwindigkeit (m/s) [ einstellbare Geschwindigkeit ]
+- Langsame Zufuhrgeschwindigkeit (m/s) [ einstellbare Geschwindigkeit ]
+
+Menü - Kippen:
+- Abkippen nach Fällschnitt [ An / Aus ]
+- Hochkippen mit Öffnen-Taste [ An / Aus ]
+- Verzögerung Hochkippen (ms) [ einstellbare Zeit ]
+- Maximaler Neigungswinkel [ einstellbarer Winkel ]
+
+Menü - Benutzer Einstellungen:
+- Gefundene Soundeffekte registrieren [ An / Aus ]
+- Stämme unter Durchmesser entfernen (cm) [ einstellbare Länge ]
+- Alle Bäume unterstützen [ An / Aus ]
+
+Changelog
+
+v1.2.0.0:
+- Offizieller Release am ModHub
+- Multiplayer support]]>
+        </de>
+        <sv>
+            <![CDATA[Är du redo att känna på hur en skördare styrs i verkligheten? 
+
+This script mod overrides the wood harvesters specialization.
+Detta skript skriver om hur skördarna fungerar i spelet.  
+Det är baserat på verkliga styrsystem och implementerar de flesta funktionerna.
+Nya kontroller och en meny där du kan anpassa hur maskinen fungerar efter smak och tycke, till och med ställa in om du vill använda hj'lpfunktioner eller inte.
+
+Några av funktionerna:
+- Öppna och stänga aggregat. Greppa och släppa stammar.
+- Manuell matning framåt och bakåt. Även långsam matning.
+- Tilta aggregatet uppåt och nedåt.
+- Automatiskt program som låter dig mata och kapa på olika sätt beroende på de alternativ som ställs in i menyn.  
+- Förinställda knappar för längder.
+- Hjälp funktioner.
+- apteringssystem som väljer längd beroende på stockens diameter.
+- Olika lägen för rotatorn, för att till exempel kunna rotera aggregatet under upparbetning av stam. 
+- Olika lägen för sågen.
+
+Meny - Enkla kontroller:
+- Automatiskt program med sågknapp [ På / Av ]
+- Automatisk tilt upp [ På / Av ]
+- Öppna Automatiskt [ På / Av ]
+- Greppa stam efter kap [ På / Av ]
+
+Meny - Längder och diametrar (automatiskt program):
+- Antal längder [ 1 - 4 ]
+- Såglängd 1 (cm) [ Anpassad längd ]
+- Lägsta diameter för Såglängd 1 (cm) [ Anpassad diameter ]
+- Såglängd 2 (cm) [ Anpassad längd ]
+- Lägsta diameter för Såglängd 2 (cm) [ Anpassad diameter ]
+- Såglängd 3 (cm) [ Anpassad längd ]
+- Lägsta diameter för Såglängd 3 (cm) [ Anpassad diameter ]
+- Såglängd 4 (cm) [ Anpassad längd ]
+
+Meny - Automatiska program:
+- Matning [ Enkeltryck / Håll ned ]
+- Fällande kap [ Av / Enkeltryck / Håll ned ]
+- Appterings kap [ Av / Enkeltryck / Håll ned ]
+- Automatiskt program med "Stäng aggregat" knapp [ På / Av ]
+- Mata stam automatisk efter kap  [ På / Av ]
+
+Meny - Rotator:
+- Rotator läge [ Fri / Fixerad / Fysisk ]
+- Rotatorkraft [ Anpassat nummer ]
+- Tröskelvärde för rotator [ Anpassad vinkel ]
+
+Meny - Förinställda längder:
+- Förinställd längd 1 (cm) [ Anpassad längd ]
+- Förinställd längd 2 (cm) [ Anpassad längd ]
+- Förinställd längd 3 (cm) [ Anpassad längd ]
+- Förinställd längd 4 (cm) [ Anpassad längd ]
+- Upprepa förinställd längd [ På / Av ]
+
+Meny - Såg:
+- Såg läge [ Automatisk / Halvautomatisk / Manuell ]
+
+Meny - Matning:
+- Bromssträcka (cm) [ Anpassad längd ]
+- Långsam matning vid stående aggregat [ På / Av ]
+- Matningshastighet (m/s) [ Anpassad hastighet ]
+- Slow feeding speed (m/s) [ Anpassad hastighet]
+
+Meny - Tilt:
+- Tilta ner efter fällkap [ På / Av ]
+- Tilta upp med "Öppna aggregat" knapp [ På / Av ]
+- Fördröjning för tilta upp (ms) [ Anpassad tid ]
+- Max vinkel för tilt [ Anpassad vinkel ]
+
+Meny - Användarinställningar:
+- Ljud vid vald längd [ På / Av ]
+- Ta bort stockar som är mindre än (cm) [ Anpassad längd ]
+- Stöd för alla träd [ På / Av ]
+
+Changelog
+
+v1.2.0.0:
+- Officiell release på ModHub
+- Stöd för Multiplayer]]>
+        </sv>
+        <no>
+            <![CDATA[Er du klar for å kjenne hvordan en hogstmaskin kontrolleres i virkeligheten?
+
+Denne skript modden overkjører skogsmaskin spesialiseringen  (woodHarvester specialization.
+Den er basert på kontrollsystemer fra virkeligheten og legger til de fleste funksjonene.
+Legger til nye kontroller og en meny for å tilpasse hvordan maskinen fungerer og til og med angi om du vil bruke hjelpefunksjoner eller ikke.
+
+Noen av funksjonene:
+- Åpne og lukk aggregatet. Grip og slipp treet
+- Manuell mating forover og bakover. Også i sakte modus
+- Vipp aggregatet opp og ned
+- Automatisk program som tillater mating og kutting på ulike måter avhengig av alternativene som er satt i menyen
+- Forhåndsinnstilte lengdeknapper
+- Hjelpefunksjoner
+- System som velger lengde etter stokkens diameter
+- Rotor moduser som gjør det mulig og rotere aggregatet mens du mater trær
+- Sagmoduser
+
+Meny - Enkle kontroller:
+- Automatisk program med kutte knapp [ På / Av ]
+- Automatisk vipp opp [ På / Av ]
+- Åpne automatisk [ På / Av ]
+- Grip tre etter kutt [ På / Av ]
+
+Meny - Kutte lengder (automatisk program):
+- Antall lengder [ 1 - 4 ]
+- Skjærelengde 1 (cm) [ Egendefinert lengde ]
+- Minste Diameter 1 (cm) [ Egendefinert diameter ]
+- Skjærelengde 2 (cm) [ Egendefinert lengde ]
+- Minste Diameter 2 (cm) [ Egendefinert diameter ]
+- Skjærelengde 3 (cm) [ Egendefinert lengde ]
+- Minste Diameter 3 (cm) [ Egendefinert diameter ]
+- Skjærelengde 4 (cm) [ Egendefinert lengde ]
+
+Meny - Automatisk program:
+- Mating [ Enkelt  trykk / Hold]
+- Felling Cut [ Av / Enkelt trykk / Hold ]
+- Bucking Cut [ Av / Enkelt trykk / Hold ]
+- Automatisk program med lukkeknapp [ På / Av ]
+- Automatisk mating etter skjæring  [ På / Av ]
+
+Meny - Rotator:
+- Rotator Modus [ Fri / Fast / Fysisk ]
+- Rotatorstyrke [ Egendefinert nummer ]
+- Rotatorterskel [ Egendefinert vinkel ]
+
+Meny - Forhåndsinnstillinger for lengde:
+- Forhåndsinnstilling av lengde (cm) [ Egendefinert lengde ]
+- Forhåndsinnstilling av lengde 2 (cm) [ Egendefinert lengde ]
+- Forhåndsinnstilling av lengde 3 (cm) [ Egendefinert lengde ]
+- Forhåndsinnstilling av lengde 4 (cm) [ Egendefinert lengde ]
+- Gjenta forhåndsinnstilt lengde [ På / Av ]
+
+Meny - Sag:
+- Sagmodus [ Automatisk / halvautomatisk / manuell ]
+
+Meny - Mating:
+- Bremseavstand (cm) [ Egendefinert lengde ]
+- Sakte mating når den vippes opp [ På / Av ]
+- Matehastighet (m/s) [ Egendefinert fart ]
+- Langsom matehastighet (m/s) [ Egendefinert fart]
+
+Meny - Tilt:
+- Tilt down on felling cut [ På / Av ]
+- Vipp opp med åpen knapp [ På / Av ]
+- Tilt opp forsinkelse (ms) [ Egendefinert tid ]
+- Maks tiltvinkel [ Egendefinert vinkel ]
+
+Meny - Brukerinnstillinger:
+- Registrer funnet lyder [ På / Av ]
+- Fjern stokker som er mindre enn (cm) [ Egendefinert lengde ]
+- Støtt alle tretyper [ På / Av ]
+
+Endringslogg
+
+v1.2.0.0:
+- Offisiell utgivelse på ModHub
+- Støtte for flerspiller]]>
+        </no>
+        <fi>
+            <![CDATA[Oletko valmis tutustumaan kuinka hakkuukone/harvesteri/moto toimii oikeasti?
+
+Tämä skriptimodi korvaa harvesterien specialisaation pelissä. 
+Se perustuu oikean hakkuukoneen kontrolleihin ja suurinpaan osaan toiminnoista.
+Modi lisää peliin uusia kontrolleja, ja valikon jonka avulla voit valita kuinka kone toimii ja haluatko käyttää uusia ominaisuuksia.
+
+Joitakin ominaisuuksia:
+- Avaa ja sulje motopäätä. Tartu ja irroita puusta.
+- Käsisyöttö eteen ja taakse. Myös hitaasti.
+- Motopään tiltti ylös ja alas
+- Automaattiohjelma joka mahdollistaa syötön ja katkonnan eri tavoilla riippuen valikon asetuksista.
+- Esivalintanapit katkontapituuksille
+- Ohje ja aputoimintoja
+- Apteeraustoiminto, joka valitsee katkontapituuden pöllin läpimitan perusteella.
+- Vaihtoehtoisia rotaattorin toimintatiloja, mahdollistaa motopään rotaattorin toiminnan käsittelyvaiheessa.
+- Vaihtoehtoisia sahan toimintatiloja
+
+Valikko - Helpot kontrollit:
+- Automaattiohjelma sahanapilla [ Päälle / Pois ]
+- Automaattinentiltti ylös [ Päälle / Pois ]
+- Automaattinen motopään aukaisu [ Päälle / Pois ]
+- Tartu puuhun sahauksen jälkeen [ Päälle / Pois ]
+
+Valikko - Katkontapituudet (Automaattiohjelma):
+- Katkontapituuksien määrä [ 1 - 4 ]
+- Katkontapituus 1 (cm) [ Valinnainen pituus ]
+- Minimi läpimitta 1 (cm) [ Valinnainen läpimitta ]
+- Katkontapituus 2 (cm) [ Valinnainen pituus ]
+- Minimi läpimitta 2 (cm) [ alinnainen läpimitta ]
+- Katkontapituus 3 (cm) [ Valinnainen pituus ]
+- Minimi läpimitta 3 (cm) [ alinnainen läpimitta ]
+- Katkontapituus 4 (cm) [ Valinnainen pituus ]
+
+Valikko - Automaattiohjelma:
+- Syöttö [ Yksi painallus / Pidä pohjassa ]
+- Kaatosahaus [ Pois / Yksi painallus / Pidä pohjassa ]
+- Katkontasahaus [ Pois / Yksi painallus / Pidä pohjassa ]
+- Automaattiohjelma "Motokiinni" napilla [ Päälle / Pois ]
+- Automaattiohjelma sahauksen jälkeen  [ Päälle / Pois ]
+
+Valikko - Rotaattori:
+- Rotaattorin toimitatila [ Vapaa / Kiinteä / Fysiikka ]
+- Rotaattorin voima [ valittava arvo ]
+- Rotaattorin kynnysarvo [ valittava kulma ]
+
+Valikko - Esivalinnat:
+- Esivalintapituus 1 (cm) [ Valinnainen pituus ]
+- Esivalintapituus 2 (cm) [ Valinnainen pituus ]
+- Esivalintapituus 3 (cm) [ Valinnainen pituus ]
+- Esivalintapituus 4 (cm) [ Valinnainen pituus ]
+- Toista esivalinta [ Päälle / Pois ]
+
+Valikko - Saha:
+- Sahan toimintatila [Automaattinen / Puoliautomaatti / Manuaalinen ]
+
+Valikko - Syöttö:
+- Hidastusetäisyys (cm) [ Valinnainen pituus ]
+- Hidas syöttö kun tiltti ylhäällä [ Päälle / Pois ]
+- Syötön nopeus (m/s) [ Valinnainen nopues ]
+- Hitaan syötön nopeus (m/s) [ Valinnainen nopues]
+
+Valikko - Tiltti:
+- Tiltti alas kaatosahauksessa [  Päälle / Pois ]
+- Tiltti ylös motoauki napilla [ Päälle / Pois ]
+- Tiltin viive (ms) [ Valinnainen aika ]
+- Maksimi tilttikulma [ Valinnainen kulma ]
+
+Valikko - käyttäjäasetukset:
+- Äänimerkit [ Päälle / Pois ]
+- Poista pöllit joiden pituus on alle (cm) [ Valinnainen pituus ]
+- Kaikkien puulajien tuki [ Päälle / Pois ]
+
+Changelog
+
+v1.2.0.0:
+- Virallinen julkauisu ModHubissa
+- Moninpelituki]]>
+        </fi>
+        <es>
+            <![CDATA[¿Preparado para sentir cómo se controlan las procesadoras forestales en la vida real?
+
+Este script mod sobreescribe la especialización de las procesadoras forestales. 
+Está basado en los sistemas de control de las procesadoras de la vida real e implementa la mayoría de las funcionalidades.
+Añade nuevos controles y un menú para personalizar el funcionamiento de la máquina e incluso establecer si quieres usar las funciones de ayuda o no.
+
+Algunas de las funciones:
+- Abrir y cerrar el cabezal. Agarrar y soltar el árbol.
+- Alimentación manual hacia adelante y hacia atrás. También en modo lento
+- Inclinación del cabezal hacia arriba y hacia abajo
+- Programa automático que permite alimentar y cortar de diferentes maneras en función de las opciones configuradas en el menú
+- Botones de longitudes preestablecidas
+- Funciones de ayuda
+- Sistema de tronzado que elige la longitud en función del diámetro del tronco
+- Modos del rotor para poder girar el cabezal mientras se procesa
+- Modos de sierra
+
+Menú - Controles sencillos:
+- Programa automático con botón de corte [ Sí / No ]
+- Inclinación automática hacia arriba [ Sí / No ]
+- Apertura automática [ Sí / No ]
+- Agarrar árbol después del corte [ Sí / No ]
+
+Menú - Longitudes de corte (programa automático):
+- Número de longitudes [ 1 - 4 ]
+- Longitud de corte 1 (cm) [ Longitud personalizada ]
+- Diámetro mínimo 1 (cm) [ Diámetro personalizado ]
+- Longitud de corte 2 (cm) [ Longitud personalizada ]
+- Diámetro mínimo 2 (cm) [ Diámetro personalizado ]
+- Longitud de corte 3 (cm) [ Longitud personalizada ]
+- Diámetro mínimo 3 (cm) [ Diámetro personalizado ]
+- Longitud de corte 4 (cm) [ Longitud personalizada ]
+
+Menú - Programa automático:
+- Alimentación [ Pulsación única / Mantener]
+- Corte de tala [ Apagado / Pulsación única / Mantener ]
+- Corte de tala [ Apagado / Pulsación única / Mantener ]
+- Programa automático con botón de cierre [ Sí / No ]
+- Alimentación automática después del corte [ Sí / No ]
+
+Menú - Rotor:
+- Modo del rotor [ Libre / Fijo / Físico ]
+- Fuerza del rotor [ Número personalizado]
+- Umbral del rotor [ Ángulo personalizado]
+
+Menú - Longitud Preestablecida:
+- Longitud Preestablecida 1 (cm) [ Longitud personalizada ]
+- Longitud Preestablecida 2 (cm) [ Longitud personalizada ]
+- Longitud Preestablecida 3 (cm) [ Longitud personalizada ]
+- Longitud Preestablecida 4 (cm) [ Longitud personalizada ]
+- Repetir longitud preestablecida [ Sí / No ]
+
+Menú - Sierra:
+- Modo de sierra [ Automático / Semiautomático / Manual ]
+
+Menú - Alimentación:
+- Distancia de frenado (cm) [ Longitud personalizada ]
+- Alimentación lenta con cabezal levantado [ Sí / No ]
+- Velocidad de alimentación (m/s) [ Velocidad personalizada ]
+- Velocidad de alimentación lenta (m/s) [ Velocidad personalizada]
+
+Menú - Inclinación
+- Inclinación hacia abajo al cortar [ Sí / No ]
+- Inclinación hacia arriba con el botón de apertura [ Sí / No ]
+- Retardo de inclinación hacia arriba (ms) [ Tiempo personalizado]
+- Ángulo máximo de inclinación [ Ángulo personalizado]
+
+Menú - Preferencias del usuario:
+- Sonido de longitud encontrada [ Sí / No ]
+- Eliminar troncos menores de (cm) [ Longitud personalizada]
+- Soportar todos los árboles [ Sí / No ]
+
+Changelog
+
+v1.2.0.0:
+- Lanzamiento oficial en ModHub
+- Soporte multijugador]]>
+        </es>
+    </description>
+    <iconFilename>icon_WHControls.dds</iconFilename>
+    <multiplayer supported="true"></multiplayer>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/WoodHarvesterControls_Loader.lua" />
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="translations/l10n" />
+
+    <actions>
+        <action name="WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_SAW" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_OPEN_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_FORWARD_FEED" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_STOP" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+        <action name="WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+
+        <action name="WOOD_HARVESTER_CONTROLS_MENU" category="VEHICLE" axisType="HALF" ignoreComboMask="false" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_y" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_4" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_SAW">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_x" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_2" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_CLOSE_HEAD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_z" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_19" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_OPEN_HEAD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_z" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_6 BUTTON_19" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_FORWARD_FEED">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_w" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_20" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_BACKWARD_FEED">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_s" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_18" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_x" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_3" />
+        </actionBinding>
+        <actionBinding action="WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_v" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_6 BUTTON_19" />
+        </actionBinding>
+    </inputBinding>
+
+
+    <helpLines>
+        <category id="WOOD_HARVESTER_CONTROLS_MOD" title="Wood Harvester Controls">
+            <page title="$l10n_help_WoodHarvesterControls_inputBindingsTitle">
+                <paragraph>
+                    <text text="$l10n_help_WoodHarvesterControls_inputBindings" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_onOffBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_onOffBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_cutBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_cutBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_closeBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_closeBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_openBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_openBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_openCloseBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_openCloseBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_feedForwardBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_feedForwardBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_feedBackwardBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_feedBackwardBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_slowFeedForwardBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_slowFeedForwardBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_slowFeedBackwardBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_slowFeedBackwardBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_automaticProgramBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_automaticProgramBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_stopBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_stopBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_tiltUpBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_tiltUpBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_tiltDownBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_tiltDownBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_tiltUpDownBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_tiltUpDownBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_presetBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_presetBinding" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_menuBindingTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_menuBinding" />
+                </paragraph>
+            </page>
+
+            <page title="$l10n_help_WoodHarvesterControls_processingStandingTreesTitle">
+                <paragraph>
+                    <text text="$l10n_help_WoodHarvesterControls_processingStandingTrees" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_alignTheHeadTitle" />
+                    <image filename="assets/help.dds" uvs="0px 0px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_alignTheHead" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_grabTheTreeTitle" />
+                    <image filename="assets/help.dds" uvs="286px 0px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_grabTheTree" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_manuallyFeedBackTitle" />
+                    <image filename="assets/help.dds" uvs="570px 0px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_manuallyFeedBack" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_applySomePreasureTitle" />
+                    <image filename="assets/help.dds" uvs="0px 203px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_applySomePreasure" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_fellingCutTitle" />
+                    <image filename="assets/help.dds" uvs="286px 203px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_fellingCut" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_fellingMovementTitle" />
+                    <image filename="assets/help.dds" uvs="570px 203px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_fellingMovement" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_treeProcessingTitle" />
+                    <image filename="assets/help.dds" uvs="0px 405px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_treeProcessing" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_treeTopTitle" />
+                    <image filename="assets/help.dds" uvs="286px 405px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_treeTop" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_preparingForNextTreeTitle" />
+                    <image filename="assets/help.dds" uvs="570px 405px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_preparingForNextTree" />
+                </paragraph>
+            </page>
+
+            <page title="$l10n_help_WoodHarvesterControls_processingFelledTreesTitle">
+                <paragraph>
+                    <text text="$l10n_help_WoodHarvesterControls_processingFelledTrees" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_positionTheMachineTitle" />
+                    <image filename="assets/help.dds" uvs="0px 607px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_positionTheMachine" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_grabFelledTreeTitle" />
+                    <image filename="assets/help.dds" uvs="286px 607px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_grabFelledTree" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_findBottomTitle" />
+                    <image filename="assets/help.dds" uvs="570px 607px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_findBottom" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_resetMeasurementTitle" />
+                    <image filename="assets/help.dds" uvs="0px 809px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_resetMeasurement" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_treeProcessingTitle" />
+                    <image filename="assets/help.dds" uvs="286px 809px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_treeProcessing" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_treeTopTitle" />
+                    <image filename="assets/help.dds" uvs="570px 809px 280px 200px" />
+                    <text text="$l10n_help_WoodHarvesterControls_treeTop" />
+                </paragraph>
+            </page>
+
+            <page title="$l10n_help_WoodHarvesterControls_advancedTiltControls">
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_forcedTiltDownTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_forcedTiltDown" />
+                </paragraph>
+                <paragraph>
+                    <title text="$l10n_help_WoodHarvesterControls_forcedTiltUpTitle" />
+                    <text text="$l10n_help_WoodHarvesterControls_forcedTiltUp" />
+                </paragraph>
+            </page>
+
+        </category>
+    </helpLines>
+</modDesc>

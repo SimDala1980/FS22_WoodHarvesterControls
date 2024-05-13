@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+        <translationContributors>Bargon Mods</translationContributors>
+
+        <texts>
+                <!-- input bindings -->
+                <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Turn on / off head" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Run saw (Cut)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Close head (Grab tree)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Open head (Drop tree)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Open / Close head (Grab / Drop tree)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Manual feed tree forward" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Manual feed tree backward" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Manual feed tree forward slow" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Manual feed tree backward slow" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Feed / Cut (automatic program)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="Stop feeding" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Tilt Up head" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Tilt Down head" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Tilt Up / Down head" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Feed to length preset 1 / 2" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Feed to length preset 3 / 4" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Open Wood Harvester Controls menu" />
+
+                <!-- warning messages -->
+                <text name="warning_turnOnHead" text="Turn on the harvester head first" />
+
+                <!-- actions -->
+                <text name="action_saw" text="Run saw (Cut)"></text>
+                <text name="action_feedCutAutomaticProgram" text="Feed / Cut (automatic program)"></text>
+                <text name="action_openWoodHarvesterControlsMenu" text="Open Wood Harvester Controls Menu" />
+                <text name="action_feedToPreset" text="Feed to %.1f m / %.1f m" />
+
+                <!-- menu -->
+                <text name="ui_WoodHarvesterControls_guiTitle" text="Wood Harvester Controls Settings" />
+
+                <text name="ui_WoodHarvesterControls_on" text="On" />
+                <text name="ui_WoodHarvesterControls_off" text="Off" />
+
+                <text name="ui_WoodHarvesterControls_press" text="Single Press" />
+                <text name="ui_WoodHarvesterControls_hold" text="Hold" />
+
+                <text name="ui_WoodHarvesterControls_automatic" text="Automatic" />
+                <text name="ui_WoodHarvesterControls_semiautomatic" text="Semi-Automatic" />
+                <text name="ui_WoodHarvesterControls_manual" text="Manual" />
+
+                <text name="ui_WoodHarvesterControls_free" text="Free" />
+                <text name="ui_WoodHarvesterControls_fixed" text="Fixed" />
+                <text name="ui_WoodHarvesterControls_physical" text="Physical" />
+
+                <text name="ui_WoodHarvesterControls_helpMsg" text="Check out the in-game help menu to know more about this mod and learn advanced techniques that are used in real life" />
+
+                <!-- Easy Controls -->
+                <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Easy Controls" />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Automatic program with cut button" />
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="On: the cut button works like the Automatic Program button. Feeds and cuts depending on the options (see Automatic Program section).
+Off: Like in real life, the cut button is used just to run the saw." />
+
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Automatic Tilt Up" />
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="On: it will tilt up the head after releasing the tree (only if it was already tilted up before cutting the tree).
+Off: Like in real life, you have to tilt up the head using the tilt button or holding the open button." />
+
+                <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Automatic Open" />
+                <text name="ui_WoodHarvesterControls_automaticOpenTT" text="On, it will open the head when turning it on and after releasing the tree.
+Off: Like in real life, you have to open the head." />
+
+                <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Grab tree after cut" />
+                <text name="ui_WoodHarvesterControls_grabOnCutTT" text="On, it will grab the tree after cutting.
+Off: Like in real life, you have to grab the tree (holding the close button) and then cut it." />
+
+                <!-- Bucking system -->
+                <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Cutting lengths (automatic program)" />
+
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Number of lengths" />
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Defines the number of different lengths that can be cut depending on the minimum diameter of the log" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Cutting Length 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Defines the cutting length if the diameter of the tree is greater than the 'Minimum Diameter 1'" />
+                <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Minimum Diameter 1 (cm) " />
+                <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Defines the minimum diameter to cut to 'Cutting Length  1'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Cutting Length 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Defines the cutting length if the diameter of the tree is greater than the 'Minimum Diameter 2'" />
+                <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Minimum Diameter 2 (cm) (should be less than Minimum Diameter 1)" />
+                <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Defines the minimum diameter to cut to 'Cutting Length  2'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Cutting Length 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Defines the cutting length if the diameter of the tree is greater than the 'Minimum Diameter 3'" />
+                <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Minimum Diameter 3 (cm) (should be less than Minimum Diameter 2)" />
+                <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Defines the minimum diameter to cut to 'Cutting Length  3'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Cutting Length 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Defines the cutting length if the diameter of the tree is less than the 'Minimum Diameter 3'" />
+
+                <!-- automatic program -->
+                <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Automatic program" />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Feeding" />
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Single press: a single press feed the tree to the computer length. If the button is held while the head is feeding, it stops. It continues when the button is released. Hold: the tree is fed only while the button is held. When the button is released or when the defined cutting length is reached, the head stops feeding." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Felling Cut" />
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="Off: the automatic button doesn't do anything when the head is tilted up and ready to fell a tree. Single press: a single press cuts all the way and fells the tree. Hold: the saw runs only while the button is held. If the button is released before the saw cuts all the way, the tree will not be felled." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Bucking Cut" />
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="Off: the automatic button doesn't do anything when the head reached the desired length and is ready to cut the log. Single press: a single press cuts the log all the way. Hold: the saw runs only while the button is held. If the button is released before the saw cuts all the way, the log will not be cut." />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Automatic program with close button" />
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="On real life harvesters equiped with mini-levers the automatic program is usually activated pushing the close button (when the head is completely closed)." />
+
+                <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Automatic feed after cut" />
+                <text name="ui_WoodHarvesterControls_automaticFeedTT" text="If it's on, after cutting it will start feeding as soon as the saw goes all the way up.
+This option is not available if the Feeding option of the Automatic Program is set to Hold" />
+
+                <!-- Rotator -->
+                <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotator" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Rotator Mode" />
+                <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Free (default in-game behaviour): it feels good but you can't turn the head while processing. Fixed: you can turn the head and it helps making neat piles but you need to take care of the head rotation. Physical: it's an experimental feature for a physically accurate rotator force" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="WARNING! The physical rotator mode allows the most realistic behavior but depends on the node structure of the vehicle so it may not work on some modded harvesters. 
+Test it and if the vehicle behaves strange, deactivate it and if necessary, reset it." />
+
+                <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Rotator Force" />
+                <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Defines the force of the rotator. If the rotator doesn't have enough force to turn, it won't turn. In addition, the rotator will yield according to it's strength and the weight of the tree, updating its rotation according to the rotator threshold." />
+
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Rotator Threshold" />
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Defines the rotation update threshold in degrees. If you feel the rotator getting stuck, you should increase the threshold. (The lower the threshold, the more precise the update of the rotation.) (The more sensitivity in the controls, the more threshold is necessary for it to go smoothly)" />
+
+
+                <!-- length presets -->
+                <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Length Presets" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Length Preset 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Defines the length to which the tree is fed when 'Length Preset 1 / 2' button is pressed" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Length Preset 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Defines the length to which the tree is fed when 'Length Preset 1 / 2' button is double pressed" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Length Preset 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Defines the length to which the tree is fed when 'Length Preset 3 / 4' button is pressed" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Length Preset 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Defines the length to which the tree is fed when 'Length Preset 3 / 4' button is double pressed" />
+
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Repeat length preset" />
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="This option defines what length is used when 'Automatic feed after cut' option is enabled:
+On: Will repeat the length preset (if one has been used).
+Off: Will feed to the automatic program length" />
+
+                <!-- Saw -->
+                <text name="ui_WoodHarvesterControls_sectionSaw" text="Saw" />
+
+                <text name="ui_WoodHarvesterControls_sawModeTitle" text="Saw mode" />
+                <text name="ui_WoodHarvesterControls_sawModeTT" text="Automatic: when you press the cut button it runs the saw completely. Semi-Automatic: you need to hold the cut button to run the saw in a standing tree. Manual: you need to hold the button to run the saw." />
+
+
+                <!-- Feeding -->
+                <text name="ui_WoodHarvesterControls_sectionFeeding" text="Feeding" />
+
+                <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Braking distance (cm)" />
+                <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Defines the distance to the target length at which the head will start to brake to make a smoother stop" />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Slow feed when tilted up" />
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="When the head is tilted up, the manual feed is slow so you can accurately position the head to make the felling cut" />
+
+                <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Feeding speed (m/s)" />
+                <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Defines the general feeding speed of the head. Also the speed of manual feed" />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Slow feeding speed (m/s)" />
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Defines the speed of slow manual feed" />
+
+                <!-- Tilt -->
+                <text name="ui_WoodHarvesterControls_sectionTilt" text="Tilt" />
+
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Tilt down on felling cut" />
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="If it is on, it will tilt down the head when cutting down a standing tree" />
+
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Tilt up with open button" />
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="If it's on, holding down the open button will tilt the head up" />
+
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Tilt up delay (ms)" />
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Defines how long the open button must be held to tilt the head up" />
+
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Max tilt angle" />
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Maximum tilt down angle in degrees. 95º works well in all cases. 135º is a realistic tilt angle but requires a good head center of mass to keep it parallel to the ground" />
+
+                <!-- User Preferences -->
+                <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="User Preferences" />
+
+                <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Register found sounds" />
+                <text name="ui_WoodHarvesterControls_registerSoundTT" text="If it is on, it will make a sound when reaching the desired length. It will also make another sound when changing assortment." />
+
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Remove logs smaller than (cm)" />
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Cutted logs smaller than the defined length will be removed. This can improve performance avoiding little pieces for example when you cut a small piece to clean up the bottom part of the tree" />
+
+                <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Support all trees" />
+                <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="With this option you can cut all types of trees with this harvester. It is useful for example to fell the tree or to process the main trunk (after delimbing it with the chainsaw).
+Please note that those tree collisions are not intended to be used with the harvester. Use it carefully!" />
+
+                <!-- Help - Input bindings -->
+
+                <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Input Bindings" />
+                <text name="help_WoodHarvesterControls_inputBindings" text="There are default input bindings for mouse/keyboard and also gamepad but feel free to change it to your liking.
+
+If you are using joystick you need to setup your input bindings.
+
+Find below a short explanation of each input binding:" />
+
+                <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Turn on / off head" />
+                <text name="help_WoodHarvesterControls_onOffBinding" text="To turn the harvester head on and off you can use the in-game 'Turn tools on / off' input binding or this one if you want to use a different button. 
+
+(Setting this input binding does not disable 'Turn tools on / off'. Both will do the same function)." />
+
+                <text name="help_WoodHarvesterControls_cutBindingTitle" text="Run saw (Cut)" />
+                <text name="help_WoodHarvesterControls_cutBinding" text="To run the saw (cut) you can use the in-game 'Tool function 2' input binding or this one if you want to use a different button. 
+
+(Setting this input binding does not disable 'Tool function 2'. Both will do the same function)" />
+
+                <text name="help_WoodHarvesterControls_closeBindingTitle" text="Close head (Grab tree)" />
+                <text name="help_WoodHarvesterControls_closeBinding" text="Pressing this button briefly will close the head a bit (it will only close the knives as in real life if the harvester supports it).
+
+If the button is held down it will close the head completely and if there is a tree in range it will grab it.
+
+When the head is closed this button can be used to run the automatic program depending on the options set in the menu." />
+
+                <text name="help_WoodHarvesterControls_openBindingTitle" text="Open head (Drop tree)" />
+                <text name="help_WoodHarvesterControls_openBinding" text="Pressing this button briefly will open the head completely and if there is a tree in the head, it will release it.
+
+If held down it will open the head and tilt it up (this option can be turned on or off in the menu)." />
+
+                <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Open / Close head (Grab / Drop tree)" />
+                <text name="help_WoodHarvesterControls_openCloseBinding" text="If the head is closed, a single press will open it completely and if there is a tree in the head, it will release it.
+
+If the head is opened, a single press will close it completely and if there is a tree in range it will grab it.
+
+If the head is closed and the button is pressed and held, it will open and tilt it up (this option can be turned on or off in the menu)." />
+
+                <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Manual feed tree forward" />
+                <text name="help_WoodHarvesterControls_feedForwardBinding" text="The head will feed the tree forward (towards the saw) as long as the button is held down.
+
+It can also be used to stop the 'Automatic feed after cut' function if pressed during bucking cut." />
+
+                <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Manual feed tree backward" />
+                <text name="help_WoodHarvesterControls_feedBackwardBinding" text="The head will feed the tree backwards (away from the saw) as long as the button is held down.
+
+It can also be used to stop the 'Automatic feed after cut' function if pressed during bucking cut." />
+
+                <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Manual feed tree forward slow" />
+                <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="The head will slowly feed the tree forward (towards the saw) as long as the button is held down." />
+
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Manual feed tree backward slow" />
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="The head will slowly feed the tree backwards (away from the saw) as long as the button is held down." />
+
+                <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Feed / Cut (automatic program)" />
+                <text name="help_WoodHarvesterControls_automaticProgramBinding" text="This button will run the automatic program which can affect the feeding, felling cut and bucking cut depending on the options set in the menu." />
+
+                <text name="help_WoodHarvesterControls_stopBindingTitle" text="Stop feeding" />
+                <text name="help_WoodHarvesterControls_stopBinding" text="This button is used to stop feeding. It also stops the 'automatic feed after cut' function." />
+
+                <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Tilt Up head" />
+                <text name="help_WoodHarvesterControls_tiltUpBinding" text="Pressing this button tilts the head up.
+
+If the button is held down during a felling cut, the head will not tilt down until the button is released (see 'Advanced tilt controls' section)." />
+
+                <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Tilt Down head" />
+                <text name="help_WoodHarvesterControls_tiltDownBinding" text="Pressing this button will tilt the head down.
+
+It can also be used for forced tilt down. (see 'Advanced tilt controls' section)." />
+
+                <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Tilt Up / Down head" />
+                <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="This button is used to toggle between tilt up and tilt down." />
+
+                <text name="help_WoodHarvesterControls_presetBindingTitle" text="Feed to length preset" />
+                <text name="help_WoodHarvesterControls_presetBinding" text="Pressing this button will feed the tree at the length set in the menu. Each binding has two length presets. 
+
+To feed to the first length preset you need to single press the button and to feed to the second length preset you need to double press it." />
+
+                <text name="help_WoodHarvesterControls_menuBindingTitle" text="Open Wood Harvester Controls menu" />
+                <text name="help_WoodHarvesterControls_menuBinding" text="To open the menu you can use the in-game 'Tool function 3' input binding or this one if you want to use a different button.
+
+(Setting this input binding does not disable 'Tool function 3'. Both will do the same function)" />
+
+                <!-- Advanced tilt controls -->
+
+                <text name="help_WoodHarvesterControls_advancedTiltControls" text="Advanced tilt controls" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Forced tilt down" />
+                <text name="help_WoodHarvesterControls_forcedTiltDown" text="When the head is in floating mode (tilted down) you can hold the tilt down button to force tilt down. This is very useful for example in this situations:
+
+- When you are felling a tree you can double press and hold the tilt down button to apply some preasure with the tilt cylinder and help the tree fall in the direction you want. The first press is to put the head in floating mode (tilt down) and then you press and hold to force tilt down.
+
+- When grabbing a log or tree from the ground you can hold the tilt down button to give the head some tilt and firmness to grab the log with the upper knives and not collide with the rollers in the other logs or trees. This requires proper collisions in the head knives" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Prevent tilt down on cut" />
+                <text name="help_WoodHarvesterControls_forcedTiltUp" text="When you are working with small and light trees (for example in thinning jobs) you can hold the tilt up button while the felling cut is being made and the head will remain tilted up until you release the tilt up button. 
+
+- This is very useful for getting a standing tree out of tight spots and then releasing the button to drop it right where you want it to fall." />
+
+
+                <!-- Processing standing trees -->
+                <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Processing standing trees" />
+                <text name="help_WoodHarvesterControls_processingStandingTrees" text="One style of work is to cut and process trees directly in the forest and then collect the logs with a tractor or forwarder to take them to an area accessible to trucks. This method is called cut-to-length." />
+
+
+                <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Align the head" />
+                <text name="help_WoodHarvesterControls_alignTheHead" text="Choose the falling direction and position your head accordingly." />
+
+                <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Grab the tree" />
+                <text name="help_WoodHarvesterControls_grabTheTree" text="Press the close button to close just a little bit and position the head, then hold the close button to fully close and grab the tree.
+
+If you use the open/close button you only have to press it once.
+
+(You can skip this step if you have 'grab after cut' option enabled)" />
+
+                <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Manually feed back" />
+                <text name="help_WoodHarvesterControls_manuallyFeedBack" text="You can manually feed back a bit to cut lower (don't forget to lower the crane too).
+
+(This requires the previous step so that the tree is attached to the head)" />
+
+                <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Apply some pressure" />
+                <text name="help_WoodHarvesterControls_applySomePreasure" text="You can move the crane a bit in the direction you want the tree to fall so that it starts applying pressure in that direction.
+
+You can also use forced tilt down (see 'Advanced tilt controls' help section)." />
+
+                <text name="help_WoodHarvesterControls_fellingCutTitle" text="Felling cut" />
+                <text name="help_WoodHarvesterControls_fellingCut" text="Run the saw with the cut button or with the automatic function button (if you have the felling cut option of the automatic program activated). 
+
+Depending on the saw mode and automatic program felling cut option, you might have to hold the button until the log is completely cut." />
+
+                <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Felling movement" />
+                <text name="help_WoodHarvesterControls_fellingMovement" text="If you applied some pressure before cutting, the tree should start to fall in that direction.
+
+To help the tree fall in the desired direction, you can lift the head up a bit (to leave a little space between the tree and the stump and allow it to fold) and move the crane in the opposite direction.
+
+If you want, you can even feed it a bit as it falls. You can do it with the manual feed forward button or with the automatic program button (see the 'Feeding' option in the 'Automatic Program' section of the menu)" />
+
+                <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Processing" />
+                <text name="help_WoodHarvesterControls_treeProcessing" text="You can process the tree in different ways:
+
+- Automatic program: The computer will choose the cutting length depending on the diameter of the tree. When it changes the length, it makes a different sound so you can put those logs in a different pile. (see the 'Automatic Program' section of the menu)
+
+- Length Presets: You can use these buttons as the main measurement system or as a complement to the automatic program, being able to force a specific length, for example in case of a damaged or dead tree. (see the 'Length Presets' section of the menu)
+
+- Manually: You can also use the manual feed buttons to delimb the entire tree or cut any length you want.
+
+(Check out the 'Rotator' section of the menu to see the different options and choose the one that best suits your needs. It can be a game changer when it comes to creating neat piles)" />
+
+                <text name="help_WoodHarvesterControls_treeTopTitle" text="Tree top management" />
+                <text name="help_WoodHarvesterControls_treeTop" text="When you get to the top of the tree, you can simply drop it to the side (using the open button, the open/close button or even feeding backwards). 
+
+You can also manually feed it to the length you consider to be useful and then use it to make wood chips or take it to the paper mill. 
+
+Another option is to cut small pieces that are easier to crush later if you are considering using a mulcher (or using the option of the menu to remove small logs)." />
+
+                <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Preparing for the next tree" />
+                <text name="help_WoodHarvesterControls_preparingForNextTree" text="If you are not using 'Easy Controls' options you will have to open the head and tilt it up.
+
+You can use the open button or the open/close button to open the head.
+
+You can hold the open button if you have the 'Tilt up with open button' option enabled and the head will open and tilt up. Otherwise you will have to use the tilt up button or the tilt up/down button." />
+
+
+                <!-- Processing felled trees -->
+                <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Processing felled trees" />
+                <text name="help_WoodHarvesterControls_processingFelledTrees" text="Another style of work is to process already felled trees.
+        
+In this example, the trees have been felled and then dragged and stacked in a flat area with good access to facilitate processing and then loading into trucks.
+
+The harvester head can also be used as a feller buncher to fell the tree and place it in a pile for further processing or skidding." />
+
+                <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Position the machine" />
+                <text name="help_WoodHarvesterControls_positionTheMachine" text="Position the machine perpendicular to the pile and forward. This way you can work backwards leaving the piles of processed wood in front of the machine.
+                
+Usually it is more comfortable to work processing to the left since the arm of the machine is usually to the right and reduces visibility. Also in this way the saw is visible, which helps to adjust the end of the log as we will see in the following steps." />
+
+                <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Grab the tree" />
+                <text name="help_WoodHarvesterControls_grabFelledTree" text="Find the tree that is at the top of the pile and align the head with it. Check that there are none crossed over, if there are, take that one first.
+                
+Briefly press the close button to slightly close the knives and grab the log. Then hold the close button to fully close the head.
+
+You can also use forced tilt down to help you in this process. (See the 'advanced tilt controls' section)" />
+
+                <text name="help_WoodHarvesterControls_findBottomTitle" text="Find the bottom of the tree" />
+                <text name="help_WoodHarvesterControls_findBottom" text="Feed the tree back to match the end of the tree with the saw. Slow feed buttons can help you adjust more easily.
+                
+If you want, instead of adjusting exactly to the end of the tree, you can leave a portion for example to get rid of a diagonal felling cut." />
+
+                <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Reset the measurement" />
+                <text name="help_WoodHarvesterControls_resetMeasurement" text="As you will see in the harvester computer, after feeding the tree the measurement is not at zero, so the first thing to do is reset the measurement and you can do it in two ways:
+
+- If you want to clean a piece of the tree or that the first log has the exact measurement, you will have to make a cut. (There is an option in the menu to remove small cut logs. This will improve performance by avoiding those small pieces of wood on the ground.)
+ 
+- If, on the other hand, the base of the tree is fine and it is not necessary to have exact measurements, you can use the saw in manual mode and only press the button briefly. This resets the measurement without the need to make the full cut." />
+
+        </texts>
+</l10n>
