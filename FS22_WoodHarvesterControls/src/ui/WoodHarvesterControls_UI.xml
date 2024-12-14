@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+  <GuiElement type="empty" profile="newLayer" />
+  <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+  <GuiElement type="bitmap" profile="bgVignette" />
+  <GuiElement type="bitmap" profile="bgGlowDialog" id="dialogElement" size="1600px 900px" />
+
+  <GuiElement type="empty" profile="ingameMenuCenterBox" id="settingsContainer">
+    <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+    <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+    <!-- header -->
+    <GuiElement type="bitmap" profile="dialogHeaderDocked">
+      <GuiElement type="text" profile="dialogHeaderText" textAutoSize="true" text="$l10n_ui_WoodHarvesterControls_guiTitle" />
+    </GuiElement>
+
+    <GuiElement type="scrollingLayout" profile="ingameMenuSettingsLayout">
+
+      <!-- EASY CONTROLS -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="whcSectionMenuDescription" text="$l10n_ui_WoodHarvesterControls_helpMsg" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionEasyControls" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- automatic program with cut button -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="automaticWithCutButtonSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_automaticWithCutButtonTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_automaticWithCutButtonTT" />
+      </GuiElement>
+
+      <!-- automatic tilt up -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="automaticTiltUpSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_automaticTiltUpTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_automaticTiltUpTT" />
+      </GuiElement>
+
+      <!-- automatic open -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="automaticOpenSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_automaticOpenTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_automaticOpenTT" />
+      </GuiElement>
+
+      <!-- grab on cut -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="grabOnCutSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_grabOnCutTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_grabOnCutTT" />
+      </GuiElement>
+
+      <!-- BUCKING SYSTEM -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionBuckingSystem" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- number of assortments -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="numberOfAssortmentsSetting" onClick="onClickNumberOfAssortment">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_numberOfAssortmentsTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_numberOfAssortmentsTT" />
+      </GuiElement>
+
+      <!-- bucking matrix -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="buckingLength1">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="buckingLength1Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_buckingLength1Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_buckingLength1TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="minDiameter1">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="minDiameter1Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onDiameterChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_minDiameter1Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_minDiameter1TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="buckingLength2">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="buckingLength2Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_buckingLength2Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_buckingLength2TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="minDiameter2">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="minDiameter2Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onDiameterChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_minDiameter2Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_minDiameter2TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="buckingLength3">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="buckingLength3Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_buckingLength3Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_buckingLength3TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="minDiameter3">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="minDiameter3Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onDiameterChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_minDiameter3Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_minDiameter3TT" />
+      </GuiElement>
+
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper" id="buckingLength4">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="buckingLength4Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_buckingLength4Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_buckingLength4TT" />
+      </GuiElement>
+
+      <!-- AUTOMATIC PROGRAM -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionAutomaticProgram" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- automatic program feeding -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="autoProgramFeedingSetting" onClick="onClickAutomaticProgramFeeding">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_autoProgramFeedingTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_autoProgramFeedingTT" />
+      </GuiElement>
+
+      <!-- automatic program felling cut -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="autoProgramFellingCutSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_autoProgramFellingCutTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_autoProgramFellingCutTT" />
+      </GuiElement>
+
+      <!-- automatic program bucking cut -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="autoProgramBuckingCutSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_autoProgramBuckingCutTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_autoProgramBuckingCutTT" />
+      </GuiElement>
+
+      <!-- automatic program with cut button -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="automaticWithCloseButtonSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_automaticWithCloseButtonTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_automaticWithCloseButtonTT" />
+      </GuiElement>
+
+      <!-- Automatic feed after cut -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="automaticFeedSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_automaticFeedTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_automaticFeedTT" />
+      </GuiElement>
+
+      <!-- ROTATOR -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionRotator" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- rotator mode -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="rotatorModeSetting" onClick="onClickRotatorMode">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_rotatorModeTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_rotatorModeTT" />
+      </GuiElement>
+
+      <!-- rotator force -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="rotatorForceValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="ensurePositiveNumber" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_rotatorForceTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_rotatorForceTT" />
+      </GuiElement>
+
+      <!-- rotator threshold -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="rotatorThresholdValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="ensurePositiveNumber" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_rotatorThresholdTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_rotatorThresholdTT" />
+      </GuiElement>
+
+      <!-- SAW -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionSaw" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- saw mode -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="sawModeSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_sawModeTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_sawModeTT" />
+      </GuiElement>
+
+      <!-- LENGTH PRESETS -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionLengthPresets" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- length preset 1 -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="lengthPreset1Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_lengthPreset1Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_lengthPreset1TT" />
+      </GuiElement>
+
+      <!-- length preset 2 -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="lengthPreset2Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_lengthPreset2Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_lengthPreset2TT" />
+      </GuiElement>
+
+      <!-- length preset 3 -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="lengthPreset3Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_lengthPreset3Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_lengthPreset3TT" />
+      </GuiElement>
+
+      <!-- length preset 4 -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="lengthPreset4Value" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_lengthPreset4Title" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_lengthPreset4TT" />
+      </GuiElement>
+
+      <!-- repeat length preset -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="repeatLengthPresetSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_repeatLengthPresetTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_repeatLengthPresetTT" />
+      </GuiElement>
+
+      <!-- FEEDING -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionFeeding" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- Braking distance -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="breakingDistanceValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_breakingDistanceTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_breakingDistanceTT" />
+      </GuiElement>
+
+      <!-- Slow feed when tilted up -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="slowFeedingTiltedUpSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_slowFeedingTiltedUpTT" />
+      </GuiElement>
+
+      <!-- feeding speed -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="feedingSpeedValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onFeedingSpeedChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_feedingSpeedTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_feedingSpeedTT" />
+      </GuiElement>
+
+      <!-- slow feeding speed -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="slowFeedingSpeedValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onFeedingSpeedChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_slowFeedingSpeedTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_slowFeedingSpeedTT" />
+      </GuiElement>
+
+
+      <!-- TILT -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionTilt" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- tilt down on felling cut -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="tiltDownOnFellingCutSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_tiltDownOnFellingCutTT" />
+      </GuiElement>
+
+      <!-- tilt up with open button -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="tiltUpWithOpenButtonSetting" onClick="onClickTiltUpWithOpenButton">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" />
+      </GuiElement>
+
+      <!-- tilt up delay -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="tiltUpDelayValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="ensurePositiveNumber"/>
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_tiltUpDelayTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_tiltUpDelayTT" />
+      </GuiElement>
+
+      <!-- max tilt angle -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="tiltMaxAngleValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="ensurePositiveNumber" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_tiltMaxAngleTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_tiltMaxAngleTT" />
+      </GuiElement>
+
+      <!-- USER PREFERENCES -->
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_WoodHarvesterControls_sectionUserPreferences" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+      <!-- register sound -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="registerSoundSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_registerSoundTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_registerSoundTT" />
+      </GuiElement>
+
+      <!-- remove small logs -->
+      <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+        <GuiElement type="textInput" profile="whcMenuGameSettingsTextInput" id="maxRemovingLengthValue" imeKeyboardType="normal" maxCharacters="5" onTextChanged="onLengthChanged" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_maxRemovingLengthTitle" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_maxRemovingLengthTT" />
+      </GuiElement>
+
+      <!-- support all trees -->
+      <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="allSplitTypeSetting">
+        <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+        <GuiElement type="button" profile="multiTextOptionSettingsRight" />
+        <GuiElement type="text" profile="multiTextOptionSettingsText" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_WoodHarvesterControls_allSplitTypeTitle" />
+        <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+        <GuiElement type="text" profile="multiTextOptionSettingsTooltip" text="$l10n_ui_WoodHarvesterControls_allSplitTypeTT" />
+      </GuiElement>
+
+      <GuiElement type="text" profile="dialogHeaderText" />
+      <GuiElement type="text" profile="dialogHeaderText" />
+
+    </GuiElement>
+
+
+    <!-- footer -->
+    <GuiElement type="flowLayout" profile="buttonBoxDialog" size="1400px 50px">
+      <GuiElement type="button" profile="buttonOK" id="yesButton" text="$l10n_button_ok" onClick="onClickOk" />
+      <GuiElement type="button" profile="buttonBack" id="noButton" text="$l10n_button_back" onClick="onClickBack" />
+    </GuiElement>
+  </GuiElement>
+</GUI>

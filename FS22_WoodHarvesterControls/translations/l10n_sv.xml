@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+        <translationContributors>Oscar_8599</translationContributors>
+
+        <texts>
+                <!-- input bindings -->
+                <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Slå på / av aggregat" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Kör såg (Kapa)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Stäng aggregat (Greppa stam)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Öppna aggregat (Släpp stam)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Öppna / Stäng aggregat (Greppa / Släpp stam)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Manuell matning framåt" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Manuell matning bakåt" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Långsam manuell matning framåt" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Långsam manuell matning bakåt" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Mata / Kapa (automatiskt program)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="Stanna matning" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Tilta aggregat uppåt" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Tilta aggregat nedåt" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Tilta aggregat uppåt / nedåt" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Mata till förvald längd 1 / 2" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Mata till förvald längd 3 / 4" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Öppna Wood Harvester Controls meny" />
+
+                <!-- warning messages -->
+                <text name="warning_turnOnHead" text="Slå på aggregat först" />
+
+                <!-- actions -->
+                <text name="action_saw" text="Kör såg (Kapa)"></text>
+                <text name="action_feedCutAutomaticProgram" text="Mata / Kapa (automatiskt program)"></text>
+                <text name="action_openWoodHarvesterControlsMenu" text="Öppna Wood Harvester Controls Meny" />
+                <text name="action_feedToPreset" text="Mata till %.1f m / %.1f m" />
+
+                <!-- menu -->
+                <text name="ui_WoodHarvesterControls_guiTitle" text="Wood Harvester Controls Inställningar" />
+
+                <text name="ui_WoodHarvesterControls_on" text="På" />
+                <text name="ui_WoodHarvesterControls_off" text="Av" />
+
+                <text name="ui_WoodHarvesterControls_press" text="Enkeltryck" />
+                <text name="ui_WoodHarvesterControls_hold" text="Håll ned" />
+
+                <text name="ui_WoodHarvesterControls_automatic" text="Automatiskt" />
+                <text name="ui_WoodHarvesterControls_semiautomatic" text="Halvautomatiskt" />
+                <text name="ui_WoodHarvesterControls_manual" text="Manuell" />
+
+                <text name="ui_WoodHarvesterControls_free" text="Fri" />
+                <text name="ui_WoodHarvesterControls_fixed" text="Fixerad" />
+                <text name="ui_WoodHarvesterControls_physical" text="Fysisk" />
+
+                <text name="ui_WoodHarvesterControls_helpMsg" text="Kolla in hjälpmenyn i spelet om du vill veta mer om detta mod och lära dig avancerade tekniker som används i verkligheten." />
+
+                <!-- Easy Controls -->
+                <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Enkla Kontroller" />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Automatiskt program med sågknapp" />
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="På: sågknappen fungerar som automatisk program knappen. Matar och sågar beroende på alternativen som är valda (se avsnittet Automatiskt program).
+Av: Som i verkligheten, sågknappen används bara för att köra sågen." />
+
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Automatisk tilt upp" />
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="På: aggregatet kommer automatisk tiltas upp när du släpper stammen (endast om aggregatet var i stående läge innan fällande kap)
+Av: Som i verkligheten, du måste tilta upp aggregatet med tilt-knappen eller genom att hålla ned 'Öppna aggregat knappen' " />
+
+                <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Öppna Automatiskt" />
+                <text name="ui_WoodHarvesterControls_automaticOpenTT" text="På, aggregatet kommer automatiskt öppnas när du slår på det och när du släpper en stam.
+Av: Som i verkligheten, du måste öppna aggregatet." />
+
+                <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Greppa träd efter kap" />
+                <text name="ui_WoodHarvesterControls_grabOnCutTT" text="På, Aggregatet greppar trädet efter fällande kap.
+Av: Som i verkligheten, du måste greppa stammen (Hånna ned 'Stänga aggregat knappen') och sedan kapa." />
+
+                <!-- Bucking system -->
+                <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Såglängder (automatiskt program)" />
+
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Antal längder" />
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Definierar antalet olika längder som kan kapas beroende på stockens lägsta diameter" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Såglängd 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Definierar kaplängden om trädets diameter är större än 'lägsta diameter 1'" />
+                <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Lägsta Diameter 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Definierar den minsta diametern för att kapa som 'Såglängd  1'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Såglängd 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Definierar kaplängden om trädets diameter är större än 'lägsta diameter 2'" />
+                <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Lägsta Diameter 2 (cm) (bör vara lägre än lägsta diameter 1)" />
+                <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Definierar den minsta diametern för att kapa som 'Såglängd  2'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Såglängd 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Definierar kaplängden om trädets diameter är större än 'lägsta diameter 3'" />
+                <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Lägsta Diameter 3 (cm) (bör vara lägre än lägsta diameter 3)" />
+                <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Definierar den minsta diametern för att kapa som 'Såglängd  3'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Såglängd 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Definierar kaplängden om stammens diameter är lägre än lägsta diameter 3'" />
+
+                <!-- automatic program -->
+                <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Automatiskt program" />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Matning" />
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Enkeltryck: ett enkeltryck kommer mata stammen till datorns längd. Om du håller ned knappen när aggregatet matar så stannar det. Det fortsätter mata när du släpper knappen. Håll ned: aggregatet matar bara när du håller ned knappen. När du släpper knappen eller när den definierade såglängden är uppnådd slutar aggregatet mata." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Fällande kap" />
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="Av: den automatiska knappen gör ingenting när aggregatet är i stående läge och redo att fälla en stam. Enkeltryck: enkeltryck kapar genom och fäller stammen. Håll ned: Sågen körs bara sålänge knappen hålls ned. Om knappen släpps innan sågen har kapat genom stammen, kommer stammen inte att fällas." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Apterings kap" />
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="Av: den automatiska knappen gör ingenting när aggregatet når datorns längd. Enkeltryck: Ett enkeltryck kapar stammen. Håll ned: Sågen körs bara när knappen hålls ned. Om knappen släpps innan sågen når genom stammen, kommer inte stammen kapas." />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Automatiskt program med 'Stäng aggregat' knapp" />
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="I verkliga skördare som är utrustade med minispakar aktiveras vanligtvis automatiska programmet genom att trycka på 'Stäng aggregat' knappen (när aggregatet är helt stängt)" />
+
+                <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Automatisk matning efter apteringkap" />
+                <text name="ui_WoodHarvesterControls_automaticFeedTT" text="Om det är på, kommer aggregatet börja mata stammen så snart sågen gåt helt upp. 
+Detta alternativet är inte tillgängligt om matningen i det automatiska programmet är inställt på 'Håll ned'" />
+
+                <!-- Rotator -->
+                <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotator" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Rotatorläge" />
+                <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Fri (standardbeteende i spelet): det känns bra, men du kan inte vrida aggregatet under upparbetning. Fixerad: du kan vrida aggregatet och det hälper för att göra fina högar, men du måste styra roterandet själv. Fysisk: Det är en experimentell funktion för en fysisk korrekt rotatorkraft." />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="VARNING! Det fyfiska rotatorläget ger deet mest realistiska beteendet, men det beror på fordonent strukturella uppbyggnad, så det kanske inte fungerar på vissa 'mod' skördare.
+                Testa det och om fordonet beter sig konstigt avakrivera fysisk rotator, och om nödvädigt återställ det." />
+
+                <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Rotatorkraft" />
+                <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Definierar rotatorns kraft. Om rotatorn inte har tillräckligt med kraft för att rotera kommer den inte rotera. Dessutom kommer rotatorn att ge efter enligt dess styrka och trädets vikt, och uppdatera rotationen enligt tröskelvärdet." />
+
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Tröskelvärde för rotator" />
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Definierar tröskelvärdet för uppdatering av rotationen i grader. Om du känner att rotatorn fastnar bör du öka tröskeln. (Ju lägre tröskelvärde, desto noggrannare uppdatering av rotationen.) (Ju mer känslighet i kontrollerna, desto mer tröskelvärde krävs för att det ska gå smidigt)." />
+
+
+                <!-- length presets -->
+                <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Förinställda längder" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Förinställd längd 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Definierar längden som stammen matas till när 'Förinställd längd 1 / 2' knappen trycks" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Förinställd längd  2 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Definierar längden som stammen matas till när 'Förinställd längd 1 / 2' knappen dubbeltrycks" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Förinställd längd  3 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Definierar längden som stammen matas till när 'Förinställd längd 3 / 4' knappen trycks" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Förinställd längd  4 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Definierar längden som stammen matas till när 'Förinställd längd 3 / 4' knappen dubbeltrycks" />
+
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Upprepa förinställd längd " />
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="Det här alternativet definierar vilkenlängd som används när 'Automatisk matning efter apteringskap' alternativet är på:
+                På: Uppretar förinställd längd (om någon har valts).
+                Av: Matar till den automatiska programlängden." />
+
+                <!-- Saw -->
+                <text name="ui_WoodHarvesterControls_sectionSaw" text="Såg" />
+
+                <text name="ui_WoodHarvesterControls_sawModeTitle" text="Sågläge" />
+                <text name="ui_WoodHarvesterControls_sawModeTT" text="Automatisk: När du trycker på sågknappen kört sågen helt och hållet. Halvautomatisk: Du måste hålla ned sågknappen för att köra sågen vid stående stam. Manuell: Du måste hålla ned sågknapp för att köra sågen." />
+
+
+                <!-- Feeding -->
+                <text name="ui_WoodHarvesterControls_sectionFeeding" text="Matning" />
+
+                <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Bromssträcka (cm)" />
+                <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Definierar avståndet till mållängden vid vilket aggregatet börjar bromsa för ett mjukare stopp." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Långsam matning vid stående aggregat" />
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="När aggregatet är i stående läge, så går matningen långsamt, så att du mer exakt kan placera aggregatet inför fällkapet." />
+
+                <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Matningshastighet (m/s)" />
+                <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Definierar aggregatets almänna matningshastighet. Även hastigheten för manuell matning." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Långsam matningshastighet (m/s)" />
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Definierar hastigheten för långsam manuell matning." />
+
+                <!-- Tilt -->
+                <text name="ui_WoodHarvesterControls_sectionTilt" text="Tilt" />
+
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Tilta ner aggregat efter fällning" />
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="Om det är på, kommer aggregatet gå i flytningsläge när du fäller en stående stam." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Tilta upp med 'Öppna aggregat' knapp" />
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="Om det är på, så kommer aggregatet tilta upp när du håller 'Öppna aggregat' knapp." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Fördröjning av tilta upp (ms)" />
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Definierar hur länge knappen 'Öppna aggregat' måster hållas intryckt för att aggregatet ska tilta upp." />
+
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Max tilt vinkel" />
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Max tilt vinkel i grader för aggregat. 95º fungerar bra på alla skördare. 135º är en mer realistisk tilt vinkel, men det kräver en bra inställd 'Center of Mass' för aggregatet." />
+
+                <!-- User Preferences -->
+                <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="Användarinställningar" />
+
+                <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Ljud vid vald längd" />
+                <text name="ui_WoodHarvesterControls_registerSoundTT" text="Om det är på hörs ett ljud när den valda längden är nådd. Även ett annorluna ljud när det ändrar sortiment." />
+
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Ta bort stockar som är mindre än (cm)" />
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Stockar som är kortare än den definierade längden kommer raderas. Detta förbättrar prestandan genoma att undvika små bitar, tex när du plockar upp en stam ifrån marken och ska nollställa längdmätning." />
+
+                <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Stöd för alla träd" />
+                <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="Med detta allternativ igång kan du fälla alla typer av träd med skördaren. Du kan tex fälla trädet och bearbeta huvudstammen (efter att ha kvistat med motorsåg).
+                Observera att dessa träd är inte avsedda för skördaren, och har därför kollisioner som inte fungerar ihop med aggregatet. Använd med försiktighet!" />
+
+                <!-- Help - Input bindings -->
+
+                <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Kontroller" />
+                <text name="help_WoodHarvesterControls_inputBindings" text="Det är standardinställningar för mus/tagnentbord och gamepad, men du kan ändra dem efter eget tycke och smak.
+
+Om du använder joystick måste du ställa in dina egna kontroller.
+
+Nedan finns en kort förklaring av varje kontroll:" />
+
+                <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Slå på / av aggregat" />
+                <text name="help_WoodHarvesterControls_onOffBinding" text="För att slå på och av aggregatet kan du använda kontrollen 'Turn tools on / off' i spelet eller den här om du vill använda en annan knapp.
+
+(Denna kontroll stänger inte av 'Turn tools on / off'. Båda kommer ha samma funktion.)." />
+
+                <text name="help_WoodHarvesterControls_cutBindingTitle" text="Kör såg (Kapa)" />
+                <text name="help_WoodHarvesterControls_cutBinding" text="TFör att köra såg kan du använda kontrollen 'Tool function 2' i spelet eller den här om du vill använda en annan knapp. 
+
+(Denna kontroll stänger inte av 'Tool function 2'. Båda kommer ha samma funktion.)" />
+
+                <text name="help_WoodHarvesterControls_closeBindingTitle" text="Stänga aggregat (Greppa stam)" />
+                <text name="help_WoodHarvesterControls_closeBinding" text="Snabbtryck på denna knapp stänger aggregatet lite (endast knivarna stängs, som i verkligheten om skördaren stöder det).
+
+Om knappen hålls ned kommer aggregatet stängas helt och om det finns en stam inom räckhåll greppar aggregatet den.
+
+När aggregatet är stängt kan denna knapp användas för att köra det automatiska programmet beroende på de alternativ som ställts in i menyn." />
+
+                <text name="help_WoodHarvesterControls_openBindingTitle" text="Öppna aggregat (Släpp stam)" />
+                <text name="help_WoodHarvesterControls_openBinding" text="Snabbtryck på denna knapp kommer öppna aggregatet helt, och om det finns stam i aggregatet kommer den att släppas.
+
+Om knappen hålls ned kommer aggregatet öppnas och tilta upp (detta alternativ kan slås på eller av i menyn)." />
+
+                <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Öppna / Stäng agregat (Greppa / Släpp stam)" />
+                <text name="help_WoodHarvesterControls_openCloseBinding" text="Om aggregatet är stängt kommer ett enkeltryck att öppna aggregatet helt och om det finns stam i aggregatet kommer den att släppas.
+
+Om aggregatet är öppet kommer ett enkeltryck att stänga aggregatet helt och om det finns en stam inom räckhåll greppar a ggregatet den.
+
+Om aggregatet är stängt och knappen trycks och hålls ned, kommer aggregatet att öppnas och tilta up (det här alternativet kan slås på eller av i menyn)." />
+
+                <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Manuell matning framåt" />
+                <text name="help_WoodHarvesterControls_feedForwardBinding" text="Aggregatet matar stammen framåt (mot sågen) så länge knappen hålls nedtryckt.
+
+Knappen kan också användas för att stoppa funktionen 'Automatisk matning efter apteringskap' om du håller på knappen under matning." />
+
+                <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Manuell matning bakåt" />
+                <text name="help_WoodHarvesterControls_feedBackwardBinding" text="Aggregatet matar stammen bakåt (från sågen) så länge knappen hålls nedtryckt.
+
+Knappen kan också användas för att stoppa funktionen 'Automatisk matning efter apteringskap' om du håller på knappen under matning." />
+
+                <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Långsam manuell matning framåt" />
+                <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="Aggregatet matar stammen långsamt framåt (mot sågen) så länge knappen hålls nedtryckt." />
+
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Långsam manuell matning bakåt" />
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="Aggregatet matar stammen långsamt bakåt (från sågen) så länge knappen hålls nedtryckt." />
+
+                <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Mata / Kapa (automatiskt program)" />
+                <text name="help_WoodHarvesterControls_automaticProgramBinding" text="Denna knapp startar det automatiska programmet som påverkar matning och kapning beroende på de alternativ som ställs in i menyn." />
+
+                <text name="help_WoodHarvesterControls_stopBindingTitle" text="Stoppa matning" />
+                <text name="help_WoodHarvesterControls_stopBinding" text="Denna knapp används för att stoppa matning. Den stoppar också funktionen 'Mata stam automatisk efter kap'." />
+
+                <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Tilta aggregat uppåt" />
+                <text name="help_WoodHarvesterControls_tiltUpBinding" text="Denna knapp tiltar aggregatet uppåt.
+
+Om knappen hålls nedtryckt efter fällnings kap, kommer aggregatet inte att tilta ner färrän knappen släpps (se avsnitt 'Avancerade tilt inställningar')." />
+
+                <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Tilta aggregat nedåt" />
+                <text name="help_WoodHarvesterControls_tiltDownBinding" text="Denna knapp tiltar aggregatet nedåt.
+
+Den kan också användas för att tvinga aggregatet neråt genom att hålla knappen nedtryckt. (se avsnitt 'Avancerade tilt inställningar')." />
+
+                <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Tilta aggregat Uppåt / Nedåt" />
+                <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="Denna knappen används för att växla mellan tilta upp och tilta ner." />
+
+                <text name="help_WoodHarvesterControls_presetBindingTitle" text="Mata till förinställd längd" />
+                <text name="help_WoodHarvesterControls_presetBinding" text="Genom att trycka denna knapp matar du stammen till den förinställda längd som anges i menyn. Varje knapp har två förinställda längder. 
+
+Med ett enkeltryck matar du till den första förinställda längden. Med ett dubbeltryck matar du till den andra förinställda längden." />
+
+                <text name="help_WoodHarvesterControls_menuBindingTitle" text="Öppna Wood Harvester Controls menyn" />
+                <text name="help_WoodHarvesterControls_menuBinding" text="För att öppna menyn kan du använda kontrollen 'Tool function 3' i spelet eller den här om du vill använda en annan knapp.
+
+(Denna kontroll stänger inte av 'Tool function 3'. Båda kommer ha samma funktion.)" />
+
+                <!-- Advanced tilt controls -->
+
+                <text name="help_WoodHarvesterControls_advancedTiltControls" text="Avancerade tilt inställningar" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Tvinga aggregat nedåt" />
+                <text name="help_WoodHarvesterControls_forcedTiltDown" text="När aggregatet är i flytläge (tiltat nedåt) kan du hålla 'Tilta aggregat nedåt' knappen för att tvinga aggregatet nedåt. Detta är mycket användbart i till exempel dessa situationer:
+
+- När du fäller en stam kan du dubbeltrycka och hålla på 'Tilta aggregat nedåt' knappen för att ge tryck på tiltcylindrarna och hjälpa trädet falla i den riktning du vill. Det första trycket lägger du aggregatet i flytläge, och när du trycker igen och håller på knappen tvingar du aggregatet nedåt tills knappen släpps.
+
+- När du greppar en stock eller stam från marken kan du hålla knappen nedtryckt för att lättare komma åt stocken/stammen med de övre knivarna, då blir inte matarhjulen ivägen och kolliderar med andra stockar/stammar. Detta kräver att aggregatet har riktgt inställda kollisioner." />
+
+                <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Förhindra tilt ner vid fällande kap" />
+                <text name="help_WoodHarvesterControls_forcedTiltUp" text="När du arbetar med mindre träd (tex gallringsträd) kan du hålla ned 'Tilta aggregat uppåt' knappen vid fällkapet för att förhindra att aggregatet tiltar ner. 
+
+- Detta är användbart för att få ut en stående stam ur trånga utrymmen och sedan släppa knappen för att fälla det precis där du vill att det ska ramla." />
+
+
+                <!-- Processing standing trees -->
+                <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Upparbeta stående stam" />
+                <text name="help_WoodHarvesterControls_processingStandingTrees" text="Ett sätt att arbeta är att fälla och arbeta upp stammen direkt i skogen, och sedan samla in stockarna med en skotare eller traktor för att ta dem till ett område som är tillgängligt för timmerbilar." />
+
+
+                <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Rikta in aggregat" />
+                <text name="help_WoodHarvesterControls_alignTheHead" text="Välj fällriktning och placera aggregatet därefter." />
+
+                <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Greppa stammen" />
+                <text name="help_WoodHarvesterControls_grabTheTree" text="Snabbtryck på 'Stäng aggregat' knappen för att stänga knivarna lite och placera aggregatet, håll sedan i 'Stäng aggregat' knappen för att stänga helt och greppa stammen.
+
+Om du använder 'Öppna/Stänga aggregat' knappen behöver du bara trycka på den en gång. 
+
+(Du kan hoppa över detta steget om du har alternativet 'Greppa efter fällande kap' aktiverat.)" />
+
+                <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Manuell mating bakåt" />
+                <text name="help_WoodHarvesterControls_manuallyFeedBack" text="Du kan mata manuellt bakåt lite för att ta en lägre stubbe (glöm inte att sänka kranen samtidigt).
+
+(Detta kräver föregående steg så att aggregatet har greppat stammen.)" />
+
+                <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Lägg lite tryck" />
+                <text name="help_WoodHarvesterControls_applySomePreasure" text="Du kan flytta kranen lite i den riktning du vill att trädet ska falla så att den ger lite tryck i den riktningen.
+
+Du kan också tvinga aggregat nedåt för att lägga tryck. (se 'Avancerade tilt inställningar' hjälpsektion)." />
+
+                <text name="help_WoodHarvesterControls_fellingCutTitle" text="Fällande kap" />
+                <text name="help_WoodHarvesterControls_fellingCut" text="Kör sågen med 'Kör såg (Kapa)' knappen eller med knappen för det automatiska programmet (om du har aktiverat alternativet för fällande kap i det automatiska programmet). 
+
+Beroende på valt sågläge och alternativ för automatiskt programm för fällande kap kan du behöva hålla ned knappen tills stammen är genom kapad." />
+
+                <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Rörelse efter fällning" />
+                <text name="help_WoodHarvesterControls_fellingMovement" text="Om du la tryck på stammen före kapning bör det börja falla i den riktningen.
+
+För att hjälpa stammen falla i önskad riktning kan du lyfta aggregatet lite (för att lämna lite utrymme mellan trädet och stubben) och flytta kranen i motsat riktning.
+
+Om du vill kan du även mata lite framåt när den faller. Du kan göra det med 'Manuell matning framåt' knappen eller med knappen för det automatiska programmet ( se alternativet 'Matning' i avsnittet ' Automatiskt programm' i menyn." />
+
+                <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Upparbetning" />
+                <text name="help_WoodHarvesterControls_treeProcessing" text="Du kan upparbeta stammen på olika sätt:
+
+- Automatiskt program: Datorn väljer såglängd beroende på stammens diameter. När den ändrar såglängd ger det ett annat ljud så att du kan lägga stockarna i en annan hög. (se avsnittet 'Automatiskt program' i menyn).
+
+- Förinställd: Du kan använda dessa knappar som huvudmätningssystem eller som ett komplement till det automatiska programmet för att kapa en specifik längd, tex när det gäller ett skadat eller dött träd (se avsnittet 'Förinställda längder' i menyn).
+
+- Manuellt: Du kan också använda de manuella matningsknapparna för att kvista hela trädet, eller för att kapa i de längder du vill.
+
+(Se avsnittet 'Rotator' i menyn för att se de olika alternativen och välj det som passar bäst för dina behov. Det kan göra stor skillnad när det gäller att skapa fina högar för skotaren)." />
+
+                <text name="help_WoodHarvesterControls_treeTopTitle" text="Toppen biten" />
+                <text name="help_WoodHarvesterControls_treeTop" text="När du når toppen av stammen kan du helt enkelt släppa det åt sidan (med 'Öppna aggregat' knappen, 'Öppna / Stänga aggregat' knappen, eller genom att manuellt mata bakåt). 
+
+Du kan också mata den manuellt till den längd du anser vara läglig och sedan flisa den eller ta den till pappersbruket.
+
+Ett annat alternativ är att kapa upp toppen i små bitar som är lättare att fräsa senare om du funderar på att använda en stubbfräs (eller använda alternativet i menyn för att ta bort korta stockar." />
+
+                <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Förberedelser för nästa träd" />
+                <text name="help_WoodHarvesterControls_preparingForNextTree" text="Om du inte använder 'Enkla kontroller' alternativen, så måste du öppna och tilta aggregatet uppåt.
+
+Du kan använda 'Öppna aggregat' knappen eller 'Öppna / Stänga aggregat' knappen för att öppna aggregatet.
+
+Om du har akrivetar alternativet 'Tilta upp med 'Öppna aggregat' knapp' kan du hålla ned knappen för att öppna och tilta aggregatet uppåt. Annars måste du använda 'Tilta aggregat uppåt' eller 'Tilta aggregat Uppåt / Nedåt' knappen." />
+
+
+                <!-- Processing felled trees -->
+                <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Upparbetning av fällda stammar" />
+                <text name="help_WoodHarvesterControls_processingFelledTrees" text="En annan typ av arbete är att upparbeta redan fällda stammar: 
+        
+I dethär exemplet har stammarna redan avverkats och sedan släpats ut och lagts på hög på ett plant öppet område för att underlätta upparbetning och lastning på lastbilar.
+
+Skördaraggregatet kan också användas som fällare för att fälla stammen och lägga det i en hög för vidare bearbetning eller för att dra ut med lunnare." />
+
+                <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Placera maskinen" />
+                <text name="help_WoodHarvesterControls_positionTheMachine" text="Placera maskinen vinkelrätt mot högen och framåt. På så sätt kan du arbeta bakåt och lämna högarna med bearbetat virke framför maskinen.
+                
+Vanligtvis är det bekvämare att arbeta med högen på din vänster sida då kranen oftast brukar sitta på höger sida av maskinen och täcker sikten. På detta sätt är sågen också synlig, vilket hjälper till att justera stockent ände, vilket vi kommer till i nästa steg." />
+
+                <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Greppa stammen" />
+                <text name="help_WoodHarvesterControls_grabFelledTree" text="Hitta den stamm som ligger högst upp i högen och rikta in aggregatet efter den.
+                
+Gör ett snabbtryck på '*'Stäng aggregat' knappen för att stänga knivarna och få tag i stammen. Håll sedan ned knappen för att stänga aggregatet helt och greppa stammen.
+
+Du kan också tvinga aggregatet nedåt för att underlätta processen. (Se avsnittet 'Avancerade tilt inställningar')" />
+
+                <text name="help_WoodHarvesterControls_findBottomTitle" text="Hitta änden av stammen" />
+                <text name="help_WoodHarvesterControls_findBottom" text="Mata manuellt bakåt för att matcha änden på trädet med sågen på aggregatet. Långsam matning kan hjälpa att justera lättare.
+                
+Om du vill kan du såga av en liten bit av stammen för att bli av med sneda fällkap." />
+
+                <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Återställ mätningen" />
+                <text name="help_WoodHarvesterControls_resetMeasurement" text="Som du ser är inte längden i skördardatorn på noll efter att ha matat trädet, så det första du måste göra är att återställa mätningen. Det kan du göra på två sätt:
+
+- Om du vill att första stocken ska bli exakt mätt kan du behöva lumpa en bit. (Det finns ett alternativ i menyn för att ta bort lumpade bitar. Detta förbättrar prestandan genom att undvika att dessa små bitar ligger kvar på marken.)
+ 
+- Om det inte är nödvändigt att ha exakta mått kan du istället göra ett snabbtryck på 'Kör såg (Kapa)' knappen, detta återstället mätningen utan att du behöver kapa genom stammen." />
+
+        </texts>
+</l10n>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+        <translationContributors>Laserkari</translationContributors>
+
+        <texts>
+                <!-- input bindings -->
+                <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Motopää päälle / pois" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Sahaa (katkaise)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Motokiinni (tartu puusta)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Motoauki (irroita puusta)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Motoauki/kiinni (tartu / irroita puusta)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Manuaalisyöttö eteen" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Manuaalisyöttö taakse" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Hidas manuaalisyöttö eteen" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Hidas manuaalisyöttö taakse" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Syötä / katko (Automaattiohjelma)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="pysäytä syöttö" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Tiltti ylös" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Tiltti alas" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Tiltti ylös / alas" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Esivalinta 1 / 2" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Esivalinta 3 / 4" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Avaa Wood Harvester Controls valikko" />
+
+                <!-- warning messages -->
+                <text name="warning_turnOnHead" text="Käynnistä ensin motopää" />
+
+                <!-- actions -->
+                <text name="action_saw" text="Sahaa (katkaise)"></text>
+                <text name="action_feedCutAutomaticProgram" text="Syötä / Katkaise (Automaattiohjelma)"></text>
+                <text name="action_openWoodHarvesterControlsMenu" text="Avaa Wood Harvester Controls Valikko" />
+                <text name="action_feedToPreset" text="Syötä esivalintaan %.1f m / %.1f m" />
+
+                <!-- menu -->
+                <text name="ui_WoodHarvesterControls_guiTitle" text="Wood Harvester Controls asetukset" />
+
+                <text name="ui_WoodHarvesterControls_on" text="Päälle" />
+                <text name="ui_WoodHarvesterControls_off" text="Pois" />
+
+                <text name="ui_WoodHarvesterControls_press" text="Yksi painallus" />
+                <text name="ui_WoodHarvesterControls_hold" text="Pidä pohjassa" />
+
+                <text name="ui_WoodHarvesterControls_automatic" text="Automaattinen" />
+                <text name="ui_WoodHarvesterControls_semiautomatic" text="Puoliautomaattinen" />
+                <text name="ui_WoodHarvesterControls_manual" text="Manuaalinen" />
+
+                <text name="ui_WoodHarvesterControls_free" text="Vapaa" />
+                <text name="ui_WoodHarvesterControls_fixed" text="Kiinteä" />
+                <text name="ui_WoodHarvesterControls_physical" text="Fysiikka" />
+
+                <text name="ui_WoodHarvesterControls_helpMsg" text="Katso pelin ohjevalikosta lisätietoja tästä modista, ja tutustu tekniikoihin joita käytetään oikeassa hakkuukoneessa" />
+
+                <!-- Easy Controls -->
+                <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Helpot kontrollit" />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Automaattiohjelma sahanapilla" />
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="Päällä: Sahanappi toimii myös automaattisyöttönä. Syöttää ja sahaa riippuen asetuksista (katso automaattisyötön asetukset).
+Pois: Toimii kuten IRL, sahanapilla käytetään vain sahaa." />
+
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Automaattinen tiltti ylös" />
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="Päällä: Motopää tilttaa ylös autom. rungon käsittelyn jälkeen. (Vain jos kaatosahaus tehty tiltti ylhäällä).
+Pois: Toimii kuten IRL, tiltti nostetaan ylös tilttinapilla tai pitämällä pohjassa motoauki nappia." />
+
+                <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Automaattinen motoauki" />
+                <text name="ui_WoodHarvesterControls_automaticOpenTT" text="Päällä: Motopää aukeaa automaattisesti käynnistettäessä ja rungon käsittelyn jälkeen.
+Pois: Toimii kuten IRL, motopää aukaistaan aina manuaalisesti." />
+
+                <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Tartu puuhun sahauksen jälkeen" />
+                <text name="ui_WoodHarvesterControls_grabOnCutTT" text="Päällä: Motopää tarttuu puuhun vasta sahauksen jälkeen.
+Pois: Toimii kuten IRL, motopäällä pitää ensin tarttua puuhun (pitämällä pohjassa motokiinni nappia) ja sitten tehdä kaatosahaus." />
+
+                <!-- Bucking system -->
+                <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Katkontapituudet (Automaattiohjelma)" />
+
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Katkontapituuksien määrä" />
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Määrittelee katkontapituuksien määrän jotka voidaan asettaa pöllin minimiläpimitan perusteella" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Katkontapituus 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Määrittää pöllin pituuden jos läpimitta on suurempi kuin 'Minimiläpimitta 1'" />
+                <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Minimiläpimitta 1 (cm) " />
+                <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Määrittää minimiläpimitan 'Katkontapituus 1'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Katkontapituus 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Määrittää pöllin pituuden jos läpimitta on suurempi kuin 'Minimiläpimitta 2'" />
+                <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Minimiläpimitta 2 (cm) (pitää olla vähemmän kuin Minimiläpimitta 1)" />
+                <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Määrittää minimiläpimitan 'Katkontapituus  2'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Katkontapituus 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Määrittää pöllin pituuden jos läpimitta on suurempi kuin 'Minimiläpimitta 3'" />
+                <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Minimiläpimitta 3 (cm) (pitää olla vähemmän kuin Minimiläpimitta 2)" />
+                <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Määrittää minimiläpimitan 'Katkontapituus  3'" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Katkontapituus 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Määrittää pöllin pituuden jos läpimitta on suurempi kuin 'Minimiläpimitta 3'" />
+
+                <!-- automatic program -->
+                <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Automaattiohjelma" />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Syöttö" />
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Yksi painallus: Yksi painallus syöttää puun mittaan. Jos nappia pitää pohjassa syötön aikana, se pysähtyy. Ja jatkaa kun vapautat napin. Pidä pohjassa: Syöttää vain kun nappia pitää pohjassa. Jos vapautat napin tai valittu pituus saavutetaan, syöttö pysähtyy." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Kaatosahaus" />
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="Pois: Automaattinappi ei tee mitään kun tiltti on ylhäällä ja valmiina kaatosahaukseen. Yksi painallus: Yksi painallus tekee kaatosahauksen läpi asti. Pidä pohjassa: Sahaa vain kun nappia pidetään pohjassa, jos nappi vapautetaan ennen kuin saha on läpi, puu ei kaadu." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Katkontasahaus" />
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="Pois: Automaattinappi ei tee mitään vaikka motopää on pysähtynyt oikeaan katkaisukohtaan. Yksi painallus: Yksi painallus katkontasahaa läpi asti. Pidä pohjassa: Sahaa vain kun nappia pidetään pohjassa, jos nappi vapautetaan ennen kuin saha on läpi, pölli ei katkea." />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Automaattiohjelma Motokiinni napilla" />
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="Minivivullisissa IRL harvestereissa automaattiohjelma usein aktivoidaan Motokiiinni napilla (kun motopää on täysin kiinni)." />
+
+                <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Automaattiohjelma katkonnan jälkeen" />
+                <text name="ui_WoodHarvesterControls_automaticFeedTT" text="Jos päällä, katkontasahauksen jälkeen seuraava pölli syötetään automaattisesti heti kun saha on palannut kotiasentoon.
+Tämä asetus ei ole valittavissa jos 'Automaattisyöttö' asetus 'Syöttö' on asetettu arvoon 'Pidä pohjassa'." />
+
+                <!-- Rotator -->
+                <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotaattori" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Rotaattorin tila" />
+                <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Vapaa (pelin oletus): Hyvä, mutta et voi kääntää motopäätä käsittelyn aikana. Kiinteä: Voit kääntää motopäätä, ja saat tehtyä siistejä kourakasoja mutta rotaattori on jäykkä kun liikutat nosturia. Fysiikka: Kokeellinen ominaisuus joka mallintaa rotaattoriin kohdistuvat väännöt fysiikan avulla." />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="VAROITUS! Rotaattorin Fysiikkatila on realistisin, mutta sen toiminta riippuu hakkuukoneen rakenteesta joten se ei toimi välttämättä kaikissa modeissa. 
+Voit testata, mutta jos se ei toimi oletetusti, poista fysiikkatila käytöstä ja tarvittaessa resetoi ajoneuvo." />
+
+                <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Rotaattorin voima" />
+                <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Määrittää rotaattorin voiman. Rotaattorin voima on rajallinen, se ei käänny jos vastusta on liikaa. Lisäksi, rotaattorissa on varo, joka antaa periksi jos siihen kohdistuu suuri voima painavista puista. Tällöin rottaatori kääntyy itsestään kynnysarvosta riippuen." />
+
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Rotaattorin kynnysarvo" />
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Määrittää rotaattorin päivityksen kynnysarvon asteissa. Jos tuntuu että rotaattori jumii, nosta tätä arvoa. (Mitä pienempi arvo, sitä tarkempi rotaattorin päivitys on) (Mitä enemmän kontrolleissa on herkkyyttä, sitä enemmän tarvitset kynnysarvoa että se toimii jouhevasti)" />
+
+
+                <!-- length presets -->
+                <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Esivalinnat" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Esivalintapituus 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Määrittää pituuden johon syötetään kun painat 'Esivalintapituus 1 / 2' nappia" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Esivalintapituus 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Määrittää pituuden johon syötetään kun painat 'Esivalintapituus 1 / 2' nappia KAKSI kertaa" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Esivalintapituus 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Määrittää pituuden johon syötetään kun painat 'Esivalintapituus 3 / 4' nappia" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Esivalintapituus 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Määrittää pituuden johon syötetään kun painat 'Esivalintapituus 3 / 4' nappia KAKSI kertaa" />
+
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Toista esivalinta" />
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="Tämä määrittää mitä pituusmittaa käytetään kun 'Automaattiohjelma katkonnan jälkeen' asetus on päällä:
+Päällä: Toistaa edellisen esivalinnan (jos käytetty).
+Pois: Syöttää automaattiohjelman mittaan" />
+
+                <!-- Saw -->
+                <text name="ui_WoodHarvesterControls_sectionSaw" text="Saha" />
+
+                <text name="ui_WoodHarvesterControls_sawModeTitle" text="Sahan tila" />
+                <text name="ui_WoodHarvesterControls_sawModeTT" text="Automaatti: Yksi painallus sahaa läpi aina. Puoliautomaatti: Katkontasahaus yhdellä painalluksella, kaatosahauksessa pitämällä pohjassa. Manuaali: Sahanappia pidettävä aina pohjassa." />
+
+
+                <!-- Feeding -->
+                <text name="ui_WoodHarvesterControls_sectionFeeding" text="Syöttö" />
+
+                <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Hidastusetäisyys (cm)" />
+                <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Määrittää etäisyyden katkontamittaan josta motopää alkaa hidastaa syöttöä pysähtyäkseen pehmeästi." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Hidas syöttö tiltti ylhäällä" />
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="Kun tiltti on ylhäällä, syöttö on aina hitaassa tilassa jotta voit laskea kouran tarkasti kaatosahaukseen tyvelle." />
+
+                <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Syöttönopeus (m/s)" />
+                <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Määrittää syöttönopeuden, myös käsisyötölle." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Hidas syöttönopeus (m/s)" />
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Määrittää hitaan käsisyötön nopeuden" />
+
+                <!-- Tilt -->
+                <text name="ui_WoodHarvesterControls_sectionTilt" text="Tiltti" />
+
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Tiltti alas kaatosahauksessa" />
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="Jos päällä, motopää tilttaa alas kaatosahauksessa." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Tiltti ylös motoauki napilla" />
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="Jos päällä, pitämällä pohjassa motoaukinappia, tiltti nousee ylös." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Tilttiylös viive (ms)" />
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Määrittää kuinka kauan motoaukinappia on pidettävä pohjassa 'Tiltti ylös motoauki napilla' toimintoon." />
+
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Maksimi tilttikulma" />
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Maksimi tilttikulma alaspäin. 95º toimii hyvin kaikissa tapauksissa. 135º realistinen arvo mutta vaatii motopään massakeskipisteen olevan kohdallaan jotta se pysyy vaakatasossa." />
+
+                <!-- User Preferences -->
+                <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="Käyttäjäasetukset" />
+
+                <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Äänimerkit" />
+                <text name="ui_WoodHarvesterControls_registerSoundTT" text="Jos päällä, äänimerkki toistetaan kun syöttö pysähtyy mittaan. Myös tavaralajia vaihdettaessa annetaan äänimerkki." />
+
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Poista pöllit joiden pituus on alle (cm)" />
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Sahatut pöllit jotka ovat lyhyempiä kuin asetus, poistetaan pelistä. Tämä auttaa parantamaan suorituskykyä hävittämällä pienet lumpit esimerkiksi jos oikaiset vinon pöllin pään." />
+
+                <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Kaikkien puulajien tuki" />
+                <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="Tällä asetuksella voit käyttää hakkuukonetta kaikkiin puihin. Käytännöllinen esimerkiksi kaatamaan lehtipuita tai prosessoimaan niitä kun oksat on ensin karsittu moottorisahalla.
+Huomaa että lehtipuiden runkojen törmäysmallit eivät ole suunniteltu käytettäväksi hakkuukoneilla. Käytä harkiten!" />
+
+                <!-- Help - Input bindings -->
+
+                <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Näppäinasetukset" />
+                <text name="help_WoodHarvesterControls_inputBindings" text="Näppäimistölle, hiirelle ja gamepadille on oletusasetukset mutta voi muttaa niitä mielesi mukaan.
+
+Jos käytät ohjainsauvoja täytyy asetukset tehdä itse.
+
+Tässä lyhyt kuvaus näppäinasetuksista:" />
+
+                <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Motopää päälle / pois" />
+                <text name="help_WoodHarvesterControls_onOffBinding" text="Käynnistääkesi motopään voit käyttää pelin oletusnappia (Työkoneet käyttöön / pois käytöstä) tai määritellä tähän toisen napin. 
+
+(Tämä asetus ei poista (Työkoneet käyttöön / pois käytöstä) asetusta, molemmat toimivat)." />
+
+                <text name="help_WoodHarvesterControls_cutBindingTitle" text="Sahaa (Katkaise)" />
+                <text name="help_WoodHarvesterControls_cutBinding" text="Sahataksesi voit käyttää pelin oletustoimintoa 'Työkonetoiminto 2' tai määritellä tähän toisen napin. 
+
+(Tämä asetus ei poista 'Työkonetoiminto 2'. asetusta, molemmat toimivat)" />
+
+                <text name="help_WoodHarvesterControls_closeBindingTitle" text="Motokiiinni (Tartu puusta)" />
+                <text name="help_WoodHarvesterControls_closeBinding" text="Lyhyt painallus napista sulkee motopään osittain (vain karsimaterät sulkeutuvat jos harvesteri tukee toimintoa).
+
+Kun pidät nappia pohjassa, motopää sulkeutuu kokonaan ja tarttuu puuhun jos se on oikealla etäisyydellä.
+
+Jos motopää on kiinni, tällä napilla käynnistetään myös automaattiohjelma valikon asetusten mukaan." />
+
+                <text name="help_WoodHarvesterControls_openBindingTitle" text="Motoauki (irroita puusta)" />
+                <text name="help_WoodHarvesterControls_openBinding" text="Lyhyt painallus napista avaa motopään ja jos siinä on puu, pudottaa sen.
+
+Kun pidät nappia pohjassa, motopää tilttaa ylös (Tämän asetuksen voi laittaa päälle/pois valikosta)." />
+
+                <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Motoauki/kiinni (tartu / irroita puusta)" />
+                <text name="help_WoodHarvesterControls_openCloseBinding" text="Jos motopää on kiinni yksi painallus avaa sen, ja jos siinä on puu, pudottaa sen.
+
+Jos motopää on auki, yksi painallus sulkee sen kokonaan ja tarttuu puuhun jos se on oikealla etäisyydellä.
+
+Jos motopää on kiinni, ja pidät nappia pohjassa, se avautuu ja tiltti nousee ylös (Tämän asetuksen voi laittaa päälle/pois valikosta)." />
+
+                <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Manuaalisyöttö eteenpäin" />
+                <text name="help_WoodHarvesterControls_feedForwardBinding" text="Motopää syöttää puuta eteenpäin (sahaa kohti) niin kauan kun nappia pidetään pohjassa.
+
+Tätä käytetään myös pysäyttämään 'Automaattiohjelma katkonnan jälkeen' toiminto jos painetaan katkontasahauksen aikana." />
+
+                <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Manuaalisyöttö taaksepäin" />
+                <text name="help_WoodHarvesterControls_feedBackwardBinding" text="Motopää syöttää puuta taaksepäin (poispäin sahasta) niin kauan kun nappia pidetään pohjassa.
+
+Tätä käytetään myös pysäyttämään 'Automaattiohjelma katkonnan jälkeen' toiminto jos painetaan katkontasahauksen aikana." />
+
+                <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Hidas manuaalisyöttö eteenpäin" />
+                <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="Motopää syöttää puuta hitaasti eteenpäin (sahaa kohti) niin kauan kun nappia pidetään pohjassa." />
+
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Hidas manuaalisyöttö taaksepäin" />
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="Motopää syöttää puuta hitaasti taaksepäin (poispäin sahasta) niin kauan kun nappia pidetään pohjassa." />
+
+                <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Syötä / Sahaa (Automaattiohjelma)" />
+                <text name="help_WoodHarvesterControls_automaticProgramBinding" text="Tämä nappi käynnistää automaattiohjelman joka vaikuttaa syöttöön, kaato- ja katkontasahaukseen riippuen miten ne on säädetty valikosta." />
+
+                <text name="help_WoodHarvesterControls_stopBindingTitle" text="Pysäytä syöttö" />
+                <text name="help_WoodHarvesterControls_stopBinding" text="Tällä napilla pysäytettään syöttö. Se myös pysäyttää 'Automaattiohjelma katkonnan jälkeen' toiminnon." />
+
+                <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Tiltti ylös" />
+                <text name="help_WoodHarvesterControls_tiltUpBinding" text="Tämä nappi tilttaa motopään ylös.
+
+Jos nappia pitää pohjassa kaatosahauksen aikana, tiltti ei laske alas ennenkuin vapautat napin. (katso 'Edistyneet tilttikontrollit' osio )." />
+
+                <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Tiltti alas" />
+                <text name="help_WoodHarvesterControls_tiltDownBinding" text="Tämä nappi tilttaa motopään alas.
+
+Tällä napilla voi myös pakottaa tiltin alas. (katso 'Edistyneet tilttikontrollit' osio)." />
+
+                <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Tiltti ylös / alas" />
+                <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="Tällä napilla vaihdetaan tiltin tilaa ylös tai alas." />
+
+                <text name="help_WoodHarvesterControls_presetBindingTitle" text="Syötä esivalintaan" />
+                <text name="help_WoodHarvesterControls_presetBinding" text="Painamalla tätä nappia runko söytetään valikossa asetettuun esivalintapituuteen. Kummallakin näppäimellä on kaksi esivalintaa. 
+
+Yksi painallus ensimmäiseen esivalintaan, tuplapainallus toiseen." />
+
+                <text name="help_WoodHarvesterControls_menuBindingTitle" text="Avaa Wood Harvester Controls valikko" />
+                <text name="help_WoodHarvesterControls_menuBinding" text="Avataksesi valikon voit käyttää pelin oletusta 'Työkonetoiminto 3' tai määrittää tähän toisen napin.
+
+(Tämä asetus ei poista 'Työkonetoiminto 3'. asetusta, molemmat toimivat)" />
+
+                <!-- Advanced tilt controls -->
+
+                <text name="help_WoodHarvesterControls_advancedTiltControls" text="Edistyneet tilttikontrollit" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Pakota tiltti alas" />
+                <text name="help_WoodHarvesterControls_forcedTiltDown" text="Kun motopää on kellunnassa (tiltti alhaalla) voit pitää tilttialas nappia pohjassa pakottaaksesi tilttiä alas. Tämä voi olla kätevää esim. seuraavissa tapauksissa:
+
+- Kaatosahauksessa voit tuplapainaa ja pitää pohjassa tilttialas nappia että motopää auttaa puuta kaatumaan oikeaan suuntaan. Ensimmäiselllä painalluksella tiltti menee kelluntaan, toinen painallus ja pohjassa pitäminen pakottaa tilttiä alaaspäin.
+
+- Jos nostat pölliä tai runkoa maasta, voit pitää tilttialas nappia pohjassa niin että motopää tilttaa täysin alas ja on jäykempi. Tämä helpottaa tarttumista etukarsimaterillä ilman että syöttörullat törmäävät toisiin viereisiin pölleihin. Tämä vaatii että motopään törmäysmallit ovat oikein tehty karsimateriin ja rulliin" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Estä tilttialas kaatosahauksessa" />
+                <text name="help_WoodHarvesterControls_forcedTiltUp" text="Kun hakkaat pientä puustoa (esim. harvennus) voit pitää tilttiylös nappia pohjassa kaatosahauksen aikana niin tiltti pysyy ylhäällä kunnes vapautat napin. 
+
+- Tämä on kätevää kun halutaan tuoda puu pystyssä tiukasta paikasta ja kaataa haluttuun suuntaan." />
+
+
+                <!-- Processing standing trees -->
+                <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Pystymetsän käsittely" />
+                <text name="help_WoodHarvesterControls_processingStandingTrees" text="Yksi metsätyömalli on kaataa, karsia ja katkoa pöllit suoraan kasvupaikalla hakkuukoneella eli ns. monitoimikoneella (moto). Siitä ne kuljetetaan traktorilla tai vartavasten tehdyllä ajokoneella tienvarteen laanipaikalle puu- ja tavaralajeittain pinoihin jatkokuljetusta varten. Tätä tyyliä kutsutaan kansainvälisesti cut-to-length." />
+
+
+                <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Suntaa motopää" />
+                <text name="help_WoodHarvesterControls_alignTheHead" text="Valitse kaatosuunta ja sijoita motopää sen mukaan runkoon nähden." />
+
+                <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Tartu puusta" />
+                <text name="help_WoodHarvesterControls_grabTheTree" text="Paina 'Motokiinni' nappia sulkeaksi motopäätä hieman ja siirrä se rungon lähelle, sen jälkeen pidä motokiinni nappia pohjassa tarttuaksesi puuhun ja täysin sulkeaksesi motopään.
+
+Jos käytät Motoauki/kiinni nappia sinun tarvitsee painaa vain kerran.
+
+(Voit ohittaa tämän kohdan jos käytät 'Tartu puuhun sahauksen jälkeen' toimintoa)" />
+
+                <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Käsinsyöttö taakse/alaspäin tyvelle" />
+                <text name="help_WoodHarvesterControls_manuallyFeedBack" text="Voit syöttää hieman motopäätä alas/taaksepäin jotta saat sahattua lyhyempään kantoon. (Älä unohda seurata nosturilla).
+
+(Tämä vaatii edellisen vaiheen suorittamista jotta motopää on kiinni rungossa.)" />
+
+                <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Auta nosturilla" />
+                <text name="help_WoodHarvesterControls_applySomePreasure" text="Voit auttaa puun kaatumasuuntaa painattamalla sitä hieman nosturilla.
+
+Voit myös käyttää pakota tilttialas toimintoa (katso 'Edistyneet tilttikontrollit' ohjeosio)." />
+
+                <text name="help_WoodHarvesterControls_fellingCutTitle" text="Kaatosahaus" />
+                <text name="help_WoodHarvesterControls_fellingCut" text="Käytä sahaa sahanapilla tai automaattinapilla (Jos kaatosahaus asetus on valittuna automaattiohjelmasta). 
+
+Rippuen sahan moodista ja automaattiohjelman kaatosahaus asetuksesta, voit joutua pitämään nappia pohjassa niin pitkään että saha on läpi." />
+
+                <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Kaatotapahtuma" />
+                <text name="help_WoodHarvesterControls_fellingMovement" text="Jos autoit nosturilla hieman ennen kaatosahausta, puun pitäisi lähteä kaatumaan oikeaan suuntaan. 
+
+Ohjataksesi kaatosuuntaa enemmän, heti kun kaatosahaus on läpi, voit nostaa koko puun ilmaan kannolta (riippuen koneen painosta, voi olla että kone pitää olla lähellä puuta). Ja liikuttaa nosturia ja puun tyveä vastakkaiseen suuntaan mihin haluat puun kaatuvan.
+
+Jos haluat voit myös syöttää puuta motopään läpi sen kaatuessa. Voit tehdä tämän Manuaalisyöttö eteenpäin napilla tai Automaattiohjelma napilla. (Katso 'Syöttö' asetus 'Automaattiohjelma' osiosta valikossa)" />
+
+                <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Käsittely (katkonta, karsinta)" />
+                <text name="help_WoodHarvesterControls_treeProcessing" text="Voit käsitellä runkoja monella tapaa:
+
+- Automaattiohjelma: Tietokone valitsee katkaisupituuden läpimitan perusteella. Kun pituus muuttuu annetaan äänimerkki joka on erilainen per pituus, jotta voit katkoa pöllit omiin kasoihinsa. (katso 'Automaattiohjelma' osio valikosta)
+
+- Esivalintapituudet: Voit käyttää esivalintanappeja kaikille pölleille tai täydentää automaattiohjelman toimintaa pakottaaksesi katkontamitan esivalintaan. Esimerkiksi jos rungossa on vaurioita tai kuollutta puuta.(katso 'Esivalinnat' osio valikosta)
+
+- Manuaalisesti: Voit myös syöttää ja karsia manuaalisesti, ja katkoa vapaasti.
+
+(Katso 'Rotaattori' osio valikosta tutustuaksesi eri asetuksiin ja valitse mikä tuntuu sinusta parhaalle. Tällä asetuksella on iso vaikutus siistien kourakasojen tekemiseen harvesterilla.)" />
+
+                <text name="help_WoodHarvesterControls_treeTopTitle" text="Latvojen käsittely" />
+                <text name="help_WoodHarvesterControls_treeTop" text="Kun syöttö saavuttaa latvan, voit pudottaa sen maahan (Käyttämällä Motoauki nappia, Motoauki/kiinni nappia tai syöttämällä takaperin). 
+
+Voit myös syöttää sen käsin käyttökelpoiseen mittaan, ja jatkokäsitellä sen hakkeeksi tai vielä paperitehtaalle. 
+
+Toinen tapa on katkoa pieniä pätkiä ja murskata ne jyrsimellä myöhemmin. (Tai käyttää valikon asetusta joka poistaa lyhyet pöllit)." />
+
+                <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Valmistautuminen uuteen runkoon" />
+                <text name="help_WoodHarvesterControls_preparingForNextTree" text="Jos etä käytä 'Helpot kontrollit' asetusta sinun täytyy avata motopää ja nostaa tiltti ylös.
+
+Voit käyttää Motoauki tai Motoauki/kiinni nappeja avataksesi motopään
+
+Voit pitää Motoauki nappia pohjassa ja jos 'Tiltti ylös motoauki napilla' asetus on päällä, motopää aukeaa ja tiltti nousee ylös. Muutoin täytyy käyttää 'Tiltti ylös' tai 'Tiltti ylös / alas' nappia." />
+
+
+                <!-- Processing felled trees -->
+                <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Kaadettujen runkojen käsittely" />
+                <text name="help_WoodHarvesterControls_processingFelledTrees" text="Yksi metsätyötapa on käsitellä valmiiksi kaadettuja runkoja.
+        
+Tässä esimerkissä puut ovat jo kaadettu, juonnettu ja pinottu tasaiselle varastoalueelle (laaniin) helpoilla kulkuyhteyksillä, jossa ne on voidaan käsitellä ja lastata maantiekuljetukseen. 
+
+Motopäätä voi myös käyttää pelkästään kaatamiseen paikalla ja pinota odottomaan käsittelyä tai juontamista kokorunkona." />
+
+                <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Koneen asettelu" />
+                <text name="help_WoodHarvesterControls_positionTheMachine" text="Asettele koneesi kohtisuoraan pinoon nähden ja aja pinon päähän etuperin. Näin voit liikkua takaperin ja katkotut puut jäävät koneen etupuolelle.
+                
+Yleensä on parempi syöttää vasemmalle koska puomisto on useasti koneissa oikealla ja estää näkyvyyttä. Näin myös saha on näkyvillä, joka helpottaa pöllinpäiden säätämistä jota käsitellään seuraavissa vaiheissa." />
+
+                <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Tartu puusta" />
+                <text name="help_WoodHarvesterControls_grabFelledTree" text="Etsi runko joka on päällimmäisenä, tarkista vielä että ovatko rungot ristikkäin. Jos ovat, ota päällimmäinen.
+                
+Paina lyhyesti Motokiinni sulkeaksesi karsimateriä ja tarttuaksesi niillä runkoon. Sitten pidä pohjassa Motokiinni nappia sulkeaksesi motopään kokonaan.
+
+Voit myös käyttää 'Pakota tiltti alas' toiminta helpottaaksesi runkoon tarttumista. (katso 'Edistyneet tilttikontrollit' osio)" />
+
+                <text name="help_WoodHarvesterControls_findBottomTitle" text="Tyven hakeminen" />
+                <text name="help_WoodHarvesterControls_findBottom" text="Syötä runkoa takaperin niin että tyvipää on sahan kohdalla. Hitaan manuaalisyötön napit ovat tässä avuksi.
+                
+Jos haluat, tyven hakemisen sijaan voit sahata lyhyen lumpin tasataksesi esim. metsurin jättämän vinon kaatosahauksen." />
+
+                <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Pituusmitan nollaaminen" />
+                <text name="help_WoodHarvesterControls_resetMeasurement" text="Kuten näet harvesterin tietokoneelta, syötön jälkeen pituusmitta ei ole nollassa, joten ensin se täytyy nollata. Sen voi tehdä kahdella tapaa:
+
+- Jos ensimmäisen pöllin täytyy olla mittatarkka, täytyy tyvi oikaista sahaamalla siitä hyvin lyhyt lumppi pois. (Valikossa on asetus, jolla saat lyhyet pöllit/lumpit häviämään jolloin pelin fyysiikkamoottori ei ylikuormitu niin helposti)
+ 
+- Toisaalta jos pöllin ei tarvitse olla mittatarkka, voit käyttää sahaa manuaalimoodissa, ja nollata pituusmitan lyhyeällä sahan painalluksella, ilman että sahataan läpi." />
+
+        </texts>
+</l10n>

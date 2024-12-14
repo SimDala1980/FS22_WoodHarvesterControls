@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l10n>
+        <texts>
+                <!-- input bindings -->
+                <text name="input_WOOD_HARVESTER_CONTROLS_TURN_ON_OFF_HEAD" text="Fällkopf ein- / ausschalten" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SAW" text="Säge aktivieren (Schnitt)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_CLOSE_HEAD" text="Fällkopf schließen (Stamm greifen)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_HEAD" text="Fällkopf öffnen (Stamm lösen)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_OPEN_CLOSE_HEAD" text="Fällkopf öffnen / schließen (Stamm lösen / greifen)" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_FORWARD_FEED" text="Manuelle Zufuhr vorwärts" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_BACKWARD_FEED" text="Manuelle Zufuhr rückwärts" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_FORWARD_FEED" text="Manuelle langsame Zufuhr forwärts" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_SLOW_BACKWARD_FEED" text="Manuelle langsame Zufuhr rückwärts" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_AUTOMATIC_PROGRAM" text="Zufuhr / Schnitt (Automatikprogramm)" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_STOP" text="Zufuhr stoppen" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_HEAD" text="Fällkopf hochkippen" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_DOWN_HEAD" text="Fällkopf abkippen" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_TILT_UP_DOWN_HEAD" text="Fällkopf hoch- / abkippen" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_1" text="Zufuhr auf Längen-Sortiment 1 / 2" />
+                <text name="input_WOOD_HARVESTER_CONTROLS_LENGTH_PRESET_2" text="Zufuhr auf Längen-Sortiment 3 / 4" />
+
+                <text name="input_WOOD_HARVESTER_CONTROLS_MENU" text="Wood Harvester Controls Menü öffnen" />
+
+                <!-- warning messages -->
+                <text name="warning_turnOnHead" text="Fällkopf zuerst einschalten" />
+
+                <!-- actions -->
+                <text name="action_saw" text="Säge aktivieren (Schnitt)" />
+                <text name="action_feedCutAutomaticProgram" text="Zufuhr / Schnitt (Automatikprogramm)" />
+                <text name="action_openWoodHarvesterControlsMenu" text="Wood Harvester Controls Menü öffnen" />
+                <text name="action_feedToPreset" text="Zufuhr bis %.1f m / %.1f m" />
+
+                <!-- menu -->
+                <text name="ui_WoodHarvesterControls_guiTitle" text="Wood Harvester Controls Einstellungen" />
+
+                <text name="ui_WoodHarvesterControls_on" text="An" />
+                <text name="ui_WoodHarvesterControls_off" text="Aus" />
+
+                <text name="ui_WoodHarvesterControls_press" text="Drücken" />
+                <text name="ui_WoodHarvesterControls_hold" text="Halten" />
+
+                <text name="ui_WoodHarvesterControls_automatic" text="Automatik" />
+                <text name="ui_WoodHarvesterControls_semiautomatic" text="Halbautomatik" />
+                <text name="ui_WoodHarvesterControls_manual" text="Manuell" />
+
+                <text name="ui_WoodHarvesterControls_free" text="Frei" />
+                <text name="ui_WoodHarvesterControls_fixed" text="Fixiert" />
+                <text name="ui_WoodHarvesterControls_physical" text="Physikalisch" />
+
+                <text name="ui_WoodHarvesterControls_helpMsg" text="Im Hilfsmenü findest du mehr Informationen zu diesem Mod und lernst etwas über fortgeschrittene Techniken aus dem echten Leben" />
+
+                <!-- Easy Controls -->
+                <text name="ui_WoodHarvesterControls_sectionEasyControls" text="Vereinfachte Steuerung" />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTitle" text="Automatikprogramm mit Schnitt-Taste" />
+                <text name="ui_WoodHarvesterControls_automaticWithCutButtonTT" text="An: Die Schnitt-Taste funktioniert wie die Automatikprogramm-Taste. Zufuhr und Schnitte hängen von den EInstellungen ab (siehe Automatikprogramm Abschnitt).
+Aus: Wie im echte Leben, die Schnitt-Taste aktiviert nur die Säge." />
+
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTitle" text="Automtisches Hochkippen" />
+                <text name="ui_WoodHarvesterControls_automaticTiltUpTT" text="An: Nachdem der Stamm gelöst wird kippt der Fällkopf hoch (nur wenn er vor dem fällen des Baumes oben war).
+Aus: Wie im echten Leben, der Fällkopf muss durch die Kippen-Tasten gekippt werden oder durch halten der Öffnen-Taste." />
+
+                <text name="ui_WoodHarvesterControls_automaticOpenTitle" text="Automatisches Öffnen" />
+                <text name="ui_WoodHarvesterControls_automaticOpenTT" text="An: Der Fällkopf öffnet sich wenn er eingeschlaten wird und wenn ein Stamm gelöst wird.
+Aus: Wie im echten Leben, der Fällkopf muss durch die Öffnen-Taste geöffnet werden." />
+
+                <text name="ui_WoodHarvesterControls_grabOnCutTitle" text="Baum nach Schnitt greifen" />
+                <text name="ui_WoodHarvesterControls_grabOnCutTT" text="An: der Baum wird nach dem Fällen gegriffen.
+Aus: Wie im echten Leben, der Baum muss durch Halten der Schließen-Taste gegriffen werden und danach gefällt." />
+
+                <!-- Bucking system -->
+                <text name="ui_WoodHarvesterControls_sectionBuckingSystem" text="Schnittlängen (Automatikprogramm)" />
+
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTitle" text="Anzahl der Längen" />
+                <text name="ui_WoodHarvesterControls_numberOfAssortmentsTT" text="Legt die Anzahl der verschieden Längen, die anhand des Stammdurchmessers geschnitten werden können fest." />
+
+                <text name="ui_WoodHarvesterControls_buckingLength1Title" text="Schnittlänge 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength1TT" text="Legt die Länge fest auf die Stämme mit einem grösseren Durchmesser als 'Mindest Durchmesser 1' geschnitten werden" />
+                <text name="ui_WoodHarvesterControls_minDiameter1Title" text="Mindest Durchmesser 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_minDiameter1TT" text="Legt den Mindest Durchmesser für 'Schnittlänge 1' fest" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength2Title" text="Schnittlänge 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength2TT" text="Legt die Länge fest auf die Stämme mit einem grösseren Durchmesser als 'Mindest Durchmesser 2' geschnitten werden" />
+                <text name="ui_WoodHarvesterControls_minDiameter2Title" text="Mindest Durchmesser 2 (cm) (sollte weniger als Mindest Durchmesser 1 sein)" />
+                <text name="ui_WoodHarvesterControls_minDiameter2TT" text="Legt den Mindest Durchmesser für 'Schnittlänge 2' fest" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength3Title" text="Schnittlänge 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength3TT" text="Legt die Länge fest auf die Stämme mit einem grösseren Durchmesser als 'Mindest Durchmesser 3' geschnitten werden" />
+                <text name="ui_WoodHarvesterControls_minDiameter3Title" text="Mindest Durchmesser 3 (cm) (sollte weniger als Mindest Durchmesser 2 sein)" />
+                <text name="ui_WoodHarvesterControls_minDiameter3TT" text="Legt den Mindest Durchmesser für 'Schnittlänge 3' fest" />
+
+                <text name="ui_WoodHarvesterControls_buckingLength4Title" text="Schnittlänge 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_buckingLength4TT" text="Legt die Länge fest auf die Stämme mit einem kleineren Durchmesser als 'Mindest Durchmesser 3' geschnitten werden" />
+
+                <!-- automatic program -->
+                <text name="ui_WoodHarvesterControls_sectionAutomaticProgram" text="Automatikprogramm" />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTitle" text="Zufuhr" />
+                <text name="ui_WoodHarvesterControls_autoProgramFeedingTT" text="Drücken: ein einzelner Anschlag führt den Stamm bis zur definierten Länge zu. Wird die Taste gehalten während die Zufuhr läuft, wird diese gestoppt und erst nach loslassen der Taste fortgesetzt. Halten: Der Stamm wird nur zugeführt während die Taste gehalten wird. Wird die Taste losgelassen oder die definierte Länge erreicht, stoppt die Zufuhr." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTitle" text="Fällschnitt" />
+                <text name="ui_WoodHarvesterControls_autoProgramFellingCutTT" text="Aus: Die Automatik-Taste hat keine Funktion während der Fällkopf hochgekippt und bereit ist einen Baum zu fällen. Drücken: Ein einzelner Anschlag fällt den Baum komplett. Halten: Die Säge läuft nur während die Taste gehalten wird. Wird die Taste gelöst bevor der Baum komplett durchtrennt ist, wird dieser nicht gefällt." />
+
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTitle" text="Sortierschnitt" />
+                <text name="ui_WoodHarvesterControls_autoProgramBuckingCutTT" text="Aus: Die Automatik-Taste hat keine Funktion wenn die definierte Länge erreicht ist und der Fällkopf bereit zum Schnitt ist. Drücken: Ein einzelner Anschlag durchtrennt den Stamm komplett. Halten: Die Säge läuft nur während die Taste gehalten wird. Wird die Taste gelöst bevor der Stamm komplett durchtrennt ist, wird der Stamm nicht durchtrennt." />
+
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTitle" text="Automatikprogramm mit Schließen-Taste" />
+                <text name="ui_WoodHarvesterControls_automaticWithCloseButtonTT" text="In echten Holzvollerntern mit kleinen Bedienelementen wird das Automatikprogramm oft durch drücken der Schließen-Taste aktiviert (während der Fällkopf komplett geschlossen ist)." />
+
+                <text name="ui_WoodHarvesterControls_automaticFeedTitle" text="Automatische Zufuhr nach dem Schnitt" />
+                <text name="ui_WoodHarvesterControls_automaticFeedTT" text="Ist die Option aktiv beginnt die Zufuhr sobald die Säge zurück in ihrer Ausgangsposition ist.
+Diese Option ist nicht verfügbar wenn die Zufuhr Option des Automatikprogramms auf Halten gestellt ist." />
+
+                <!-- Rotator -->
+                <text name="ui_WoodHarvesterControls_sectionRotator" text="Rotation" />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeTitle" text="Rotationsmodus" />
+                <text name="ui_WoodHarvesterControls_rotatorModeTT" text="Frei (Spielstandard): Einfach zu verwenden aber der Fällkopf kann nicht gedreht werden während ein Stamm gehalten wird. Fixiert: Der Fällkopf kann gedreht werden. Ermöglicht es schöne Stapel zu legen, aber es muss auf die Rotation geachtet werden. Physikalisch: Experimentelle Simulation der physikalisch korrekten Rotationskraft des Fällkopfes." />
+
+                <text name="ui_WoodHarvesterControls_rotatorModeWarning" text="WARNUNG! Der physikalische Rotations-Modus erlaubt realistisches Verhalten des Fällkopfes. Kann mit Mod-Holzvollerntern deren Nod-Struktur nicht entspricht zu Problemen führen. 
+Verhält sich das Fahrzeug seltsam sollte die Option deaktiviert und bei Bedarf das Fahrzeug zurückgesetzt werden." />
+
+                <text name="ui_WoodHarvesterControls_rotatorForceTitle" text="Rotationskraft" />
+                <text name="ui_WoodHarvesterControls_rotatorForceTT" text="Definiert die Kraft der Rotation. Hat der Fällkopf nicht genug Kraft kann er sich nicht drehen. Zusätzlich gibt der Fällkopf der Last von Stämmen entsprechend seiner Kraft und dem Gewicht nach und aktualisiert seine Rotations entsprechend der Rotationsgrenze." />
+
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTitle" text="Rotationsgrenze" />
+                <text name="ui_WoodHarvesterControls_rotatorThresholdTT" text="Definiert die Rotationsgrenze für die Positionsaktulaisierung in Grad. Bleibt der Fällkopf oft stecken sollte die Rotatiosngrenze erhöht werden. (Desto niedriger die Rotationsgrenze desto genauer die Aktulaiserung der Rotation.) (Bei hoher Empfindlichkeit der Steuerung sollte die Rotatiosngrenze erhöht werden und ein flüssiges Verhalten zu ermöglichen.)" />
+
+
+                <!-- length presets -->
+                <text name="ui_WoodHarvesterControls_sectionLengthPresets" text="Längen-Sortimente" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset1Title" text="Längen-Sortimnet 1 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset1TT" text="Definiert die Länge der Zufuhr wenn die Taste 'Zufuhr auf Längen-Sortiment 1 / 2' gedrückt wird" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset2Title" text="Längen-Sortimnet 2 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset2TT" text="Definiert die Länge der Zufuhr wenn die Taste 'Zufuhr auf Längen-Sortiment 1 / 2' zweimal gedrückt wird" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset3Title" text="Längen-Sortimnet 3 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset3TT" text="Definiert die Länge der Zufuhr wenn die Taste 'Zufuhr auf Längen-Sortiment 3 / 4' gedrückt wird" />
+
+                <text name="ui_WoodHarvesterControls_lengthPreset4Title" text="Längen-Sortimnet 4 (cm)" />
+                <text name="ui_WoodHarvesterControls_lengthPreset4TT" text="Definiert die Länge der Zufuhr wenn die Taste 'Zufuhr auf Längen-Sortiment 3 / 4' zweimal gedrückt wird" />
+
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTitle" text="Längen-Sortimnet wiederholen" />
+                <text name="ui_WoodHarvesterControls_repeatLengthPresetTT" text="Diese Option legt fest auf welche Länge zugeführt wird, wenn die Option 'Automatische Zufuhr nach dem Schnitt' aktiv ist:
+An: Das letzte Längen-Sortiment wird wiederholt (falls eines verwendet wurde).
+Aus: Startet die Zufuhr entsprechend der Längen des Automatikprogramms." />
+
+                <!-- Saw -->
+                <text name="ui_WoodHarvesterControls_sectionSaw" text="Säge" />
+
+                <text name="ui_WoodHarvesterControls_sawModeTitle" text="Sägen-Modus" />
+                <text name="ui_WoodHarvesterControls_sawModeTT" text="Automatik: wird die Schnitt-Taste gedrückt trennt die Säge den Stamm komplett. Halbautomatik: Die Schnitt-Taste muss zum fällen von stehenden Bäumen gehalten werden. Manuell: Die Schnitt-Taste muss gehalten werden bis der Stamm durchtrennt ist." />
+
+
+                <!-- Feeding -->
+                <text name="ui_WoodHarvesterControls_sectionFeeding" text="Zufuhr" />
+
+                <text name="ui_WoodHarvesterControls_breakingDistanceTitle" text="Bremsabstand (cm)" />
+                <text name="ui_WoodHarvesterControls_breakingDistanceTT" text="Deiniert den Abstand zur Ziellänge ab welchem die Zufuhr gebremst wird um ein flüssiges Anhalten zu gewährleisten." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTitle" text="Langsame Zufuhr bei hochgekipptem Fällkopf" />
+                <text name="ui_WoodHarvesterControls_slowFeedingTiltedUpTT" text="Ist der Fällkopf hochgekippt, erfolt die Zufuhr nur langsam um eine genauere Position für den Fällschnitt zu erreichen." />
+
+                <text name="ui_WoodHarvesterControls_feedingSpeedTitle" text="Zufuhrgeschwindigkeit (m/s)" />
+                <text name="ui_WoodHarvesterControls_feedingSpeedTT" text="Definierte die generelle Zufuhrgeschwindigkeit des Fällkopfes. Betrifft auch die manuelle Zufuhr." />
+
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTitle" text="Langsame Zufuhrgeschwindigkeit (m/s)" />
+                <text name="ui_WoodHarvesterControls_slowFeedingSpeedTT" text="Definiert die Zufuhrgeschwindigkeit für die manuelle langsame Zufuhr." />
+
+                <!-- Tilt -->
+                <text name="ui_WoodHarvesterControls_sectionTilt" text="Kippen" />
+
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTitle" text="Abkippen nach Fällschnitt" />
+                <text name="ui_WoodHarvesterControls_tiltDownOnFellingCutTT" text="Ist die Option aktiv kippt der Fällkopf automatisch nach einem Fällschnitt ab." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTitle" text="Hochkippen mit Öffnen-Taste" />
+                <text name="ui_WoodHarvesterControls_tiltUpWithOpenButtonTT" text="Ist die Option aktiv wird der Fällkopf durch halten der Öffnen-Taste hochgekippt." />
+
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTitle" text="Verzögerung Hochkippen (ms)" />
+                <text name="ui_WoodHarvesterControls_tiltUpDelayTT" text="Definiert die Zeit welche die Öffnen-Taste gehalten werden muss um den Fällkopf hochzukippen." />
+
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTitle" text="Maximaler Neigungswinkel" />
+                <text name="ui_WoodHarvesterControls_tiltMaxAngleTT" text="Maximaler Abkippwinkel in Grad. 95º funktioniert in den meisten Fällen. 135º ist ein realistischer Abkippwinkel bedarf aber eines Fällkopfes mit gutem Massezentrum um parallel zum Boden zu bleiben." />
+
+                <!-- User Preferences -->
+                <text name="ui_WoodHarvesterControls_sectionUserPreferences" text="Benutzer Einstellungen" />
+
+                <text name="ui_WoodHarvesterControls_registerSoundTitle" text="Sortiment-Sounds" />
+                <text name="ui_WoodHarvesterControls_registerSoundTT" text="Ist die Option aktiv ertönt ein Signal wenn die gewünschte Länge erreicht wurde. Ein anderes Signal ertönt ebenfalls wenn das Sortiment gewechselt wird." />
+
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTitle" text="Stämme unter Durchmesser entfernen (cm)" />
+                <text name="ui_WoodHarvesterControls_maxRemovingLengthTT" text="Abgetrennte Stämme unterhalb der definierten Länge werden entfernt. Die verbessert die Leistung durch Vermeidung kleiner Stücke die z.B. entstehen wenn die Stammenden bereinigt werden." />
+
+                <text name="ui_WoodHarvesterControls_allSplitTypeTitle" text="Alle Bäume unterstützen" />
+                <text name="ui_WoodHarvesterControls_allSplitTypeTT" text="Ist die Option aktiv können alle Baum-Typen mit Holzvollerntern verarbeitet werden. Dies is nützlich um Bäume die mit der Kettensäge entastet wurden zu verarbeiten.
+Bitte beachten, die Kollisionen der normalerweise nicht unterstützen Bäume können zu Problemen mit Holzvollerntern führen. Mit Vorsicht benutzen!" />
+
+                <!-- Help - Input bindings -->
+
+                <text name="help_WoodHarvesterControls_inputBindingsTitle" text="Tastaturbelegung" />
+                <text name="help_WoodHarvesterControls_inputBindings" text="Es sind Standardbelegungen für Tastatur/Maus und Gamepad vorhanden aber diese können nach Belieben geändert werden.
+
+Wird ein Joystick verwendet muss dieser selbst konfiguriert werden.
+
+Folgend sind kurze Erklärungen zur Steuerung und Belegung:" />
+
+                <text name="help_WoodHarvesterControls_onOffBindingTitle" text="Fällkopf ein- / ausschalten" />
+                <text name="help_WoodHarvesterControls_onOffBinding" text="Um den Fällkopf zu aktivieren kann die normale Belegung 'Anbaugerät an-/ausschalten' oder diese Funktion falls erwünscht benutzt werden.
+
+(Das binden dieser Funktion deaktiviert nicht die Belegung 'Anbaugerät an-/ausschalten'. (Beide erfüllen die selbe Funktion.)" />
+
+                <text name="help_WoodHarvesterControls_cutBindingTitle" text="Säge aktivieren (Schnitt)" />
+                <text name="help_WoodHarvesterControls_cutBinding" text="Um die Säge zu aktivieren kann die normale Belegung 'Gerätefunktion 2' oder diese Funktion falls erwünscht benutzt werden. 
+
+(Das binden dieser Funktion deaktiviert nicht die Belegung 'Gerätefunktion 2'. (Beide erfüllen die selbe Funktion.)" />
+
+                <text name="help_WoodHarvesterControls_closeBindingTitle" text="Fällkopf schließen (Stamm greifen)" />
+                <text name="help_WoodHarvesterControls_closeBinding" text="Wird die Funktion kurz gedrückt schließt sich der Fällkopf nur ein Bisschen (es werden nur die Messer, wie beim realen Vorbild, geschlossen falls der Holzvollernter dies unterstützt).
+
+Wird die Funktion gehalten schließt sich der Fällkopf komplett und greift, falls dieser in Reichweite ist, einen Stamm.
+
+Ist der Fällkopf geschlossen kann, entsprechend der gewählten Optionen, das Automatikprogramm gestartet werden." />
+
+                <text name="help_WoodHarvesterControls_openBindingTitle" text="Fällkopf öffnen (Stamm lösen)" />
+                <text name="help_WoodHarvesterControls_openBinding" text="Wird die Funktion kurz gedrückt öffnet sich der Fällkopf vollständig und löst sich von einem zuvor gegriffenen Stamm.
+
+Wird die Funktion gehalten öffnet sich der Fällkopf und kippt hoch (diese Option kann an bzw. ausgeschalten werden)." />
+
+                <text name="help_WoodHarvesterControls_openCloseBindingTitle" text="Fällkopf öffnen / schließen (Stamm lösen / greifen)" />
+                <text name="help_WoodHarvesterControls_openCloseBinding" text="Wird die Funktion kurz gedrückt während der Fällkopf geschlossen ist, öffnet er sich vollständig und löst sich von einem zuvor gegriffenen Stamm.
+
+Wird die Funktion kurz gedrückt während der Fällkopf offen ist, schließt er sich komplett und greift, falls dieser in Reichweite ist, einen Stamm.
+
+Ist der Fällkopf offen und die Funktion wird gehalten öffnet sich der Fällkopf und kippt hoch (diese Option kann an bzw. ausgeschalten werden)." />
+
+                <text name="help_WoodHarvesterControls_feedForwardBindingTitle" text="Manuelle Zufuhr vorwärts" />
+                <text name="help_WoodHarvesterControls_feedForwardBinding" text="Der Fällkopf führt den Stamm vorwärts zu (Richtung Säge) solange die Funktion gehalten wird.
+
+Um 'Automtische Zufuhr nach dem Schnitt' zu unterbinden kann die Funktion während des Sortierschnitts gehalten werden." />
+
+                <text name="help_WoodHarvesterControls_feedBackwardBindingTitle" text="Manuelle Zufuhr rückwärts" />
+                <text name="help_WoodHarvesterControls_feedBackwardBinding" text="Der Fällkopf führt den Stamm rückwärts zu (weg von der Säge) solange die Funktion gehalten wird.
+
+Um 'Automtische Zufuhr nach dem Schnitt' zu unterbinden kann die Funktion während des Sortierschnitts gehalten werden." />
+
+                <text name="help_WoodHarvesterControls_slowFeedForwardBindingTitle" text="Manuelle langsame Zufuhr forwärts" />
+                <text name="help_WoodHarvesterControls_slowFeedForwardBinding" text="TDer Fällkopf führt den Stamm langsam vorwärts zu (Richtung Säge) solange die Funktion gehalten wird." />
+
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBindingTitle" text="Manuelle langsame Zufuhr rückwärts" />
+                <text name="help_WoodHarvesterControls_slowFeedBackwardBinding" text="Der Fällkopf führt den Stamm langsam rückwärts zu (weg von der Säge) solange die Funktion gehalten wird." />
+
+                <text name="help_WoodHarvesterControls_automaticProgramBindingTitle" text="Zufuhr / Schnitt (Automatikprogramm)" />
+                <text name="help_WoodHarvesterControls_automaticProgramBinding" text="Diese Funktion startet das Automatikprogramm, dadurch können je nach gewählten Optionen, Zufuhr, Fällschnitt und Sortierschnitt beeinflusst werden." />
+
+                <text name="help_WoodHarvesterControls_stopBindingTitle" text="Zufuhr stoppen" />
+                <text name="help_WoodHarvesterControls_stopBinding" text="Diese Funktion stoppt die Zufuhr. Ebenfalls wird 'Automtische Zufuhr nach dem Schnitt' unterbunden." />
+
+                <text name="help_WoodHarvesterControls_tiltUpBindingTitle" text="Fällkopf hochkippen" />
+                <text name="help_WoodHarvesterControls_tiltUpBinding" text="Diese Funktion kippt den Fällkopf hoch.
+
+Wird die Funktion während dem Fällschnitt gehalten, kippt der Fällkopf erst nach lösen der Funktion ab (siehe Abschnitt 'Fortgeschrittene Kippsteuerung')." />
+
+                <text name="help_WoodHarvesterControls_tiltDownBindingTitle" text="Fällkopf abkippen" />
+                <text name="help_WoodHarvesterControls_tiltDownBinding" text="Diese Funktion kippt den Fällkopf ab.
+
+Ebenfalls kann damit der Fällkopf nach unten gezwungen werden (siehe Abschnitt 'Fortgeschrittene Kippsteuerung')." />
+
+                <text name="help_WoodHarvesterControls_tiltUpDownBindingTitle" text="Fällkopf hoch- / abkippen" />
+                <text name="help_WoodHarvesterControls_tiltUpDownBinding" text="Diese Funktion kippt den Fällkopf hoch bzw. ab." />
+
+                <text name="help_WoodHarvesterControls_presetBindingTitle" text="Zufuhr auf Längen-Sortiment" />
+                <text name="help_WoodHarvesterControls_presetBinding" text="Diese Funktion führt den Stamm bis zur entsprechenden Länge zu. Jede Funktion hat 2 Längen-Sortimente. 
+
+Für die Zufuhr auf die erste Länge wird die Funktion einmal gedrückt und für die zweite Länge zweimal." />
+
+                <text name="help_WoodHarvesterControls_menuBindingTitle" text="Wood Harvester Controls Menü öffnen" />
+                <text name="help_WoodHarvesterControls_menuBinding" text="Um das Menü zu öffnen kann die normale Belegung 'Gerätefunktion 3' oder diese Funktion falls erwünscht benutzt werden.
+
+(Das binden dieser Funktion deaktiviert nicht die Belegung 'Gerätefunktion 3'. (Beide erfüllen die selbe Funktion.)" />
+
+                <!-- Advanced tilt controls -->
+
+                <text name="help_WoodHarvesterControls_advancedTiltControls" text="Fortgeschrittene Kippsteuerung" />
+
+                <text name="help_WoodHarvesterControls_forcedTiltDownTitle" text="Erzwungenes Abkippen" />
+                <text name="help_WoodHarvesterControls_forcedTiltDown" text="Befindet sich der Fällkopf im freien Zustand (Abkippen) kann durch halten von 'Fällkopf abkippen' zusätzliche Kraft nach unten angewandt werden. Die ist in folgenden Beispielsituationen nützlich:
+
+- Wird ein Baum gefällt kann durch zweifaches betätigen und halten, Kraft auf den Neigungszylinder des Fällkopfes angewandt werden um den Baum in eine bestimmte Richtung zu dirigieren. Beim ersten mal betätigen wird der Fällkopf gelöst und will abkippen, beim zweiten mal betätigen und halten wird der Fällkopf mit Kraft abgekippt.
+
+- Wird ein Stamm vom Boden gegriffen und 'Fällkopf abkippen' gehalten hat der Fällkopf etwas Widerstand mit Spiel um den Stamm mit den oberen Messern zu greifen um Kollisionen zwischen den Rollen und andere Stämme oder Bäumen zu vermeiden. Dies bedarf funktionierender Kollisionen der Fällkopf-Messer." />
+
+                <text name="help_WoodHarvesterControls_forcedTiltUpTitle" text="Abkippen nach dem Fällschnitt verhindern" />
+                <text name="help_WoodHarvesterControls_forcedTiltUp" text="Wird mit kleinen oder leichten Bäumen gearbeitet (z.B. bei Lichten von Wäldern) kann durch halten der 'Fällkopf hochkippen' Funktion während des Fällschnitt der Baum aufrecht versetzt werden bis die Funktion gelöst wird. 
+
+- Nützlich um stehende Bäume aus Engstellen zu holen und sie gezielt umfallen zu lassen." />
+
+
+                <!-- Processing standing trees -->
+                <text name="help_WoodHarvesterControls_processingStandingTreesTitle" text="Verarbeiten von stehenden Bäumen" />
+                <text name="help_WoodHarvesterControls_processingStandingTrees" text="Eine Arbeitsweise ist die Bäume direkt im Wald zu verarbeiten und mittels Rückewagen oder Rückeanhänger zur LKW-Verladestelle zu befördern. Diese Methode wird Kurzholzmethode genannt." />
+
+
+                <text name="help_WoodHarvesterControls_alignTheHeadTitle" text="Den Fällkopf ausrichten" />
+                <text name="help_WoodHarvesterControls_alignTheHead" text="Die Fällrichtung wählen und den Fällkopf entsprechend ausrichten." />
+
+                <text name="help_WoodHarvesterControls_grabTheTreeTitle" text="Den Baum greifen" />
+                <text name="help_WoodHarvesterControls_grabTheTree" text="Den Fällkopf mit der Funktion 'Fällkopf schließen (Stamm greifen)' ein Stück schließen und fertig positionieren. Dann mit der Funktion 'Fällkopf schließen (Stamm greifen)' den Fällkopf komplett schließen und den Stamm greifen.
+
+Wird die Funktion 'Fällkopf öffnen / schließen (Stamm lösen / greifen)' verwendet muss nur einmal gedrückt werden.
+
+(Dieser Schritt kann übersprungen werden falls die Option 'Baum nach Schnitt greifen' aktiv ist)" />
+
+                <text name="help_WoodHarvesterControls_manuallyFeedBackTitle" text="Manuelle Zufuhr rückwärts" />
+                <text name="help_WoodHarvesterControls_manuallyFeedBack" text="Durch die manuelle Zufuhr rückwärts kann der Fällschnitt tiefer gesetzt werden (der Kran muss ebenfalls gesenkt werden).
+
+(Dieser Schritt bedarf der vorherigen Schritte, da der Fällkopf den Baum im Griff haben muss)" />
+
+                <text name="help_WoodHarvesterControls_applySomePreasureTitle" text="Etwas Druck anlegen" />
+                <text name="help_WoodHarvesterControls_applySomePreasure" text="Der Kran kann ein Stück in die gewünschte Fällrichtung bewegt werden um Druck in diese Richtung anzulegen.
+
+Zusätzlich kann 'Erzwungenes Abkippen' angewandt werden (siehe Abschnitt 'Fortgeschrittene Kippsteuerung'." />
+
+                <text name="help_WoodHarvesterControls_fellingCutTitle" text="Fällschnitt" />
+                <text name="help_WoodHarvesterControls_fellingCut" text="Die Säge wird durch die Funktion 'Säge aktivieren (Schnitt)' bzw. 'Zufuhr / Schnitt (Automatikprogramm)' (falls der Fällschnitt in den Optionen des Automatikprogramms aktiv ist) aktiviert. 
+
+Abhängig von den Optionen Sägen-Modus und Automatikprogramm Fällschnitt muss die Funktion gehalten werden bis der Stamm komplett durchtrennt ist." />
+
+                <text name="help_WoodHarvesterControls_fellingMovementTitle" text="Fällbewegung" />
+                <text name="help_WoodHarvesterControls_fellingMovement" text="Ist vor dem Schnitt Druck angelegt worden sollte der Baum in diese Richtung fallen.
+
+Um den Baum in die gewünchte Richtung zu führen kann der Fällkopf leicht angehoben (um etwas Platz zum Kippen zwischen Stumpf und Stamm zu schaffen) und der Kran in die entgegengesetzte Richtung bewegt werden.
+
+Bei Bedarf kann der Stamm auch manuell zugeführt oder mit dem Automatikprogramm (abhängig der Zufuhr Option) werden)" />
+
+                <text name="help_WoodHarvesterControls_treeProcessingTitle" text="Verarbeitung" />
+                <text name="help_WoodHarvesterControls_treeProcessing" text="Der Baum kann auf drei Arten verarbeitet werden:
+
+- Automatikprogramm: Der Computer bestimmt die Länge anhand des Durchmessers des Stammes. Wird die Länge geändert ertönt ein Signal um den Benutzer das sortieren in verschiedene Stapel zu ermöglichen (siehe Abschnitt 'Automatikprogramm').
+
+- Längen-Sortimente: Diese Funktionen können allein verwendet werden oder zur Überschreibung des Automatikprogramms für z.B. beschädigtes oder totes Holz (siehe Abschnitt 'Längen-Sortimente').
+
+- Manuell: Der Baum kann mit der manuellen Zufuhr beliebig entastet und zerschnitten werden.
+
+(Den Abschnitt 'Rotation' des Menüs beachten und nach belieben einstellen. Kann zum sortieren auf schöne Haufen hilfreich sein.)" />
+
+                <text name="help_WoodHarvesterControls_treeTopTitle" text="Baumwipfel Management" />
+                <text name="help_WoodHarvesterControls_treeTop" text="Ist man am Wipfel des Baumes angekommen kann dieser zur Seite gelegt werden (durch öffnen des Fällkopfes oder Zufuhr rückwärts). 
+
+Der Wipfel kann manuell auf gewünschte Längen geschnitten werden um zum Papierwerk gebracht zu oder gehäckselt zu werden.
+
+Eine weitere Option ist es den Wipfel in viele kleine Stücke zu zersägen um diese später zu mulchen (oder um die Option 'Stämme unter Durchmesser entfernen' zu verwenden)." />
+
+                <text name="help_WoodHarvesterControls_preparingForNextTreeTitle" text="Vorbereitung für den nächsten Baum" />
+                <text name="help_WoodHarvesterControls_preparingForNextTree" text="Wird die 'Vereinfachte Steuerung' nicht benutzt muss der Fällkopf manuell geöffnet und hochgekippt werden.
+
+Der Fällkopf kann mit der Funktion 'Fällkopf öffnen (Stamm lösen)' oder 'Fällkopf öffnen / schließen (Stamm lösen / greifen)' geöffnet werden.
+
+Durch Halten der Funktion 'Fällkopf öffnen (Stamm lösen)' oder 'Fällkopf öffnen / schließen (Stamm lösen / greifen)' wird der Fällkopf geöffnet und hochgekippt falls die Option 'Hochkippen mit Öffnen-Taste' aktiv ist. Andernfalls muss er durch die Funktion 'Fällkopf hochkippen' oder 'Fällkopf hoch- / abkippen' hochgekippt werden." />
+
+
+                <!-- Processing felled trees -->
+                <text name="help_WoodHarvesterControls_processingFelledTreesTitle" text="Gefällte Bäume verarbeiten" />
+                <text name="help_WoodHarvesterControls_processingFelledTrees" text="Eine andere Methode ist es schon gefällte Bäume zu verarbeiten.
+        
+Bei dieser Methode werden gefällte Bäume zu einer flachen Stelle mit guter Erreichbarkeit gezogen und dort gestapelt um das Verarbeiten und Verladen auf LKWs zu vereinfachen.
+
+Der Fällkopf kann auch benutzt werden um ganze Bäume zu stapeln und für weitere Verarbeitung oder Transport vorzubereiten." />
+
+                <text name="help_WoodHarvesterControls_positionTheMachineTitle" text="Das Fahrzeug positionieren" />
+                <text name="help_WoodHarvesterControls_positionTheMachine" text="Das Fahrzeug wird rechtwinklig und vor dem Haufen positioniert. Auf diese Art kann mann rückwärts arbeiten und die Stapel verarbeitetes Holz vor dem Fahrzeug ablegen..
+                
+Normalerweise befindet sich der Arbeitsbereich links des Fahrzeugs da sich meistens der Kran auf der rechten Seite der Kabine befindet und die Sicht beeinträchtigen würde. Zusätzlich ist dabei die Säge sichtbar, wodurch das einrichten des Stammendes leichter wird, wie im Folgeschritt erklärt." />
+
+                <text name="help_WoodHarvesterControls_grabFelledTreeTitle" text="Den Stamm greifen" />
+                <text name="help_WoodHarvesterControls_grabFelledTree" text="Den Fällkopf am obersten Stamm des Stapels ausrichten. Kontrollieren das keine Stämme überlappen, sonst sollten diese zuerst verarbeitet werden.
+                
+Kurz die 'Fällkopf schließen (Stamm greifen)' Funktion betätigen um die Messer etwas zu schließen und den Stamm zu greifen. Danach die Funktion halten um den Fällkopf vollständig zu schließen.
+
+Zusätzlich kann 'Erzwungenes Abkippen' verwendet werden um den Vorgang zu unterstützen. (siehe Abschnitt 'Fortgeschrittene Kippsteuerung')" />
+
+                <text name="help_WoodHarvesterControls_findBottomTitle" text="Das untere Ende des Stamms finden" />
+                <text name="help_WoodHarvesterControls_findBottom" text="Den Stamm rückwärts zuführen bis das Ende mit der Säge gleichauf ist. Die Funktionen für langsame Zufuhr können dabei hilfreich sein.
+                
+Alternativ kann das Ende mit einem Schnitt angepasst werden um z.B. einen schrägen Fällschnitt zu korrigieren." />
+
+                <text name="help_WoodHarvesterControls_resetMeasurementTitle" text="Längenmessung zurücksetzen" />
+                <text name="help_WoodHarvesterControls_resetMeasurement" text="Der Holzvollernter-Computer zeigt wahrscheinlich an dieser Stelle etwas anderes als null an, also sollte er mittels einer von zwei Methoden zurückgesetzt werden:
+
+- Soll das Stammende bereinigt werden oder zufällig die richtige Länge am Computer ersichtlich sein, kann der Stamm abgeschnitten werden. (In den Optionen besteht die Möglichkeit kleine abgeschnittene Stück zu entfernen. Dies sollte die Leistung verbessern da kleine Holffstücke am Boden vermieden werden.)
+ 
+- Sollte das Stammende passend sein und eine genaue Messung nicht notwendig sein, kann die Säge im manuellen Modus kurz aktiviert werden. Dies setzt die Messung zurück ohne einen vollen Schnitt zu machen." />
+
+        </texts>
+</l10n>
